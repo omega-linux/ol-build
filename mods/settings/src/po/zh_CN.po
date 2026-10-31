@@ -1,0 +1,935 @@
+# Simplified Chinese translation for lxde-settings.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxde-settings 0.1.0\n"
+"PO-Revision-Date: 2026-10-19 21:00-0300\n"
+"Last-Translator: unsoil <spliteritoob@gmail.com>\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lxde_settings/main.py:25 lxde_settings/main.py:112
+msgid "Settings"
+msgstr "设置"
+
+#: lxde_settings/main.py:72
+msgid "This page could not be loaded."
+msgstr "无法加载此页面。"
+
+#: lxde_settings/main.py:84
+msgid "List the available pages and exit"
+msgstr "列出可用页面并退出"
+
+#: lxde_settings/main.py:86
+msgid "Apply the saved mouse settings and exit (used at login)"
+msgstr "应用已保存的鼠标设置并退出（登录时使用）"
+
+#: lxde_settings/pages/about.py:42 lxde_settings/pages/about.py:96
+#: lxde_settings/pages/about.py:166 lxde_settings/pages/about.py:187
+msgid "Unknown"
+msgstr "未知"
+
+#: lxde_settings/pages/about.py:91
+#, python-format
+msgid "%d d %d h %d min"
+msgstr "%d 天 %d 小时 %d 分钟"
+
+#: lxde_settings/pages/about.py:92
+#, python-format
+msgid "%d h %d min"
+msgstr "%d 小时 %d 分钟"
+
+#: lxde_settings/pages/about.py:106
+msgid "About"
+msgstr "关于"
+
+#: lxde_settings/pages/about.py:133
+msgid "Device"
+msgstr "设备"
+
+#: lxde_settings/pages/about.py:135
+msgid "Rename…"
+msgstr "重命名…"
+
+#: lxde_settings/pages/about.py:140 lxde_settings/pages/about.py:203
+msgid "Device name"
+msgstr "设备名称"
+
+#: lxde_settings/pages/about.py:146
+msgid "Desktop computer"
+msgstr "台式电脑"
+
+#: lxde_settings/pages/about.py:146
+msgid "Laptop"
+msgstr "笔记本电脑"
+
+#: lxde_settings/pages/about.py:146
+msgid "Convertible"
+msgstr "二合一设备"
+
+#: lxde_settings/pages/about.py:147
+msgid "Server"
+msgstr "服务器"
+
+#: lxde_settings/pages/about.py:147
+msgid "Tablet"
+msgstr "平板电脑"
+
+#: lxde_settings/pages/about.py:147
+msgid "Phone"
+msgstr "手机"
+
+#: lxde_settings/pages/about.py:148
+msgid "Virtual machine"
+msgstr "虚拟机"
+
+#: lxde_settings/pages/about.py:148
+msgid "Container"
+msgstr "容器"
+
+#: lxde_settings/pages/about.py:148
+msgid "Embedded device"
+msgstr "嵌入式设备"
+
+#: lxde_settings/pages/about.py:149
+msgid "Chassis"
+msgstr "机箱类型"
+
+#: lxde_settings/pages/about.py:153
+msgid "Hardware model"
+msgstr "硬件型号"
+
+#: lxde_settings/pages/about.py:156
+msgid "Device specifications"
+msgstr "设备规格"
+
+#: lxde_settings/pages/about.py:163
+msgid "Processor"
+msgstr "处理器"
+
+#: lxde_settings/pages/about.py:164
+msgid "Memory"
+msgstr "内存"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics"
+msgstr "显卡"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics cards"
+msgstr "显卡"
+
+#: lxde_settings/pages/about.py:169
+#, python-format
+msgid "%(used)s used of %(total)s"
+msgstr "已用 %(used)s，共 %(total)s"
+
+#: lxde_settings/pages/about.py:175 lxde_settings/pages/about.py:176
+msgid "Disk (system)"
+msgstr "磁盘（系统）"
+
+#: lxde_settings/pages/about.py:177
+msgid "System type"
+msgstr "系统类型"
+
+#: lxde_settings/pages/about.py:177
+#, python-format
+msgid "%s-bit operating system, %s"
+msgstr "%s 位操作系统，%s"
+
+#: lxde_settings/pages/about.py:181
+msgid "Software"
+msgstr "软件"
+
+#: lxde_settings/pages/about.py:182
+msgid "Operating system"
+msgstr "操作系统"
+
+#: lxde_settings/pages/about.py:184
+msgid "Kernel"
+msgstr "内核"
+
+#: lxde_settings/pages/about.py:185
+msgid "Desktop"
+msgstr "桌面环境"
+
+#: lxde_settings/pages/about.py:187
+msgid "Windowing system"
+msgstr "窗口系统"
+
+#: lxde_settings/pages/about.py:188
+msgid "GTK version"
+msgstr "GTK 版本"
+
+#: lxde_settings/pages/about.py:190
+msgid "Uptime"
+msgstr "运行时间"
+
+#: lxde_settings/pages/about.py:192
+msgid "Copy"
+msgstr "复制"
+
+#: lxde_settings/pages/about.py:193
+msgid "Copy the system information to the clipboard"
+msgstr "将系统信息复制到剪贴板"
+
+#: lxde_settings/pages/about.py:209
+msgid "The hostname service is not available"
+msgstr "主机名服务不可用"
+
+#: lxde_settings/pages/about.py:211
+msgid "Rename device"
+msgstr "重命名设备"
+
+#: lxde_settings/pages/about.py:212 lxde_settings/pages/datetime.py:158
+#: lxde_settings/pages/region.py:174 lxde_settings/pages/region.py:368
+#: lxde_settings/pages/users.py:182 lxde_settings/pages/users.py:207
+#: lxde_settings/pages/users.py:268 lxde_settings/util.py:135
+msgid "_Cancel"
+msgstr "取消(_C)"
+
+#: lxde_settings/pages/about.py:212
+msgid "_Rename"
+msgstr "重命名(_R)"
+
+#: lxde_settings/pages/about.py:217
+msgid "The name may contain letters, numbers and hyphens."
+msgstr "名称可以包含字母、数字和连字符。"
+
+#: lxde_settings/pages/appearance.py:73
+msgid "Appearance"
+msgstr "外观"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Style"
+msgstr "样式"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Changes apply immediately to all GTK applications."
+msgstr "更改会立即应用到所有 GTK 应用程序。"
+
+#: lxde_settings/pages/appearance.py:85
+msgid "Applications theme"
+msgstr "应用程序主题"
+
+#: lxde_settings/pages/appearance.py:88
+msgid "Icons"
+msgstr "图标"
+
+#: lxde_settings/pages/appearance.py:90
+msgid "Cursor"
+msgstr "光标"
+
+#: lxde_settings/pages/appearance.py:98
+msgid "Cursor size"
+msgstr "光标大小"
+
+#: lxde_settings/pages/appearance.py:99
+msgid "Applications that were already open keep their cursor until restarted"
+msgstr "已打开的应用程序在重新启动前保持原来的光标"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Window borders"
+msgstr "窗口边框"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Openbox title bars and frames"
+msgstr "Openbox 标题栏和窗口边框"
+
+#: lxde_settings/pages/appearance.py:114
+msgid "Fonts"
+msgstr "字体"
+
+#: lxde_settings/pages/appearance.py:117
+msgid "Default font"
+msgstr "默认字体"
+
+#: lxde_settings/pages/appearance.py:120
+msgid "Antialiasing"
+msgstr "抗锯齿"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "None"
+msgstr "无"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "Slight"
+msgstr "轻微"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Medium"
+msgstr "中等"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Full"
+msgstr "完全"
+
+#: lxde_settings/pages/appearance.py:127
+msgid "Hinting"
+msgstr "字体微调"
+
+#: lxde_settings/pages/appearance.py:129
+msgid "Grayscale"
+msgstr "灰度"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical RGB"
+msgstr "垂直 RGB"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical BGR"
+msgstr "垂直 BGR"
+
+#: lxde_settings/pages/appearance.py:134
+msgid "Subpixel order"
+msgstr "子像素顺序"
+
+#: lxde_settings/pages/appearance.py:136
+msgid "More"
+msgstr "更多"
+
+#: lxde_settings/pages/appearance.py:137
+msgid "Desktop background"
+msgstr "桌面背景"
+
+#: lxde_settings/pages/appearance.py:138
+msgid "Wallpaper and desktop icons"
+msgstr "壁纸和桌面图标"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel"
+msgstr "面板"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel size, position and applets"
+msgstr "面板大小、位置和小程序"
+
+#: lxde_settings/pages/appearance.py:143
+msgid ""
+"lxsession is not running: settings are saved but may need a restart of the "
+"applications to take effect."
+msgstr "lxsession 未运行：设置已保存，但可能需要重新启动应用程序才能生效。"
+
+#: lxde_settings/pages/appearance.py:167 lxde_settings/pages/appearance.py:221
+#: lxde_settings/pages/input.py:146
+msgid "Could not save the settings"
+msgstr "无法保存设置"
+
+#: lxde_settings/pages/appearance.py:193
+msgid "Open"
+msgstr "打开"
+
+#: lxde_settings/pages/appearance.py:198
+#, python-format
+msgid "Install %s to use this"
+msgstr "请安装 %s 以使用此功能"
+
+#: lxde_settings/pages/datetime.py:19
+msgid "Other"
+msgstr "其他"
+
+#: lxde_settings/pages/datetime.py:28
+msgid "Date & Time"
+msgstr "日期和时间"
+
+#: lxde_settings/pages/datetime.py:40
+msgid "Date and time"
+msgstr "日期和时间"
+
+#: lxde_settings/pages/datetime.py:43
+msgid "Set the time automatically"
+msgstr "自动设置时间"
+
+#: lxde_settings/pages/datetime.py:44 lxde_settings/pages/users.py:164
+msgid "Change…"
+msgstr "更改…"
+
+#: lxde_settings/pages/datetime.py:46
+msgid "Set the date and time manually"
+msgstr "手动设置日期和时间"
+
+#: lxde_settings/pages/datetime.py:48 lxde_settings/pages/datetime.py:56
+msgid "Time zone"
+msgstr "时区"
+
+#: lxde_settings/pages/datetime.py:60
+msgid "Hardware clock uses local time"
+msgstr "硬件时钟使用本地时间"
+
+#: lxde_settings/pages/datetime.py:61
+msgid ""
+"Only enable this when Windows is installed on the same computer and keeps "
+"its clock in local time"
+msgstr "仅当同一台电脑上安装了 Windows 且其时钟使用本地时间时才启用"
+
+#: lxde_settings/pages/datetime.py:66
+msgid "The time and date service (systemd-timedated) is not available."
+msgstr "日期和时间服务（systemd-timedated）不可用。"
+
+#: lxde_settings/pages/datetime.py:104
+msgid "No network time service is installed"
+msgstr "未安装网络时间服务"
+
+#: lxde_settings/pages/datetime.py:106
+msgid "Synchronized with a time server"
+msgstr "已与时间服务器同步"
+
+#: lxde_settings/pages/datetime.py:107
+msgid "Waiting for a time server…"
+msgstr "正在等待时间服务器…"
+
+#: lxde_settings/pages/datetime.py:109
+msgid "Off"
+msgstr "关闭"
+
+#: lxde_settings/pages/datetime.py:157
+msgid "Set date and time"
+msgstr "设置日期和时间"
+
+#: lxde_settings/pages/datetime.py:158
+msgid "_Set"
+msgstr "设置(_S)"
+
+#: lxde_settings/pages/display.py:16
+msgid "Landscape"
+msgstr "横向"
+
+#: lxde_settings/pages/display.py:17
+msgid "Portrait (left)"
+msgstr "纵向（向左）"
+
+#: lxde_settings/pages/display.py:18
+msgid "Portrait (right)"
+msgstr "纵向（向右）"
+
+#: lxde_settings/pages/display.py:19
+msgid "Landscape (flipped)"
+msgstr "横向（翻转）"
+
+#: lxde_settings/pages/display.py:126
+msgid "Use this display"
+msgstr "使用此显示器"
+
+#: lxde_settings/pages/display.py:131
+msgid "Make this my main display"
+msgstr "设为主显示器"
+
+#: lxde_settings/pages/display.py:137
+#, python-format
+msgid "%s (recommended)"
+msgstr "%s（推荐）"
+
+#: lxde_settings/pages/display.py:141
+msgid "Resolution"
+msgstr "分辨率"
+
+#: lxde_settings/pages/display.py:145
+msgid "Refresh rate"
+msgstr "刷新率"
+
+#: lxde_settings/pages/display.py:153
+msgid "Orientation"
+msgstr "方向"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Right of %s"
+msgstr "%s 右侧"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Left of %s"
+msgstr "%s 左侧"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Above %s"
+msgstr "%s 上方"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Below %s"
+msgstr "%s 下方"
+
+#: lxde_settings/pages/display.py:161
+#, python-format
+msgid "Mirror %s"
+msgstr "镜像 %s"
+
+#: lxde_settings/pages/display.py:165
+msgid "Position"
+msgstr "位置"
+
+#: lxde_settings/pages/display.py:218
+msgid "Display"
+msgstr "显示"
+
+#: lxde_settings/pages/display.py:226
+msgid "Detect displays"
+msgstr "检测显示器"
+
+#: lxde_settings/pages/display.py:228 lxde_settings/pages/region.py:122
+#: lxde_settings/pages/region.py:284
+msgid "Apply"
+msgstr "应用"
+
+#: lxde_settings/pages/display.py:237
+msgid "xrandr is not installed."
+msgstr "未安装 xrandr。"
+
+#: lxde_settings/pages/display.py:249
+msgid "No displays were detected."
+msgstr "未检测到显示器。"
+
+#: lxde_settings/pages/display.py:274
+msgid "At least one display must stay on."
+msgstr "至少要保留一个显示器开启。"
+
+#: lxde_settings/pages/display.py:280
+msgid "The display settings could not be applied"
+msgstr "无法应用显示设置"
+
+#: lxde_settings/pages/display.py:293
+msgid "Keep these display settings?"
+msgstr "保留这些显示设置吗？"
+
+#: lxde_settings/pages/display.py:294
+msgid "_Revert"
+msgstr "还原(_R)"
+
+#: lxde_settings/pages/display.py:295
+msgid "_Keep changes"
+msgstr "保留更改(_K)"
+
+#: lxde_settings/pages/display.py:300
+#, python-format
+msgid "Reverting to the previous settings in %d seconds."
+msgstr "将在 %d 秒后恢复为之前的设置。"
+
+#: lxde_settings/pages/input.py:55
+msgid "Mouse & Keyboard"
+msgstr "鼠标和键盘"
+
+#: lxde_settings/pages/input.py:65
+msgid "Mouse and touchpad"
+msgstr "鼠标和触摸板"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Slow"
+msgstr "慢"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Fast"
+msgstr "快"
+
+#: lxde_settings/pages/input.py:69 lxde_settings/pages/input.py:78
+msgid "Pointer speed"
+msgstr "指针速度"
+
+#: lxde_settings/pages/input.py:72
+msgid "Mouse acceleration"
+msgstr "鼠标加速"
+
+#: lxde_settings/pages/input.py:73
+msgid "The pointer moves farther when you move the mouse faster"
+msgstr "鼠标移动越快，指针移动得越远"
+
+#: lxde_settings/pages/input.py:79
+msgid "Low"
+msgstr "低"
+
+#: lxde_settings/pages/input.py:79
+msgid "High"
+msgstr "高"
+
+#: lxde_settings/pages/input.py:80
+msgid "Acceleration threshold"
+msgstr "加速阈值"
+
+#: lxde_settings/pages/input.py:81
+msgid "How far the pointer moves before it accelerates"
+msgstr "指针开始加速前移动的距离"
+
+#: lxde_settings/pages/input.py:84
+msgid "Left-handed mouse"
+msgstr "左手鼠标"
+
+#: lxde_settings/pages/input.py:84
+msgid "Swap the left and right buttons"
+msgstr "交换左右按键"
+
+#: lxde_settings/pages/input.py:86 lxde_settings/pages/region.py:267
+msgid "Keyboard"
+msgstr "键盘"
+
+#: lxde_settings/pages/input.py:87
+msgid "Short"
+msgstr "短"
+
+#: lxde_settings/pages/input.py:87
+msgid "Long"
+msgstr "长"
+
+#: lxde_settings/pages/input.py:88
+msgid "Repeat delay"
+msgstr "重复延迟"
+
+#: lxde_settings/pages/input.py:91
+msgid "Repeat speed"
+msgstr "重复速度"
+
+#: lxde_settings/pages/input.py:94
+msgid "Keyboard beep"
+msgstr "键盘提示音"
+
+#: lxde_settings/pages/input.py:95
+msgid "Type here to test the repeat settings"
+msgstr "在此输入以测试按键重复"
+
+#: lxde_settings/pages/input.py:97
+msgid "Keyboard layouts…"
+msgstr "键盘布局…"
+
+#: lxde_settings/pages/region.py:85
+msgid "Region & Language"
+msgstr "区域和语言"
+
+#: lxde_settings/pages/region.py:94
+msgid "The locale service (systemd-localed) is not available."
+msgstr "区域设置服务（systemd-localed）不可用。"
+
+#: lxde_settings/pages/region.py:111
+msgid "Language"
+msgstr "语言"
+
+#: lxde_settings/pages/region.py:112
+msgid ""
+"Changes take effect the next time you log in. Use “Add languages” to install "
+"a language that is not in the list yet."
+msgstr "更改将在下次登录时生效。使用“添加语言”可安装尚未在列表中的语言。"
+
+#: lxde_settings/pages/region.py:119
+msgid "Display language"
+msgstr "界面语言"
+
+#: lxde_settings/pages/region.py:119
+msgid "Menus, windows and messages"
+msgstr "菜单、窗口和消息"
+
+#: lxde_settings/pages/region.py:120
+msgid "Formats"
+msgstr "格式"
+
+#: lxde_settings/pages/region.py:120
+msgid "Dates, times, numbers and currency"
+msgstr "日期、时间、数字和货币"
+
+#: lxde_settings/pages/region.py:127
+msgid "Add languages…"
+msgstr "添加语言…"
+
+#: lxde_settings/pages/region.py:148
+msgid "Same as the display language"
+msgstr "与界面语言相同"
+
+#: lxde_settings/pages/region.py:169
+msgid "The list of available languages could not be read"
+msgstr "无法读取可用语言列表"
+
+#: lxde_settings/pages/region.py:172
+msgid "Add languages"
+msgstr "添加语言"
+
+#: lxde_settings/pages/region.py:174
+msgid "_Install"
+msgstr "安装(_I)"
+
+#: lxde_settings/pages/region.py:178
+msgid "Select the languages to install. Generating them can take a minute."
+msgstr "选择要安装的语言。生成过程可能需要一分钟。"
+
+#: lxde_settings/pages/region.py:180
+msgid "Search languages"
+msgstr "搜索语言"
+
+#: lxde_settings/pages/region.py:210
+msgid "Generating languages…"
+msgstr "正在生成语言…"
+
+#: lxde_settings/pages/region.py:255
+msgid "Language settings saved"
+msgstr "语言设置已保存"
+
+#: lxde_settings/pages/region.py:256
+msgid "Log out and back in to use the new settings."
+msgstr "请注销并重新登录以使用新设置。"
+
+#: lxde_settings/pages/region.py:268
+msgid ""
+"The first layout is the default. The layouts are applied to this session and "
+"saved as the system-wide default."
+msgstr "第一个布局为默认布局。这些布局会应用到当前会话，并保存为系统默认值。"
+
+#: lxde_settings/pages/region.py:274
+msgid "Add a layout…"
+msgstr "添加布局…"
+
+#: lxde_settings/pages/region.py:277
+msgid "Not set"
+msgstr "未设置"
+
+#: lxde_settings/pages/region.py:282
+msgid "Switch layouts with"
+msgstr "切换布局的按键"
+
+#: lxde_settings/pages/region.py:292
+msgid "Test the keyboard"
+msgstr "测试键盘"
+
+#: lxde_settings/pages/region.py:293
+msgid "Type here to test the layout"
+msgstr "在此输入以测试布局"
+
+#: lxde_settings/pages/region.py:335
+msgid "Move up"
+msgstr "上移"
+
+#: lxde_settings/pages/region.py:336
+msgid "Move down"
+msgstr "下移"
+
+#: lxde_settings/pages/region.py:337
+msgid "Remove"
+msgstr "移除"
+
+#: lxde_settings/pages/region.py:366
+msgid "Add a keyboard layout"
+msgstr "添加键盘布局"
+
+#: lxde_settings/pages/region.py:368 lxde_settings/pages/users.py:207
+msgid "_Add"
+msgstr "添加(_A)"
+
+#: lxde_settings/pages/region.py:372
+msgid "Search layouts"
+msgstr "搜索布局"
+
+#: lxde_settings/pages/sound.py:37
+msgid "Connector"
+msgstr "接口"
+
+#: lxde_settings/pages/sound.py:41
+msgid "Mute"
+msgstr "静音"
+
+#: lxde_settings/pages/sound.py:74
+msgid "No devices found"
+msgstr "未找到设备"
+
+#: lxde_settings/pages/sound.py:83
+#, python-format
+msgid "%s (unplugged)"
+msgstr "%s（未插入）"
+
+#: lxde_settings/pages/sound.py:125
+msgid "Sound"
+msgstr "声音"
+
+#: lxde_settings/pages/sound.py:133
+msgid "Connecting to the sound server…"
+msgstr "正在连接声音服务器…"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Output"
+msgstr "输出"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Choose your output device"
+msgstr "选择输出设备"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Master volume"
+msgstr "主音量"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input"
+msgstr "输入"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Choose your input device"
+msgstr "选择输入设备"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input volume"
+msgstr "输入音量"
+
+#: lxde_settings/pages/sound.py:142
+msgid "Advanced"
+msgstr "高级"
+
+#: lxde_settings/pages/sound.py:144
+msgid "Open volume mixer"
+msgstr "打开音量混合器"
+
+#: lxde_settings/pages/sound.py:146 lxde_settings/pages/sound.py:149
+msgid "App volume and device preferences"
+msgstr "应用程序音量和设备首选项"
+
+#: lxde_settings/pages/sound.py:147
+msgid "Set the volume and device of each application"
+msgstr "设置每个应用程序的音量和设备"
+
+#: lxde_settings/pages/sound.py:150
+msgid "Install pavucontrol to adjust each application separately"
+msgstr "安装 pavucontrol 以单独调整每个应用程序"
+
+#: lxde_settings/pages/sound.py:162
+msgid "Not connected to the sound server. Retrying…"
+msgstr "未连接到声音服务器。正在重试…"
+
+#: lxde_settings/pages/sound.py:168
+#, python-format
+msgid "Sound server: %s"
+msgstr "声音服务器：%s"
+
+#: lxde_settings/pages/users.py:56 lxde_settings/pages/users.py:166
+msgid "Password"
+msgstr "密码"
+
+#: lxde_settings/pages/users.py:58
+msgid "Confirm password"
+msgstr "确认密码"
+
+#: lxde_settings/pages/users.py:73
+msgid "Users"
+msgstr "用户"
+
+#: lxde_settings/pages/users.py:81
+msgid "Accounts"
+msgstr "账户"
+
+#: lxde_settings/pages/users.py:84
+msgid "Add a user…"
+msgstr "添加用户…"
+
+#: lxde_settings/pages/users.py:91
+msgid "Changes to accounts require administrator authentication."
+msgstr "更改账户需要管理员身份验证。"
+
+#: lxde_settings/pages/users.py:109
+#, python-format
+msgid "%s (you)"
+msgstr "%s（您）"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:155
+#: lxde_settings/pages/users.py:214
+msgid "Administrator"
+msgstr "管理员"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:154
+#: lxde_settings/pages/users.py:213
+msgid "Standard"
+msgstr "标准"
+
+#: lxde_settings/pages/users.py:139
+#, python-format
+msgid "Account settings — %s"
+msgstr "账户设置 — %s"
+
+#: lxde_settings/pages/users.py:143
+msgid "Change"
+msgstr "更改"
+
+#: lxde_settings/pages/users.py:151 lxde_settings/pages/users.py:216
+msgid "Full name"
+msgstr "全名"
+
+#: lxde_settings/pages/users.py:160 lxde_settings/pages/users.py:217
+msgid "Account type"
+msgstr "账户类型"
+
+#: lxde_settings/pages/users.py:161
+msgid "Administrators can install software and change system settings"
+msgstr "管理员可以安装软件并更改系统设置"
+
+#: lxde_settings/pages/users.py:162
+msgid "You cannot change the type of your own account"
+msgstr "您无法更改自己账户的类型"
+
+#: lxde_settings/pages/users.py:169
+msgid "Remove user…"
+msgstr "删除用户…"
+
+#: lxde_settings/pages/users.py:172
+msgid "Remove this account"
+msgstr "删除此账户"
+
+#: lxde_settings/pages/users.py:181
+#, python-format
+msgid "Change password for %s"
+msgstr "更改 %s 的密码"
+
+#: lxde_settings/pages/users.py:182
+msgid "_Change"
+msgstr "更改(_C)"
+
+#: lxde_settings/pages/users.py:195
+msgid "The passwords do not match"
+msgstr "两次输入的密码不一致"
+
+#: lxde_settings/pages/users.py:206
+msgid "Add a user"
+msgstr "添加用户"
+
+#: lxde_settings/pages/users.py:216
+msgid "User name"
+msgstr "用户名"
+
+#: lxde_settings/pages/users.py:221
+msgid "Leave the password empty to set it later."
+msgstr "密码留空可稍后设置。"
+
+#: lxde_settings/pages/users.py:265
+#, python-format
+msgid "Remove the account of %s?"
+msgstr "要删除 %s 的账户吗？"
+
+#: lxde_settings/pages/users.py:266
+#, python-format
+msgid ""
+"You can keep the user's home folder (%s) or delete it with all of its files."
+msgstr "您可以保留该用户的主文件夹（%s），也可以将其连同所有文件一起删除。"
+
+#: lxde_settings/pages/users.py:269
+msgid "_Keep files"
+msgstr "保留文件(_K)"
+
+#: lxde_settings/pages/users.py:270
+msgid "_Delete files"
+msgstr "删除文件(_D)"
+
+#: lxde_settings/util.py:57
+#, python-format
+msgid "Could not start %s"
+msgstr "无法启动 %s"
+
+#: lxde_settings/util.py:69
+msgid "Not authorized"
+msgstr "未授权"
+
+#: lxde_settings/util.py:69
+msgid "Authentication failed or was refused."
+msgstr "身份验证失败或被拒绝。"
+
+#: lxde_settings/util.py:71
+msgid "The operation failed"
+msgstr "操作失败"
+
+#: lxde_settings/util.py:114
+msgid "Could not apply the change"
+msgstr "无法应用更改"

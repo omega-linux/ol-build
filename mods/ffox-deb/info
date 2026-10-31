@@ -1,0 +1,2 @@
+name: install firefox and no snap
+description: adds a apt config to not let install snap firefox and then installs deb firefox which is just better

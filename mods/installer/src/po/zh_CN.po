@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-installer\n"
+"PO-Revision-Date: 2026-10-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Install {name}"
+msgstr "安装 {name}"
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "This will install {name} {version} on your computer.\n\nMake sure you have backed up anything important before you continue."
+msgstr "即将在您的计算机上安装 {name} {version}。\n\n继续之前，请确保已备份所有重要数据。"
+
+msgid "Please wait while we get everything ready…"
+msgstr "请稍候，正在准备一切…"
+
+msgid "Installation complete"
+msgstr "安装完成"
+
+msgid "{name} has finished installing."
+msgstr "{name} 已完成安装。"
+
+msgid "Legacy BIOS"
+msgstr "传统 BIOS"
+
+msgid "32-bit UEFI"
+msgstr "32 位 UEFI"
+
+msgid "64-bit UEFI"
+msgstr "64 位 UEFI"
+
+msgid "Search…"
+msgstr "搜索…"
+
+msgid "Back"
+msgstr "上一步"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Install now"
+msgstr "现在安装"
+
+msgid "Restart now"
+msgstr "现在重启"
+
+msgid "Language of the installed system"
+msgstr "已安装系统的语言"
+
+msgid "Download language support (needs an internet connection)"
+msgstr "下载语言支持（需要连接互联网）"
+
+#, python-format
+msgid "Firmware detected: %s"
+msgstr "检测到的固件：%s"
+
+msgid "Choose your keyboard layout:"
+msgstr "选择您的键盘布局："
+
+msgid "Type here to test your keyboard"
+msgstr "在此输入以测试键盘"
+
+msgid "Keyboard layout"
+msgstr "键盘布局"
+
+#, python-format
+msgid "Erase disk and install %s"
+msgstr "清除整个磁盘并安装 %s"
+
+msgid "Everything on the selected disk will be deleted."
+msgstr "所选磁盘上的所有内容都将被删除。"
+
+msgid "Something else"
+msgstr "其他选项"
+
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr "自行创建、删除或选择分区，或选择多个分区。"
+
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr "%(name)s 至少需要 %(size)s 的磁盘空间。"
+
+msgid "Installation type"
+msgstr "安装类型"
+
+msgid "No disk available to install to."
+msgstr "没有可用于安装的磁盘。"
+
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr "%(disk)s 太小（需要 %(size)s）。"
+
+msgid "Device"
+msgstr "设备"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Mount point"
+msgstr "挂载点"
+
+msgid "Format?"
+msgstr "格式化？"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Add a partition"
+msgstr "添加分区"
+
+msgid "Delete the partition"
+msgstr "删除分区"
+
+msgid "Change…"
+msgstr "更改…"
+
+msgid "New Partition Table…"
+msgstr "新建分区表…"
+
+msgid "Revert"
+msgstr "还原"
+
+msgid "Open GParted"
+msgstr "打开 GParted"
+
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr "调整或移动分区（此处未应用的更改将被放弃）"
+
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr "安装启动引导器的设备（传统 BIOS）"
+
+msgid "This computer started in Legacy BIOS mode."
+msgstr "此计算机以传统 BIOS 模式启动。"
+
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr "此计算机以 32 位 UEFI 模式启动，因此需要 EFI 系统分区。"
+
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr "此计算机以 64 位 UEFI 模式启动，因此需要 EFI 系统分区。"
+
+msgid "no partition table"
+msgstr "无分区表"
+
+msgid "free space"
+msgstr "空闲空间"
+
+msgid "Extended partition"
+msgstr "扩展分区"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr "不安装传统 BIOS 启动引导器"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "Use as:"
+msgstr "用于："
+
+msgid "Mount point:"
+msgstr "挂载点："
+
+msgid "Create partition"
+msgstr "创建分区"
+
+msgid "Size (MB):"
+msgstr "大小（MB）："
+
+msgid "Beginning of this space"
+msgstr "此空间的开头"
+
+msgid "End of this space"
+msgstr "此空间的末尾"
+
+msgid "Location:"
+msgstr "位置："
+
+msgid "Edit partition"
+msgstr "编辑分区"
+
+msgid "Partition:"
+msgstr "分区："
+
+msgid "Format the partition"
+msgstr "格式化此分区"
+
+msgid "New partition table"
+msgstr "新建分区表"
+
+#, python-format
+msgid "Create a new empty partition table on %s?\nAll partitions on this disk will be deleted."
+msgstr "要在 %s 上创建新的空分区表吗？\n此磁盘上的所有分区都将被删除。"
+
+msgid "GPT (recommended)"
+msgstr "GPT（推荐）"
+
+msgid "MBR / msdos (for very old computers)"
+msgstr "MBR / msdos（用于非常旧的计算机）"
+
+msgid "Type:"
+msgstr "类型："
+
+msgid "Your name"
+msgstr "您的姓名"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Computer name"
+msgstr "计算机名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Confirm password"
+msgstr "确认密码"
+
+msgid "Time zone"
+msgstr "时区"
+
+msgid "This user will be an administrator (sudo)."
+msgstr "此用户将成为管理员（sudo）。"
+
+msgid "Who are you?"
+msgstr "您是谁？"
+
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr "用户名必须以小写字母开头，且只能使用 a-z、0-9、- 和 _。"
+
+msgid "That username is reserved."
+msgstr "该用户名已被保留。"
+
+msgid "The computer name may only use letters, digits and -."
+msgstr "计算机名只能使用字母、数字和 -。"
+
+msgid "Choose a password."
+msgstr "请设置密码。"
+
+msgid "The passwords do not match."
+msgstr "两次输入的密码不一致。"
+
+msgid "Your name cannot contain \":\"."
+msgstr "姓名中不能包含“:”。"
+
+msgid "The password cannot contain line breaks."
+msgstr "密码中不能包含换行符。"
+
+msgid "Choose a valid time zone."
+msgstr "请选择有效的时区。"
+
+msgid "Ready to install"
+msgstr "准备安装"
+
+msgid "These changes will be written to the disks:"
+msgstr "以下更改将写入磁盘："
+
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr "传统 BIOS 启动引导器将写入 %s。"
+
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr "将安装 UEFI 启动引导器（64 位和 32 位）。"
+
+msgid "Settings:"
+msgstr "设置："
+
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr "用户：%(name)s（%(user)s），管理员"
+
+#, python-format
+msgid "Computer name: %s"
+msgstr "计算机名：%s"
+
+#, python-format
+msgid "Language: %s"
+msgstr "语言：%s"
+
+#, python-format
+msgid "Keyboard: %s"
+msgstr "键盘：%s"
+
+#, python-format
+msgid "Time zone: %s"
+msgstr "时区：%s"
+
+msgid "These changes cannot be undone."
+msgstr "这些更改无法撤销。"
+
+#, python-format
+msgid "Installing %s"
+msgstr "正在安装 %s"
+
+msgid "The installation failed"
+msgstr "安装失败"
+
+#, python-format
+msgid "The full log is in %s."
+msgstr "完整日志位于 %s。"
+
+msgid "Shut down"
+msgstr "关机"
+
+msgid "Keep using the live session"
+msgstr "继续使用 Live 会话"
+
+msgid "Could not find the live system image."
+msgstr "找不到 Live 系统镜像。"
+
+msgid "Preparing the disks"
+msgstr "正在准备磁盘"
+
+msgid "Finishing"
+msgstr "正在完成"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Copying files"
+msgstr "正在复制文件"
+
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr "正在复制文件（%d%%）"
+
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr "复制系统失败（rsync 退出码 %d）"
+
+msgid "Configuring the language"
+msgstr "正在配置语言"
+
+msgid "Downloading language support"
+msgstr "正在下载语言支持"
+
+msgid "Installing the kernel"
+msgstr "正在安装内核"
+
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr "在 Live 介质上找不到正在运行的内核（%s）。"
+
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr "Live 镜像中没有内核 %s 的模块。"
+
+msgid "Configuring the system"
+msgstr "正在配置系统"
+
+#, python-format
+msgid "Creating user %s"
+msgstr "正在创建用户 %s"
+
+msgid "Removing live session packages"
+msgstr "正在移除 Live 会话软件包"
+
+msgid "Generating the initramfs"
+msgstr "正在生成 initramfs"
+
+msgid "Installing the boot loader"
+msgstr "正在安装启动引导器"
+
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr "Live 镜像中未安装 %s 版 GRUB。"
+
+msgid "No boot loader was installed."
+msgstr "未安装任何启动引导器。"
+
+msgid "Writing the boot menu"
+msgstr "正在写入启动菜单"
+
+msgid "Ext4 journaling file system"
+msgstr "Ext4 日志文件系统"
+
+msgid "Ext3 journaling file system"
+msgstr "Ext3 日志文件系统"
+
+msgid "Ext2 file system"
+msgstr "Ext2 文件系统"
+
+msgid "Btrfs file system"
+msgstr "Btrfs 文件系统"
+
+msgid "XFS file system"
+msgstr "XFS 文件系统"
+
+msgid "FAT32 file system"
+msgstr "FAT32 文件系统"
+
+msgid "Swap area"
+msgstr "交换空间"
+
+msgid "EFI system partition"
+msgstr "EFI 系统分区"
+
+msgid "Reserved BIOS boot area"
+msgstr "保留的 BIOS 启动区域"
+
+msgid "Do not use the partition"
+msgstr "不使用此分区"
+
+msgid "New partition"
+msgstr "新分区"
+
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr "MBR（msdos）磁盘最多只能有 4 个主分区。"
+
+msgid "The partition is too small."
+msgstr "分区太小。"
+
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr "无效的挂载点：%s"
+
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr "挂载点 %s 被使用了多次。"
+
+msgid "No root file system (/) is defined."
+msgstr "未定义根文件系统（/）。"
+
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr "根文件系统（/）不能使用 %s。"
+
+msgid "The root partition (/) must be formatted."
+msgstr "根分区（/）必须格式化。"
+
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr "根分区太小，至少需要 %s。"
+
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr "请为 %s 选择挂载点。"
+
+msgid "Only one EFI system partition can be used."
+msgstr "只能使用一个 EFI 系统分区。"
+
+msgid "An EFI system partition is required to boot this computer."
+msgstr "启动此计算机需要 EFI 系统分区。"
+
+msgid "Choose a device for the boot loader."
+msgstr "请选择安装启动引导器的设备。"
+
+#, python-format
+msgid "%s has no partition table."
+msgstr "%s 没有分区表。"
+
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr "%s 使用 GPT，因此需要一个保留的 BIOS 启动区域（1 MB）来安装启动引导器。"
+
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr "%(disk)s 的分区表将被替换（%(type)s）。"
+
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr "分区 %s 将被删除。"
+
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr "在 %(disk)s 上新建 %(size)s 的分区：%(use)s"
+
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr "%(part)s 将被格式化为 %(use)s。"
+
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr "%(part)s 将挂载到 %(mount)s。"
+
+msgid "The new partition"
+msgstr "新分区"
+
+#, python-format
+msgid "%s will be used as swap."
+msgstr "%s 将用作交换空间。"
+
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr "新分区没有出现：%s"
+
+#, python-format
+msgid "Partitioning %s"
+msgstr "正在为 %s 分区"
+
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr "在 %s 位置找不到 %s 上的新分区。"
+
+#, python-format
+msgid "Formatting %s"
+msgstr "正在格式化 %s"

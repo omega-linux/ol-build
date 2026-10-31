@@ -1,0 +1,107 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=bottom
+  monitor=0
+  height=34
+  align=center
+  width=100
+  iconsize=28
+  transparent=0
+  background=0
+  tintcolor=#000000
+  alpha=0
+}
+Plugin {
+  type=menu
+  Config {
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      command=logout
+      image=gnome-logout
+    }
+    image=/usr/fancy-stuff/PanelIcons/Default.png
+  }
+}
+Plugin {
+  type=launchtaskbar
+  Config {
+    Button {
+      id=firefox.desktop
+    }
+    Button {
+      id=pcmanfm.desktop
+    }
+    Button {
+      id=lxtask.desktop
+    }
+    Button {
+      id=lxterminal.desktop
+    }
+    Button {
+      id=lxde-settings.desktop
+    }
+    Button {
+      id=org.gnome.Screenshot.desktop
+    }
+    IconsOnly=-1
+    FlatButton=0
+    ShowSquareBrackets=-1
+  }
+}
+Plugin {
+  type=separator
+  Config {
+  }
+}
+Plugin {
+  type=winvolume
+  Config {
+  }
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%R
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+  }
+}
+Plugin {
+  type=batt
+  Config {
+    BackgroundColor=black
+    ChargingColor1=#28f200
+    ChargingColor2=#22cc00
+    DischargingColor1=#ffee00
+    DischargingColor2=#d9ca00
+    HideIfNoBattery=1
+    AlarmCommand=notify-send "Battery low" --icon=battery-caution
+    AlarmTime=5
+    BorderWidth=1
+    Size=8
+    ShowExtendedInformation=0
+    BatteryNumber=0
+  }
+}
+Plugin {
+  type=wincmd
+  Config {
+  }
+}

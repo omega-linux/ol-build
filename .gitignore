@@ -1,0 +1,13 @@
+# buiold out
+/work/
+/out/
+/build.log
+*.iso
+*.iso.sha256
+
+# os shit
+*~
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

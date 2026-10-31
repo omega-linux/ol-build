@@ -1,0 +1,14 @@
+Package: ol-settings
+Version: @VERSION@
+Architecture: all
+Maintainer: unsoil <spliteritoob@gmail.com>
+Installed-Size: @SIZE@
+Depends: python3, python3-gi, gir1.2-gtk-3.0, libpulse0, libxi6, pkexec, polkitd, systemd, x11-xserver-utils, x11-xkb-utils, pciutils, iso-codes, xkb-data, passwd, locales
+Recommends: systemd-timesyncd, pavucontrol, lxsession, lxpolkit, pcmanfm
+Suggests: fonts-noto-cjk
+Section: x11
+Priority: optional
+Homepage: https://github.com/omega-linux/ol-settings
+Description: Settings app for OL
+ A single settings window for LXDE: display, sound, appearance, mouse and
+ keyboard, region and language, date and time, users and system information.

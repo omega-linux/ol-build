@@ -1,0 +1,246 @@
+#!/usr/bin/python3 -I
+"""Privileged helper for LXDE Settings.  Runs as root through pkexec and
+only performs a fixed set of validated operations.
+
+  add-user USER FULLNAME admin|standard   (password, optional, on stdin)
+  del-user USER keep-files|remove-files
+  set-realname USER FULLNAME
+  set-password USER                       (password on stdin)
+  set-admin USER yes|no
+  add-locales LOCALE...                   (e.g. de_DE.UTF-8; enables them in
+                                           /etc/locale.gen, runs locale-gen and,
+                                           on Ubuntu, installs the language packs)
+"""
+
+import grp
+import os
+import pwd
+import re
+import subprocess
+import sys
+
+
+
+def _admin_group():
+    for name in ("sudo", "wheel"):
+        try:
+            grp.getgrnam(name)
+            return name
+        except KeyError:
+            pass
+    return "sudo"
+
+
+ADMIN_GROUP = _admin_group()
+NAME_RE = re.compile(r"^[a-z_][a-z0-9_-]{0,30}\$?$")
+MIN_UID = 1000
+
+
+def die(msg, code=1):
+    sys.stderr.write(msg + "\n")
+    sys.exit(code)
+
+
+def run(argv, stdin=None):
+    r = subprocess.run(argv, input=stdin, capture_output=True, text=True)
+    if r.returncode != 0:
+        die((r.stderr or r.stdout).strip() or "%s failed" % argv[0])
+
+
+def caller():
+    try:
+        return pwd.getpwuid(int(os.environ["PKEXEC_UID"])).pw_name
+    except (KeyError, ValueError):
+        return None
+
+
+def check_name(name):
+    if not NAME_RE.match(name):
+        die("Invalid user name: %r" % name)
+
+
+def regular_user(name):
+    check_name(name)
+    try:
+        pw = pwd.getpwnam(name)
+    except KeyError:
+        die("No such user: %s" % name)
+    if pw.pw_uid < MIN_UID or pw.pw_uid >= 60000:
+        die("Refusing to modify system account %s" % name)
+    return pw
+
+
+def check_fullname(full):
+    if any(c in full for c in ":,=\n\r\\") or len(full) > 128:
+        die("The full name may not contain : , = or line breaks")
+
+
+def read_password():
+    return sys.stdin.readline().rstrip("\n")
+
+
+def add_user(name, full, kind):
+    check_name(name)
+    check_fullname(full)
+    try:
+        pwd.getpwnam(name)
+        die("The user %s already exists" % name)
+    except KeyError:
+        pass
+    argv = ["useradd", "-m", "-s", "/bin/bash", "-c", full]
+    if kind == "admin":
+        argv += ["-G", ADMIN_GROUP]
+    run(argv + [name])
+    pw = read_password()
+    if pw:
+        run(["chpasswd"], "%s:%s\n" % (name, pw))
+    else:  # no password yet: lock until one is set
+        run(["passwd", "-l", name])
+
+
+def del_user(name, mode):
+    pw = regular_user(name)
+    if name == caller():
+        die("You cannot remove your own account")
+    argv = ["userdel"]
+    if mode == "remove-files":
+        argv.append("-r")
+    run(argv + [pw.pw_name])
+
+
+def set_realname(name, full):
+    regular_user(name)
+    check_fullname(full)
+    run(["usermod", "-c", full, name])
+
+
+def set_password(name):
+    regular_user(name)
+    pw = read_password()
+    if not pw:
+        die("Empty password")
+    run(["chpasswd"], "%s:%s\n" % (name, pw))
+    if _locked(name):
+        run(["passwd", "-u", name])
+
+
+def _locked(name):
+    r = subprocess.run(["passwd", "-S", name], capture_output=True, text=True)
+    parts = r.stdout.split()
+    return len(parts) > 1 and parts[1] == "L"
+
+
+def set_admin(name, value):
+    regular_user(name)
+    if value == "yes":
+        run(["gpasswd", "-a", name, ADMIN_GROUP])
+    else:
+        if name == caller():
+            die("You cannot remove administrator rights from your own account")
+        members = grp.getgrnam(ADMIN_GROUP).gr_mem
+        if name in members:
+            run(["gpasswd", "-d", name, ADMIN_GROUP])
+
+
+SUPPORTED = "/usr/share/i18n/SUPPORTED"
+LOCALE_GEN = "/etc/locale.gen"
+UBUNTU_SUPPORTED_D = "/var/lib/locales/supported.d"
+
+
+def add_locales(*locales):
+    # Only accept UTF-8 locales glibc lists as supported, in its exact spelling.
+    with open(SUPPORTED) as f:
+        supported = {p[0] for p in (l.split() for l in f) if len(p) == 2 and p[1] == "UTF-8"}
+    for loc in locales:
+        if loc not in supported:
+            die("Unsupported locale: %r" % loc)
+    try:
+        with open(LOCALE_GEN) as f:
+            lines = f.read().splitlines()
+    except FileNotFoundError:
+        lines = []
+    if not any(l.strip() for l in lines):
+        lines = ["# Locales to generate, one per line; see locale-gen(8)."]
+    wanted = set(locales)
+    enabled = {l.split()[0] for l in lines if l.strip() and not l.lstrip().startswith("#")}
+    wanted -= enabled
+    for i, line in enumerate(lines):
+        parts = line.lstrip("#").split()
+        if len(parts) == 2 and parts[0] in wanted and parts[1] == "UTF-8":
+            lines[i] = "%s UTF-8" % parts[0]
+            wanted.discard(parts[0])
+    lines += ["%s UTF-8" % loc for loc in sorted(wanted)]
+    tmp = LOCALE_GEN + ".lxde-settings"
+    with open(tmp, "w") as f:
+        f.write("\n".join(lines) + "\n")
+    os.chmod(tmp, 0o644)
+    os.replace(tmp, LOCALE_GEN)
+    if os.path.isdir(UBUNTU_SUPPORTED_D):
+        # Ubuntu's locale-gen accepts names and generates only those.
+        run(["locale-gen"] + list(locales))
+        install_language_packs(locales)
+    else:
+        run(["locale-gen"])
+
+
+def language_pack_names(locale):
+    lang = re.split(r"[_.@]", locale)[0]
+    if lang in ("C", "POSIX"):
+        return []
+    if lang == "zh":
+        lang = "zh-hant" if re.search(r"_(TW|HK|MO)", locale) else "zh-hans"
+    return ["language-pack-" + lang, "language-pack-gnome-" + lang]
+
+
+def install_language_packs(locales):
+    """Ubuntu moves most program translations into language-pack-* packages.
+    Installing them needs the network, so a failure only prints a warning."""
+    wanted = sorted({p for loc in locales for p in language_pack_names(loc)})
+    if not wanted or not os.path.exists("/usr/bin/apt-get"):
+        return
+    env = dict(os.environ, DEBIAN_FRONTEND="noninteractive")
+    subprocess.run(["apt-get", "update"], capture_output=True, env=env)
+    available = [p for p in wanted
+                 if subprocess.run(["apt-cache", "show", p], capture_output=True).returncode == 0]
+    if not available:
+        sys.stderr.write("No language packs found for %s\n" % " ".join(locales))
+        return
+    r = subprocess.run(["apt-get", "install", "-y", "--no-install-recommends"] + available,
+                       capture_output=True, text=True, env=env)
+    if r.returncode != 0:
+        lines = (r.stderr or r.stdout).strip().splitlines()
+        sys.stderr.write("The language packs could not be installed: %s\n" % (lines[-1] if lines else r.returncode))
+
+
+COMMANDS = {
+    "add-user": (add_user, 3),
+    "del-user": (del_user, 2),
+    "set-realname": (set_realname, 2),
+    "set-password": (set_password, 1),
+    "set-admin": (set_admin, 2),
+    "add-locales": (add_locales, None),  # one or more arguments
+}
+
+
+def main():
+    if os.geteuid() != 0:
+        die("This helper must be run through pkexec")
+    if len(sys.argv) < 2 or sys.argv[1] not in COMMANDS:
+        die(__doc__)
+    fn, nargs = COMMANDS[sys.argv[1]]
+    args = sys.argv[2:]
+    if (len(args) != nargs) if nargs is not None else not 1 <= len(args) <= 64:
+        die(__doc__)
+    if sys.argv[1] == "add-user" and args[2] not in ("admin", "standard"):
+        die(__doc__)
+    if sys.argv[1] == "del-user" and args[1] not in ("keep-files", "remove-files"):
+        die(__doc__)
+    if sys.argv[1] == "set-admin" and args[1] not in ("yes", "no"):
+        die(__doc__)
+    os.environ["PATH"] = "/usr/bin:/usr/sbin:/bin:/sbin"
+    os.environ["LC_ALL"] = "C"
+    fn(*args)
+
+
+if __name__ == "__main__":
+    main()

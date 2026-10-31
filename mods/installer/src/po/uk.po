@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-installer\n"
+"PO-Revision-Date: 2026-10-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Install {name}"
+msgstr "Встановлення {name}"
+
+msgid "Welcome"
+msgstr "Ласкаво просимо"
+
+msgid "This will install {name} {version} on your computer.\n\nMake sure you have backed up anything important before you continue."
+msgstr "На комп'ютер буде встановлено {name} {version}.\n\nПерш ніж продовжити, створіть резервну копію всіх важливих даних."
+
+msgid "Please wait while we get everything ready…"
+msgstr "Зачекайте, поки ми все підготуємо…"
+
+msgid "Installation complete"
+msgstr "Встановлення завершено"
+
+msgid "{name} has finished installing."
+msgstr "Встановлення {name} завершено."
+
+msgid "Legacy BIOS"
+msgstr "Legacy BIOS"
+
+msgid "32-bit UEFI"
+msgstr "32-бітний UEFI"
+
+msgid "64-bit UEFI"
+msgstr "64-бітний UEFI"
+
+msgid "Search…"
+msgstr "Пошук…"
+
+msgid "Back"
+msgstr "Назад"
+
+msgid "Continue"
+msgstr "Продовжити"
+
+msgid "Install now"
+msgstr "Встановити"
+
+msgid "Restart now"
+msgstr "Перезавантажити"
+
+msgid "Language of the installed system"
+msgstr "Мова встановлюваної системи"
+
+msgid "Download language support (needs an internet connection)"
+msgstr "Завантажити мовну підтримку (потрібне з'єднання з інтернетом)"
+
+#, python-format
+msgid "Firmware detected: %s"
+msgstr "Виявлено мікропрограму: %s"
+
+msgid "Choose your keyboard layout:"
+msgstr "Виберіть розкладку клавіатури:"
+
+msgid "Type here to test your keyboard"
+msgstr "Введіть тут текст, щоб перевірити клавіатуру"
+
+msgid "Keyboard layout"
+msgstr "Розкладка клавіатури"
+
+#, python-format
+msgid "Erase disk and install %s"
+msgstr "Стерти диск і встановити %s"
+
+msgid "Everything on the selected disk will be deleted."
+msgstr "Усі дані на вибраному диску буде видалено."
+
+msgid "Something else"
+msgstr "Інший варіант"
+
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr "Створіть, видаліть або виберіть розділи самостійно чи виберіть кілька розділів."
+
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr "Для %(name)s потрібно щонайменше %(size)s дискового простору."
+
+msgid "Installation type"
+msgstr "Тип встановлення"
+
+msgid "No disk available to install to."
+msgstr "Немає доступних дисків для встановлення."
+
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr "Диск %(disk)s замалий (потрібно %(size)s)."
+
+msgid "Device"
+msgstr "Пристрій"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Mount point"
+msgstr "Точка монтування"
+
+msgid "Format?"
+msgstr "Форматувати?"
+
+msgid "Size"
+msgstr "Розмір"
+
+msgid "Add a partition"
+msgstr "Додати розділ"
+
+msgid "Delete the partition"
+msgstr "Видалити розділ"
+
+msgid "Change…"
+msgstr "Змінити…"
+
+msgid "New Partition Table…"
+msgstr "Нова таблиця розділів…"
+
+msgid "Revert"
+msgstr "Скасувати зміни"
+
+msgid "Open GParted"
+msgstr "Відкрити GParted"
+
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr "Змінити розмір або перемістити розділи (незбережені зміни тут буде скасовано)"
+
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr "Пристрій для встановлення завантажувача (Legacy BIOS)"
+
+msgid "This computer started in Legacy BIOS mode."
+msgstr "Комп'ютер запущено в режимі Legacy BIOS."
+
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Комп'ютер запущено в режимі 32-бітного UEFI, тому потрібен системний розділ EFI."
+
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Комп'ютер запущено в режимі 64-бітного UEFI, тому потрібен системний розділ EFI."
+
+msgid "no partition table"
+msgstr "немає таблиці розділів"
+
+msgid "free space"
+msgstr "вільне місце"
+
+msgid "Extended partition"
+msgstr "Розширений розділ"
+
+msgid "unknown"
+msgstr "невідомо"
+
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr "Не встановлювати завантажувач Legacy BIOS"
+
+msgid "Cancel"
+msgstr "Скасувати"
+
+msgid "OK"
+msgstr "Гаразд"
+
+msgid "Use as:"
+msgstr "Використати як:"
+
+msgid "Mount point:"
+msgstr "Точка монтування:"
+
+msgid "Create partition"
+msgstr "Створити розділ"
+
+msgid "Size (MB):"
+msgstr "Розмір (МБ):"
+
+msgid "Beginning of this space"
+msgstr "На початку цього простору"
+
+msgid "End of this space"
+msgstr "У кінці цього простору"
+
+msgid "Location:"
+msgstr "Розташування:"
+
+msgid "Edit partition"
+msgstr "Змінити розділ"
+
+msgid "Partition:"
+msgstr "Розділ:"
+
+msgid "Format the partition"
+msgstr "Форматувати розділ"
+
+msgid "New partition table"
+msgstr "Нова таблиця розділів"
+
+#, python-format
+msgid "Create a new empty partition table on %s?\nAll partitions on this disk will be deleted."
+msgstr "Створити нову порожню таблицю розділів на %s?\nУсі розділи на цьому диску буде видалено."
+
+msgid "GPT (recommended)"
+msgstr "GPT (рекомендовано)"
+
+msgid "MBR / msdos (for very old computers)"
+msgstr "MBR / msdos (для дуже старих комп'ютерів)"
+
+msgid "Type:"
+msgstr "Тип:"
+
+msgid "Your name"
+msgstr "Ваше ім'я"
+
+msgid "Username"
+msgstr "Ім'я користувача"
+
+msgid "Computer name"
+msgstr "Назва комп'ютера"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Confirm password"
+msgstr "Підтвердіть пароль"
+
+msgid "Time zone"
+msgstr "Часовий пояс"
+
+msgid "This user will be an administrator (sudo)."
+msgstr "Цей користувач буде адміністратором (sudo)."
+
+msgid "Who are you?"
+msgstr "Хто ви?"
+
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr "Ім'я користувача має починатися з малої літери й містити лише a-z, 0-9, - та _."
+
+msgid "That username is reserved."
+msgstr "Це ім'я користувача зарезервовано."
+
+msgid "The computer name may only use letters, digits and -."
+msgstr "Назва комп'ютера може містити лише літери, цифри та -."
+
+msgid "Choose a password."
+msgstr "Виберіть пароль."
+
+msgid "The passwords do not match."
+msgstr "Паролі не збігаються."
+
+msgid "Your name cannot contain \":\"."
+msgstr "Ваше ім'я не може містити «:»."
+
+msgid "The password cannot contain line breaks."
+msgstr "Пароль не може містити розриви рядків."
+
+msgid "Choose a valid time zone."
+msgstr "Виберіть правильний часовий пояс."
+
+msgid "Ready to install"
+msgstr "Усе готово до встановлення"
+
+msgid "These changes will be written to the disks:"
+msgstr "На диски буде записано такі зміни:"
+
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr "Завантажувач Legacy BIOS буде записано на %s."
+
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr "Буде встановлено завантажувач UEFI (64- і 32-бітний)."
+
+msgid "Settings:"
+msgstr "Параметри:"
+
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr "Користувач: %(name)s (%(user)s), адміністратор"
+
+#, python-format
+msgid "Computer name: %s"
+msgstr "Назва комп'ютера: %s"
+
+#, python-format
+msgid "Language: %s"
+msgstr "Мова: %s"
+
+#, python-format
+msgid "Keyboard: %s"
+msgstr "Клавіатура: %s"
+
+#, python-format
+msgid "Time zone: %s"
+msgstr "Часовий пояс: %s"
+
+msgid "These changes cannot be undone."
+msgstr "Ці зміни неможливо скасувати."
+
+#, python-format
+msgid "Installing %s"
+msgstr "Встановлення %s"
+
+msgid "The installation failed"
+msgstr "Встановлення не вдалося"
+
+#, python-format
+msgid "The full log is in %s."
+msgstr "Повний журнал міститься в %s."
+
+msgid "Shut down"
+msgstr "Вимкнути"
+
+msgid "Keep using the live session"
+msgstr "Продовжити роботу в live-сеансі"
+
+msgid "Could not find the live system image."
+msgstr "Не вдалося знайти образ live-системи."
+
+msgid "Preparing the disks"
+msgstr "Підготовка дисків"
+
+msgid "Finishing"
+msgstr "Завершення"
+
+msgid "Done"
+msgstr "Готово"
+
+msgid "Copying files"
+msgstr "Копіювання файлів"
+
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr "Копіювання файлів (%d%%)"
+
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr "Не вдалося скопіювати систему (rsync завершився з кодом %d)"
+
+msgid "Configuring the language"
+msgstr "Налаштування мови"
+
+msgid "Downloading language support"
+msgstr "Завантаження мовної підтримки"
+
+msgid "Installing the kernel"
+msgstr "Встановлення ядра"
+
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr "Не вдалося знайти запущене ядро (%s) на live-носії."
+
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr "У live-образі немає модулів для ядра %s."
+
+msgid "Configuring the system"
+msgstr "Налаштування системи"
+
+#, python-format
+msgid "Creating user %s"
+msgstr "Створення користувача %s"
+
+msgid "Removing live session packages"
+msgstr "Вилучення пакунків live-сеансу"
+
+msgid "Generating the initramfs"
+msgstr "Створення initramfs"
+
+msgid "Installing the boot loader"
+msgstr "Встановлення завантажувача"
+
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr "GRUB для %s не встановлено в live-образі."
+
+msgid "No boot loader was installed."
+msgstr "Завантажувач не встановлено."
+
+msgid "Writing the boot menu"
+msgstr "Запис меню завантаження"
+
+msgid "Ext4 journaling file system"
+msgstr "Журнальована файлова система ext4"
+
+msgid "Ext3 journaling file system"
+msgstr "Журнальована файлова система ext3"
+
+msgid "Ext2 file system"
+msgstr "Файлова система ext2"
+
+msgid "Btrfs file system"
+msgstr "Файлова система Btrfs"
+
+msgid "XFS file system"
+msgstr "Файлова система XFS"
+
+msgid "FAT32 file system"
+msgstr "Файлова система FAT32"
+
+msgid "Swap area"
+msgstr "Розділ підкачки"
+
+msgid "EFI system partition"
+msgstr "Системний розділ EFI"
+
+msgid "Reserved BIOS boot area"
+msgstr "Зарезервована область завантаження BIOS"
+
+msgid "Do not use the partition"
+msgstr "Не використовувати розділ"
+
+msgid "New partition"
+msgstr "Новий розділ"
+
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr "На диску MBR (msdos) може бути лише 4 основні розділи."
+
+msgid "The partition is too small."
+msgstr "Розділ замалий."
+
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr "Неприпустима точка монтування: %s"
+
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr "Точку монтування %s використано кілька разів."
+
+msgid "No root file system (/) is defined."
+msgstr "Не визначено кореневу файлову систему (/)."
+
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr "Коренева файлова система (/) не може використовувати %s."
+
+msgid "The root partition (/) must be formatted."
+msgstr "Кореневий розділ (/) потрібно відформатувати."
+
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr "Кореневий розділ замалий, йому потрібно щонайменше %s."
+
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr "Виберіть точку монтування для %s."
+
+msgid "Only one EFI system partition can be used."
+msgstr "Можна використати лише один системний розділ EFI."
+
+msgid "An EFI system partition is required to boot this computer."
+msgstr "Для запуску цього комп'ютера потрібен системний розділ EFI."
+
+msgid "Choose a device for the boot loader."
+msgstr "Виберіть пристрій для завантажувача."
+
+#, python-format
+msgid "%s has no partition table."
+msgstr "На %s немає таблиці розділів."
+
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr "%s використовує GPT, тому завантажувачу потрібна зарезервована область завантаження BIOS (1 МБ)."
+
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr "Таблицю розділів %(disk)s буде замінено (%(type)s)."
+
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr "Розділ %s буде видалено."
+
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr "Новий розділ розміром %(size)s на %(disk)s: %(use)s"
+
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr "%(part)s буде відформатовано як %(use)s."
+
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr "%(part)s буде змонтовано в %(mount)s."
+
+msgid "The new partition"
+msgstr "Новий розділ"
+
+#, python-format
+msgid "%s will be used as swap."
+msgstr "%s буде використано як розділ підкачки."
+
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr "Нові розділи не з'явилися: %s"
+
+#, python-format
+msgid "Partitioning %s"
+msgstr "Розмічання %s"
+
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr "Не вдалося знайти новий розділ за зміщенням %s на %s."
+
+#, python-format
+msgid "Formatting %s"
+msgstr "Форматування %s"

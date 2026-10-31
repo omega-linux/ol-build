@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-installer\n"
+"PO-Revision-Date: 2026-10-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Install {name}"
+msgstr "Instalacja systemu {name}"
+
+msgid "Welcome"
+msgstr "Witamy"
+
+msgid "This will install {name} {version} on your computer.\n\nMake sure you have backed up anything important before you continue."
+msgstr "Na komputerze zostanie zainstalowany system {name} {version}.\n\nPrzed kontynuowaniem wykonaj kopię zapasową wszystkich ważnych danych."
+
+msgid "Please wait while we get everything ready…"
+msgstr "Proszę czekać, trwa przygotowywanie…"
+
+msgid "Installation complete"
+msgstr "Instalacja zakończona"
+
+msgid "{name} has finished installing."
+msgstr "Instalacja systemu {name} została zakończona."
+
+msgid "Legacy BIOS"
+msgstr "Starszy BIOS"
+
+msgid "32-bit UEFI"
+msgstr "32-bitowy UEFI"
+
+msgid "64-bit UEFI"
+msgstr "64-bitowy UEFI"
+
+msgid "Search…"
+msgstr "Szukaj…"
+
+msgid "Back"
+msgstr "Wstecz"
+
+msgid "Continue"
+msgstr "Dalej"
+
+msgid "Install now"
+msgstr "Zainstaluj teraz"
+
+msgid "Restart now"
+msgstr "Uruchom ponownie"
+
+msgid "Language of the installed system"
+msgstr "Język instalowanego systemu"
+
+msgid "Download language support (needs an internet connection)"
+msgstr "Pobierz obsługę języka (wymaga połączenia z internetem)"
+
+#, python-format
+msgid "Firmware detected: %s"
+msgstr "Wykryte oprogramowanie układowe: %s"
+
+msgid "Choose your keyboard layout:"
+msgstr "Wybierz układ klawiatury:"
+
+msgid "Type here to test your keyboard"
+msgstr "Wpisz tutaj tekst, aby sprawdzić klawiaturę"
+
+msgid "Keyboard layout"
+msgstr "Układ klawiatury"
+
+#, python-format
+msgid "Erase disk and install %s"
+msgstr "Wymaż dysk i zainstaluj %s"
+
+msgid "Everything on the selected disk will be deleted."
+msgstr "Wszystkie dane na wybranym dysku zostaną usunięte."
+
+msgid "Something else"
+msgstr "Coś innego"
+
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr "Samodzielnie utwórz, usuń lub wybierz partycje albo wybierz kilka partycji."
+
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr "%(name)s wymaga co najmniej %(size)s miejsca na dysku."
+
+msgid "Installation type"
+msgstr "Typ instalacji"
+
+msgid "No disk available to install to."
+msgstr "Brak dysku, na którym można zainstalować system."
+
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr "Dysk %(disk)s jest za mały (potrzeba %(size)s)."
+
+msgid "Device"
+msgstr "Urządzenie"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Mount point"
+msgstr "Punkt montowania"
+
+msgid "Format?"
+msgstr "Formatować?"
+
+msgid "Size"
+msgstr "Rozmiar"
+
+msgid "Add a partition"
+msgstr "Dodaj partycję"
+
+msgid "Delete the partition"
+msgstr "Usuń partycję"
+
+msgid "Change…"
+msgstr "Zmień…"
+
+msgid "New Partition Table…"
+msgstr "Nowa tablica partycji…"
+
+msgid "Revert"
+msgstr "Przywróć"
+
+msgid "Open GParted"
+msgstr "Otwórz GParted"
+
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr "Zmień rozmiar lub przenieś partycje (oczekujące zmiany zostaną odrzucone)"
+
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr "Urządzenie do instalacji programu rozruchowego (starszy BIOS)"
+
+msgid "This computer started in Legacy BIOS mode."
+msgstr "Komputer został uruchomiony w trybie starszego BIOS-u."
+
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Komputer został uruchomiony w trybie 32-bitowego UEFI, więc potrzebna jest partycja systemowa EFI."
+
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Komputer został uruchomiony w trybie 64-bitowego UEFI, więc potrzebna jest partycja systemowa EFI."
+
+msgid "no partition table"
+msgstr "brak tablicy partycji"
+
+msgid "free space"
+msgstr "wolne miejsce"
+
+msgid "Extended partition"
+msgstr "Partycja rozszerzona"
+
+msgid "unknown"
+msgstr "nieznany"
+
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr "Nie instaluj programu rozruchowego dla starszego BIOS-u"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Use as:"
+msgstr "Użyj jako:"
+
+msgid "Mount point:"
+msgstr "Punkt montowania:"
+
+msgid "Create partition"
+msgstr "Utwórz partycję"
+
+msgid "Size (MB):"
+msgstr "Rozmiar (MB):"
+
+msgid "Beginning of this space"
+msgstr "Początek tego obszaru"
+
+msgid "End of this space"
+msgstr "Koniec tego obszaru"
+
+msgid "Location:"
+msgstr "Położenie:"
+
+msgid "Edit partition"
+msgstr "Edytuj partycję"
+
+msgid "Partition:"
+msgstr "Partycja:"
+
+msgid "Format the partition"
+msgstr "Sformatuj partycję"
+
+msgid "New partition table"
+msgstr "Nowa tablica partycji"
+
+#, python-format
+msgid "Create a new empty partition table on %s?\nAll partitions on this disk will be deleted."
+msgstr "Utworzyć nową pustą tablicę partycji na %s?\nWszystkie partycje na tym dysku zostaną usunięte."
+
+msgid "GPT (recommended)"
+msgstr "GPT (zalecane)"
+
+msgid "MBR / msdos (for very old computers)"
+msgstr "MBR / msdos (dla bardzo starych komputerów)"
+
+msgid "Type:"
+msgstr "Typ:"
+
+msgid "Your name"
+msgstr "Imię i nazwisko"
+
+msgid "Username"
+msgstr "Nazwa użytkownika"
+
+msgid "Computer name"
+msgstr "Nazwa komputera"
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Confirm password"
+msgstr "Potwierdź hasło"
+
+msgid "Time zone"
+msgstr "Strefa czasowa"
+
+msgid "This user will be an administrator (sudo)."
+msgstr "Ten użytkownik będzie administratorem (sudo)."
+
+msgid "Who are you?"
+msgstr "Kim jesteś?"
+
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr "Nazwa użytkownika musi zaczynać się małą literą i zawierać tylko a-z, 0-9, - oraz _."
+
+msgid "That username is reserved."
+msgstr "Ta nazwa użytkownika jest zarezerwowana."
+
+msgid "The computer name may only use letters, digits and -."
+msgstr "Nazwa komputera może zawierać tylko litery, cyfry i -."
+
+msgid "Choose a password."
+msgstr "Wybierz hasło."
+
+msgid "The passwords do not match."
+msgstr "Hasła nie są zgodne."
+
+msgid "Your name cannot contain \":\"."
+msgstr "Imię i nazwisko nie może zawierać „:”."
+
+msgid "The password cannot contain line breaks."
+msgstr "Hasło nie może zawierać znaków nowego wiersza."
+
+msgid "Choose a valid time zone."
+msgstr "Wybierz prawidłową strefę czasową."
+
+msgid "Ready to install"
+msgstr "Gotowe do instalacji"
+
+msgid "These changes will be written to the disks:"
+msgstr "Na dyskach zostaną zapisane następujące zmiany:"
+
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr "Program rozruchowy dla starszego BIOS-u zostanie zapisany na %s."
+
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr "Zostanie zainstalowany program rozruchowy UEFI (64- i 32-bitowy)."
+
+msgid "Settings:"
+msgstr "Ustawienia:"
+
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr "Użytkownik: %(name)s (%(user)s), administrator"
+
+#, python-format
+msgid "Computer name: %s"
+msgstr "Nazwa komputera: %s"
+
+#, python-format
+msgid "Language: %s"
+msgstr "Język: %s"
+
+#, python-format
+msgid "Keyboard: %s"
+msgstr "Klawiatura: %s"
+
+#, python-format
+msgid "Time zone: %s"
+msgstr "Strefa czasowa: %s"
+
+msgid "These changes cannot be undone."
+msgstr "Tych zmian nie można cofnąć."
+
+#, python-format
+msgid "Installing %s"
+msgstr "Instalowanie systemu %s"
+
+msgid "The installation failed"
+msgstr "Instalacja się nie powiodła"
+
+#, python-format
+msgid "The full log is in %s."
+msgstr "Pełny dziennik znajduje się w %s."
+
+msgid "Shut down"
+msgstr "Wyłącz"
+
+msgid "Keep using the live session"
+msgstr "Kontynuuj sesję live"
+
+msgid "Could not find the live system image."
+msgstr "Nie znaleziono obrazu systemu live."
+
+msgid "Preparing the disks"
+msgstr "Przygotowywanie dysków"
+
+msgid "Finishing"
+msgstr "Kończenie"
+
+msgid "Done"
+msgstr "Gotowe"
+
+msgid "Copying files"
+msgstr "Kopiowanie plików"
+
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr "Kopiowanie plików (%d%%)"
+
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr "Kopiowanie systemu się nie powiodło (rsync zakończył się kodem %d)"
+
+msgid "Configuring the language"
+msgstr "Konfigurowanie języka"
+
+msgid "Downloading language support"
+msgstr "Pobieranie obsługi języka"
+
+msgid "Installing the kernel"
+msgstr "Instalowanie jądra"
+
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr "Nie znaleziono działającego jądra (%s) na nośniku live."
+
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr "Obraz live nie zawiera modułów dla jądra %s."
+
+msgid "Configuring the system"
+msgstr "Konfigurowanie systemu"
+
+#, python-format
+msgid "Creating user %s"
+msgstr "Tworzenie użytkownika %s"
+
+msgid "Removing live session packages"
+msgstr "Usuwanie pakietów sesji live"
+
+msgid "Generating the initramfs"
+msgstr "Generowanie initramfs"
+
+msgid "Installing the boot loader"
+msgstr "Instalowanie programu rozruchowego"
+
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr "GRUB dla %s nie jest zainstalowany w obrazie live."
+
+msgid "No boot loader was installed."
+msgstr "Nie zainstalowano żadnego programu rozruchowego."
+
+msgid "Writing the boot menu"
+msgstr "Zapisywanie menu rozruchowego"
+
+msgid "Ext4 journaling file system"
+msgstr "System plików ext4 z kroniką"
+
+msgid "Ext3 journaling file system"
+msgstr "System plików ext3 z kroniką"
+
+msgid "Ext2 file system"
+msgstr "System plików ext2"
+
+msgid "Btrfs file system"
+msgstr "System plików Btrfs"
+
+msgid "XFS file system"
+msgstr "System plików XFS"
+
+msgid "FAT32 file system"
+msgstr "System plików FAT32"
+
+msgid "Swap area"
+msgstr "Obszar wymiany"
+
+msgid "EFI system partition"
+msgstr "Partycja systemowa EFI"
+
+msgid "Reserved BIOS boot area"
+msgstr "Zarezerwowany obszar rozruchowy BIOS"
+
+msgid "Do not use the partition"
+msgstr "Nie używaj tej partycji"
+
+msgid "New partition"
+msgstr "Nowa partycja"
+
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr "Dysk MBR (msdos) może mieć tylko 4 partycje podstawowe."
+
+msgid "The partition is too small."
+msgstr "Partycja jest za mała."
+
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr "Nieprawidłowy punkt montowania: %s"
+
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr "Punkt montowania %s jest użyty więcej niż raz."
+
+msgid "No root file system (/) is defined."
+msgstr "Nie określono głównego systemu plików (/)."
+
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr "Główny system plików (/) nie może używać %s."
+
+msgid "The root partition (/) must be formatted."
+msgstr "Partycja główna (/) musi zostać sformatowana."
+
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr "Partycja główna jest za mała, potrzebuje co najmniej %s."
+
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr "Wybierz punkt montowania dla %s."
+
+msgid "Only one EFI system partition can be used."
+msgstr "Można użyć tylko jednej partycji systemowej EFI."
+
+msgid "An EFI system partition is required to boot this computer."
+msgstr "Do uruchomienia tego komputera potrzebna jest partycja systemowa EFI."
+
+msgid "Choose a device for the boot loader."
+msgstr "Wybierz urządzenie dla programu rozruchowego."
+
+#, python-format
+msgid "%s has no partition table."
+msgstr "%s nie ma tablicy partycji."
+
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr "%s używa GPT, więc program rozruchowy wymaga zarezerwowanego obszaru rozruchowego BIOS (1 MB)."
+
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr "Tablica partycji %(disk)s zostanie zastąpiona (%(type)s)."
+
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr "Partycja %s zostanie usunięta."
+
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr "Nowa partycja o rozmiarze %(size)s na %(disk)s: %(use)s"
+
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr "%(part)s zostanie sformatowana jako %(use)s."
+
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr "%(part)s zostanie zamontowana w %(mount)s."
+
+msgid "The new partition"
+msgstr "Nowa partycja"
+
+#, python-format
+msgid "%s will be used as swap."
+msgstr "%s zostanie użyta jako obszar wymiany."
+
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr "Nowe partycje się nie pojawiły: %s"
+
+#, python-format
+msgid "Partitioning %s"
+msgstr "Partycjonowanie %s"
+
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr "Nie znaleziono nowej partycji w położeniu %s na %s."
+
+#, python-format
+msgid "Formatting %s"
+msgstr "Formatowanie %s"

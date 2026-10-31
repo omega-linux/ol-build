@@ -1,0 +1,10 @@
+#!/bin/sh
+app=/usr/lib/system-installer/main.py
+if [ "$(id -u)" -eq 0 ]; then
+    exec python3 "$app" "$@"
+fi
+[ -n "$XAUTHORITY" ] || export XAUTHORITY="$HOME/.Xauthority"
+if sudo -n true 2>/dev/null; then
+    exec sudo -n --preserve-env=DISPLAY,XAUTHORITY,WAYLAND_DISPLAY,XDG_RUNTIME_DIR,XDG_SESSION_TYPE python3 "$app" "$@"
+fi
+exec pkexec "$app" "$@"

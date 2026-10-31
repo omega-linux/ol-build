@@ -1,0 +1,13 @@
+PRETTY_NAME="OmegaLinux 4.0 Synapse"
+NAME="OmegaLinux"
+VERSION_ID="4.0"
+VERSION="4.0 Synapse"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://omega-linux.github.io/page/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo

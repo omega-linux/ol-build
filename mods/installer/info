@@ -1,0 +1,2 @@
+name: Installer
+description: graphical installer (GTK) with erase disk and manual partitioning, for BIOS, 32-bit and 64-bit UEFI; branding is in branding/branding.conf

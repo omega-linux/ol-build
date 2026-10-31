@@ -1,0 +1,935 @@
+# Portuguese translation for lxde-settings.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxde-settings 0.1.0\n"
+"PO-Revision-Date: 2026-10-19 21:00-0300\n"
+"Last-Translator: unsoil <spliteritoob@gmail.com>\n"
+"Language-Team: Portuguese\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lxde_settings/main.py:25 lxde_settings/main.py:112
+msgid "Settings"
+msgstr "Definições"
+
+#: lxde_settings/main.py:72
+msgid "This page could not be loaded."
+msgstr "Não foi possível carregar esta página."
+
+#: lxde_settings/main.py:84
+msgid "List the available pages and exit"
+msgstr "Listar as páginas disponíveis e sair"
+
+#: lxde_settings/main.py:86
+msgid "Apply the saved mouse settings and exit (used at login)"
+msgstr "Aplicar as definições do rato guardadas e sair (usado ao iniciar sessão)"
+
+#: lxde_settings/pages/about.py:42 lxde_settings/pages/about.py:96
+#: lxde_settings/pages/about.py:166 lxde_settings/pages/about.py:187
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: lxde_settings/pages/about.py:91
+#, python-format
+msgid "%d d %d h %d min"
+msgstr "%d d %d h %d min"
+
+#: lxde_settings/pages/about.py:92
+#, python-format
+msgid "%d h %d min"
+msgstr "%d h %d min"
+
+#: lxde_settings/pages/about.py:106
+msgid "About"
+msgstr "Acerca"
+
+#: lxde_settings/pages/about.py:133
+msgid "Device"
+msgstr "Dispositivo"
+
+#: lxde_settings/pages/about.py:135
+msgid "Rename…"
+msgstr "Mudar o nome…"
+
+#: lxde_settings/pages/about.py:140 lxde_settings/pages/about.py:203
+msgid "Device name"
+msgstr "Nome do dispositivo"
+
+#: lxde_settings/pages/about.py:146
+msgid "Desktop computer"
+msgstr "Computador de secretária"
+
+#: lxde_settings/pages/about.py:146
+msgid "Laptop"
+msgstr "Portátil"
+
+#: lxde_settings/pages/about.py:146
+msgid "Convertible"
+msgstr "Convertível"
+
+#: lxde_settings/pages/about.py:147
+msgid "Server"
+msgstr "Servidor"
+
+#: lxde_settings/pages/about.py:147
+msgid "Tablet"
+msgstr "Tablet"
+
+#: lxde_settings/pages/about.py:147
+msgid "Phone"
+msgstr "Telemóvel"
+
+#: lxde_settings/pages/about.py:148
+msgid "Virtual machine"
+msgstr "Máquina virtual"
+
+#: lxde_settings/pages/about.py:148
+msgid "Container"
+msgstr "Contentor"
+
+#: lxde_settings/pages/about.py:148
+msgid "Embedded device"
+msgstr "Dispositivo embutido"
+
+#: lxde_settings/pages/about.py:149
+msgid "Chassis"
+msgstr "Chassis"
+
+#: lxde_settings/pages/about.py:153
+msgid "Hardware model"
+msgstr "Modelo de hardware"
+
+#: lxde_settings/pages/about.py:156
+msgid "Device specifications"
+msgstr "Especificações do dispositivo"
+
+#: lxde_settings/pages/about.py:163
+msgid "Processor"
+msgstr "Processador"
+
+#: lxde_settings/pages/about.py:164
+msgid "Memory"
+msgstr "Memória"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics"
+msgstr "Gráficos"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics cards"
+msgstr "Placas gráficas"
+
+#: lxde_settings/pages/about.py:169
+#, python-format
+msgid "%(used)s used of %(total)s"
+msgstr "%(used)s utilizados de %(total)s"
+
+#: lxde_settings/pages/about.py:175 lxde_settings/pages/about.py:176
+msgid "Disk (system)"
+msgstr "Disco (sistema)"
+
+#: lxde_settings/pages/about.py:177
+msgid "System type"
+msgstr "Tipo de sistema"
+
+#: lxde_settings/pages/about.py:177
+#, python-format
+msgid "%s-bit operating system, %s"
+msgstr "Sistema operativo de %s bits, %s"
+
+#: lxde_settings/pages/about.py:181
+msgid "Software"
+msgstr "Software"
+
+#: lxde_settings/pages/about.py:182
+msgid "Operating system"
+msgstr "Sistema operativo"
+
+#: lxde_settings/pages/about.py:184
+msgid "Kernel"
+msgstr "Kernel"
+
+#: lxde_settings/pages/about.py:185
+msgid "Desktop"
+msgstr "Ambiente de trabalho"
+
+#: lxde_settings/pages/about.py:187
+msgid "Windowing system"
+msgstr "Sistema de janelas"
+
+#: lxde_settings/pages/about.py:188
+msgid "GTK version"
+msgstr "Versão do GTK"
+
+#: lxde_settings/pages/about.py:190
+msgid "Uptime"
+msgstr "Tempo ligado"
+
+#: lxde_settings/pages/about.py:192
+msgid "Copy"
+msgstr "Copiar"
+
+#: lxde_settings/pages/about.py:193
+msgid "Copy the system information to the clipboard"
+msgstr "Copiar as informações do sistema para a área de transferência"
+
+#: lxde_settings/pages/about.py:209
+msgid "The hostname service is not available"
+msgstr "O serviço de nome do computador não está disponível"
+
+#: lxde_settings/pages/about.py:211
+msgid "Rename device"
+msgstr "Mudar o nome do dispositivo"
+
+#: lxde_settings/pages/about.py:212 lxde_settings/pages/datetime.py:158
+#: lxde_settings/pages/region.py:174 lxde_settings/pages/region.py:368
+#: lxde_settings/pages/users.py:182 lxde_settings/pages/users.py:207
+#: lxde_settings/pages/users.py:268 lxde_settings/util.py:135
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: lxde_settings/pages/about.py:212
+msgid "_Rename"
+msgstr "_Mudar o nome"
+
+#: lxde_settings/pages/about.py:217
+msgid "The name may contain letters, numbers and hyphens."
+msgstr "O nome pode conter letras, números e hífenes."
+
+#: lxde_settings/pages/appearance.py:73
+msgid "Appearance"
+msgstr "Aparência"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Style"
+msgstr "Estilo"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Changes apply immediately to all GTK applications."
+msgstr "As alterações são aplicadas de imediato a todas as aplicações GTK."
+
+#: lxde_settings/pages/appearance.py:85
+msgid "Applications theme"
+msgstr "Tema das aplicações"
+
+#: lxde_settings/pages/appearance.py:88
+msgid "Icons"
+msgstr "Ícones"
+
+#: lxde_settings/pages/appearance.py:90
+msgid "Cursor"
+msgstr "Cursor"
+
+#: lxde_settings/pages/appearance.py:98
+msgid "Cursor size"
+msgstr "Tamanho do cursor"
+
+#: lxde_settings/pages/appearance.py:99
+msgid "Applications that were already open keep their cursor until restarted"
+msgstr "As aplicações já abertas mantêm o cursor até serem reiniciadas"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Window borders"
+msgstr "Margens das janelas"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Openbox title bars and frames"
+msgstr "Barras de título e molduras do Openbox"
+
+#: lxde_settings/pages/appearance.py:114
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+#: lxde_settings/pages/appearance.py:117
+msgid "Default font"
+msgstr "Tipo de letra predefinido"
+
+#: lxde_settings/pages/appearance.py:120
+msgid "Antialiasing"
+msgstr "Suavização"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "None"
+msgstr "Nenhuma"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "Slight"
+msgstr "Ligeira"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Medium"
+msgstr "Média"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Full"
+msgstr "Completa"
+
+#: lxde_settings/pages/appearance.py:127
+msgid "Hinting"
+msgstr "Hinting"
+
+#: lxde_settings/pages/appearance.py:129
+msgid "Grayscale"
+msgstr "Tons de cinzento"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical RGB"
+msgstr "RGB vertical"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical BGR"
+msgstr "BGR vertical"
+
+#: lxde_settings/pages/appearance.py:134
+msgid "Subpixel order"
+msgstr "Ordem dos subpíxeis"
+
+#: lxde_settings/pages/appearance.py:136
+msgid "More"
+msgstr "Mais"
+
+#: lxde_settings/pages/appearance.py:137
+msgid "Desktop background"
+msgstr "Fundo do ambiente de trabalho"
+
+#: lxde_settings/pages/appearance.py:138
+msgid "Wallpaper and desktop icons"
+msgstr "Imagem de fundo e ícones do ambiente de trabalho"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel"
+msgstr "Painel"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel size, position and applets"
+msgstr "Tamanho, posição e applets do painel"
+
+#: lxde_settings/pages/appearance.py:143
+msgid ""
+"lxsession is not running: settings are saved but may need a restart of the "
+"applications to take effect."
+msgstr "O lxsession não está em execução: as definições são guardadas, mas pode ser necessário reiniciar as aplicações para terem efeito."
+
+#: lxde_settings/pages/appearance.py:167 lxde_settings/pages/appearance.py:221
+#: lxde_settings/pages/input.py:146
+msgid "Could not save the settings"
+msgstr "Não foi possível guardar as definições"
+
+#: lxde_settings/pages/appearance.py:193
+msgid "Open"
+msgstr "Abrir"
+
+#: lxde_settings/pages/appearance.py:198
+#, python-format
+msgid "Install %s to use this"
+msgstr "Instale %s para usar isto"
+
+#: lxde_settings/pages/datetime.py:19
+msgid "Other"
+msgstr "Outros"
+
+#: lxde_settings/pages/datetime.py:28
+msgid "Date & Time"
+msgstr "Data e hora"
+
+#: lxde_settings/pages/datetime.py:40
+msgid "Date and time"
+msgstr "Data e hora"
+
+#: lxde_settings/pages/datetime.py:43
+msgid "Set the time automatically"
+msgstr "Definir a hora automaticamente"
+
+#: lxde_settings/pages/datetime.py:44 lxde_settings/pages/users.py:164
+msgid "Change…"
+msgstr "Alterar…"
+
+#: lxde_settings/pages/datetime.py:46
+msgid "Set the date and time manually"
+msgstr "Definir a data e a hora manualmente"
+
+#: lxde_settings/pages/datetime.py:48 lxde_settings/pages/datetime.py:56
+msgid "Time zone"
+msgstr "Fuso horário"
+
+#: lxde_settings/pages/datetime.py:60
+msgid "Hardware clock uses local time"
+msgstr "O relógio do hardware usa a hora local"
+
+#: lxde_settings/pages/datetime.py:61
+msgid ""
+"Only enable this when Windows is installed on the same computer and keeps "
+"its clock in local time"
+msgstr "Ative apenas se o Windows estiver instalado no mesmo computador e mantiver o relógio na hora local"
+
+#: lxde_settings/pages/datetime.py:66
+msgid "The time and date service (systemd-timedated) is not available."
+msgstr "O serviço de data e hora (systemd-timedated) não está disponível."
+
+#: lxde_settings/pages/datetime.py:104
+msgid "No network time service is installed"
+msgstr "Não está instalado nenhum serviço de hora de rede"
+
+#: lxde_settings/pages/datetime.py:106
+msgid "Synchronized with a time server"
+msgstr "Sincronizado com um servidor de hora"
+
+#: lxde_settings/pages/datetime.py:107
+msgid "Waiting for a time server…"
+msgstr "A aguardar um servidor de hora…"
+
+#: lxde_settings/pages/datetime.py:109
+msgid "Off"
+msgstr "Desligado"
+
+#: lxde_settings/pages/datetime.py:157
+msgid "Set date and time"
+msgstr "Definir data e hora"
+
+#: lxde_settings/pages/datetime.py:158
+msgid "_Set"
+msgstr "_Definir"
+
+#: lxde_settings/pages/display.py:16
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: lxde_settings/pages/display.py:17
+msgid "Portrait (left)"
+msgstr "Vertical (esquerda)"
+
+#: lxde_settings/pages/display.py:18
+msgid "Portrait (right)"
+msgstr "Vertical (direita)"
+
+#: lxde_settings/pages/display.py:19
+msgid "Landscape (flipped)"
+msgstr "Horizontal (invertida)"
+
+#: lxde_settings/pages/display.py:126
+msgid "Use this display"
+msgstr "Usar este ecrã"
+
+#: lxde_settings/pages/display.py:131
+msgid "Make this my main display"
+msgstr "Tornar este o ecrã principal"
+
+#: lxde_settings/pages/display.py:137
+#, python-format
+msgid "%s (recommended)"
+msgstr "%s (recomendada)"
+
+#: lxde_settings/pages/display.py:141
+msgid "Resolution"
+msgstr "Resolução"
+
+#: lxde_settings/pages/display.py:145
+msgid "Refresh rate"
+msgstr "Taxa de atualização"
+
+#: lxde_settings/pages/display.py:153
+msgid "Orientation"
+msgstr "Orientação"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Right of %s"
+msgstr "À direita de %s"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Left of %s"
+msgstr "À esquerda de %s"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Above %s"
+msgstr "Acima de %s"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Below %s"
+msgstr "Abaixo de %s"
+
+#: lxde_settings/pages/display.py:161
+#, python-format
+msgid "Mirror %s"
+msgstr "Espelhar %s"
+
+#: lxde_settings/pages/display.py:165
+msgid "Position"
+msgstr "Posição"
+
+#: lxde_settings/pages/display.py:218
+msgid "Display"
+msgstr "Ecrã"
+
+#: lxde_settings/pages/display.py:226
+msgid "Detect displays"
+msgstr "Detetar ecrãs"
+
+#: lxde_settings/pages/display.py:228 lxde_settings/pages/region.py:122
+#: lxde_settings/pages/region.py:284
+msgid "Apply"
+msgstr "Aplicar"
+
+#: lxde_settings/pages/display.py:237
+msgid "xrandr is not installed."
+msgstr "O xrandr não está instalado."
+
+#: lxde_settings/pages/display.py:249
+msgid "No displays were detected."
+msgstr "Não foi detetado nenhum ecrã."
+
+#: lxde_settings/pages/display.py:274
+msgid "At least one display must stay on."
+msgstr "Pelo menos um ecrã tem de permanecer ligado."
+
+#: lxde_settings/pages/display.py:280
+msgid "The display settings could not be applied"
+msgstr "Não foi possível aplicar as definições do ecrã"
+
+#: lxde_settings/pages/display.py:293
+msgid "Keep these display settings?"
+msgstr "Manter estas definições do ecrã?"
+
+#: lxde_settings/pages/display.py:294
+msgid "_Revert"
+msgstr "_Reverter"
+
+#: lxde_settings/pages/display.py:295
+msgid "_Keep changes"
+msgstr "_Manter alterações"
+
+#: lxde_settings/pages/display.py:300
+#, python-format
+msgid "Reverting to the previous settings in %d seconds."
+msgstr "A regressar às definições anteriores dentro de %d segundos."
+
+#: lxde_settings/pages/input.py:55
+msgid "Mouse & Keyboard"
+msgstr "Rato e teclado"
+
+#: lxde_settings/pages/input.py:65
+msgid "Mouse and touchpad"
+msgstr "Rato e touchpad"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Slow"
+msgstr "Lenta"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Fast"
+msgstr "Rápida"
+
+#: lxde_settings/pages/input.py:69 lxde_settings/pages/input.py:78
+msgid "Pointer speed"
+msgstr "Velocidade do ponteiro"
+
+#: lxde_settings/pages/input.py:72
+msgid "Mouse acceleration"
+msgstr "Aceleração do rato"
+
+#: lxde_settings/pages/input.py:73
+msgid "The pointer moves farther when you move the mouse faster"
+msgstr "O ponteiro desloca-se mais quando move o rato mais depressa"
+
+#: lxde_settings/pages/input.py:79
+msgid "Low"
+msgstr "Baixo"
+
+#: lxde_settings/pages/input.py:79
+msgid "High"
+msgstr "Alto"
+
+#: lxde_settings/pages/input.py:80
+msgid "Acceleration threshold"
+msgstr "Limiar de aceleração"
+
+#: lxde_settings/pages/input.py:81
+msgid "How far the pointer moves before it accelerates"
+msgstr "Quanto o ponteiro se move antes de acelerar"
+
+#: lxde_settings/pages/input.py:84
+msgid "Left-handed mouse"
+msgstr "Rato para canhotos"
+
+#: lxde_settings/pages/input.py:84
+msgid "Swap the left and right buttons"
+msgstr "Trocar os botões esquerdo e direito"
+
+#: lxde_settings/pages/input.py:86 lxde_settings/pages/region.py:267
+msgid "Keyboard"
+msgstr "Teclado"
+
+#: lxde_settings/pages/input.py:87
+msgid "Short"
+msgstr "Curto"
+
+#: lxde_settings/pages/input.py:87
+msgid "Long"
+msgstr "Longo"
+
+#: lxde_settings/pages/input.py:88
+msgid "Repeat delay"
+msgstr "Atraso de repetição"
+
+#: lxde_settings/pages/input.py:91
+msgid "Repeat speed"
+msgstr "Velocidade de repetição"
+
+#: lxde_settings/pages/input.py:94
+msgid "Keyboard beep"
+msgstr "Sinal sonoro do teclado"
+
+#: lxde_settings/pages/input.py:95
+msgid "Type here to test the repeat settings"
+msgstr "Escreva aqui para testar a repetição"
+
+#: lxde_settings/pages/input.py:97
+msgid "Keyboard layouts…"
+msgstr "Esquemas de teclado…"
+
+#: lxde_settings/pages/region.py:85
+msgid "Region & Language"
+msgstr "Região e idioma"
+
+#: lxde_settings/pages/region.py:94
+msgid "The locale service (systemd-localed) is not available."
+msgstr "O serviço de localização (systemd-localed) não está disponível."
+
+#: lxde_settings/pages/region.py:111
+msgid "Language"
+msgstr "Idioma"
+
+#: lxde_settings/pages/region.py:112
+msgid ""
+"Changes take effect the next time you log in. Use “Add languages” to install "
+"a language that is not in the list yet."
+msgstr "As alterações terão efeito no próximo início de sessão. Use «Adicionar idiomas» para instalar um idioma que ainda não está na lista."
+
+#: lxde_settings/pages/region.py:119
+msgid "Display language"
+msgstr "Idioma da interface"
+
+#: lxde_settings/pages/region.py:119
+msgid "Menus, windows and messages"
+msgstr "Menus, janelas e mensagens"
+
+#: lxde_settings/pages/region.py:120
+msgid "Formats"
+msgstr "Formatos"
+
+#: lxde_settings/pages/region.py:120
+msgid "Dates, times, numbers and currency"
+msgstr "Datas, horas, números e moeda"
+
+#: lxde_settings/pages/region.py:127
+msgid "Add languages…"
+msgstr "Adicionar idiomas…"
+
+#: lxde_settings/pages/region.py:148
+msgid "Same as the display language"
+msgstr "Igual ao idioma da interface"
+
+#: lxde_settings/pages/region.py:169
+msgid "The list of available languages could not be read"
+msgstr "Não foi possível ler a lista de idiomas disponíveis"
+
+#: lxde_settings/pages/region.py:172
+msgid "Add languages"
+msgstr "Adicionar idiomas"
+
+#: lxde_settings/pages/region.py:174
+msgid "_Install"
+msgstr "_Instalar"
+
+#: lxde_settings/pages/region.py:178
+msgid "Select the languages to install. Generating them can take a minute."
+msgstr "Selecione os idiomas a instalar. A geração pode demorar um minuto."
+
+#: lxde_settings/pages/region.py:180
+msgid "Search languages"
+msgstr "Procurar idiomas"
+
+#: lxde_settings/pages/region.py:210
+msgid "Generating languages…"
+msgstr "A gerar idiomas…"
+
+#: lxde_settings/pages/region.py:255
+msgid "Language settings saved"
+msgstr "Definições de idioma guardadas"
+
+#: lxde_settings/pages/region.py:256
+msgid "Log out and back in to use the new settings."
+msgstr "Termine a sessão e volte a entrar para usar as novas definições."
+
+#: lxde_settings/pages/region.py:268
+msgid ""
+"The first layout is the default. The layouts are applied to this session and "
+"saved as the system-wide default."
+msgstr "O primeiro esquema é o predefinido. Os esquemas são aplicados a esta sessão e guardados como predefinição de todo o sistema."
+
+#: lxde_settings/pages/region.py:274
+msgid "Add a layout…"
+msgstr "Adicionar um esquema…"
+
+#: lxde_settings/pages/region.py:277
+msgid "Not set"
+msgstr "Não definido"
+
+#: lxde_settings/pages/region.py:282
+msgid "Switch layouts with"
+msgstr "Alternar esquemas com"
+
+#: lxde_settings/pages/region.py:292
+msgid "Test the keyboard"
+msgstr "Testar o teclado"
+
+#: lxde_settings/pages/region.py:293
+msgid "Type here to test the layout"
+msgstr "Escreva aqui para testar o esquema"
+
+#: lxde_settings/pages/region.py:335
+msgid "Move up"
+msgstr "Mover para cima"
+
+#: lxde_settings/pages/region.py:336
+msgid "Move down"
+msgstr "Mover para baixo"
+
+#: lxde_settings/pages/region.py:337
+msgid "Remove"
+msgstr "Remover"
+
+#: lxde_settings/pages/region.py:366
+msgid "Add a keyboard layout"
+msgstr "Adicionar um esquema de teclado"
+
+#: lxde_settings/pages/region.py:368 lxde_settings/pages/users.py:207
+msgid "_Add"
+msgstr "_Adicionar"
+
+#: lxde_settings/pages/region.py:372
+msgid "Search layouts"
+msgstr "Procurar esquemas"
+
+#: lxde_settings/pages/sound.py:37
+msgid "Connector"
+msgstr "Conector"
+
+#: lxde_settings/pages/sound.py:41
+msgid "Mute"
+msgstr "Silenciar"
+
+#: lxde_settings/pages/sound.py:74
+msgid "No devices found"
+msgstr "Não foram encontrados dispositivos"
+
+#: lxde_settings/pages/sound.py:83
+#, python-format
+msgid "%s (unplugged)"
+msgstr "%s (desligado)"
+
+#: lxde_settings/pages/sound.py:125
+msgid "Sound"
+msgstr "Som"
+
+#: lxde_settings/pages/sound.py:133
+msgid "Connecting to the sound server…"
+msgstr "A ligar ao servidor de som…"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Output"
+msgstr "Saída"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Choose your output device"
+msgstr "Escolha o dispositivo de saída"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Master volume"
+msgstr "Volume geral"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input"
+msgstr "Entrada"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Choose your input device"
+msgstr "Escolha o dispositivo de entrada"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input volume"
+msgstr "Volume de entrada"
+
+#: lxde_settings/pages/sound.py:142
+msgid "Advanced"
+msgstr "Avançado"
+
+#: lxde_settings/pages/sound.py:144
+msgid "Open volume mixer"
+msgstr "Abrir o misturador de volume"
+
+#: lxde_settings/pages/sound.py:146 lxde_settings/pages/sound.py:149
+msgid "App volume and device preferences"
+msgstr "Volume e dispositivo por aplicação"
+
+#: lxde_settings/pages/sound.py:147
+msgid "Set the volume and device of each application"
+msgstr "Ajuste o volume e o dispositivo de cada aplicação"
+
+#: lxde_settings/pages/sound.py:150
+msgid "Install pavucontrol to adjust each application separately"
+msgstr "Instale o pavucontrol para ajustar cada aplicação em separado"
+
+#: lxde_settings/pages/sound.py:162
+msgid "Not connected to the sound server. Retrying…"
+msgstr "Sem ligação ao servidor de som. A tentar novamente…"
+
+#: lxde_settings/pages/sound.py:168
+#, python-format
+msgid "Sound server: %s"
+msgstr "Servidor de som: %s"
+
+#: lxde_settings/pages/users.py:56 lxde_settings/pages/users.py:166
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: lxde_settings/pages/users.py:58
+msgid "Confirm password"
+msgstr "Confirmar palavra-passe"
+
+#: lxde_settings/pages/users.py:73
+msgid "Users"
+msgstr "Utilizadores"
+
+#: lxde_settings/pages/users.py:81
+msgid "Accounts"
+msgstr "Contas"
+
+#: lxde_settings/pages/users.py:84
+msgid "Add a user…"
+msgstr "Adicionar um utilizador…"
+
+#: lxde_settings/pages/users.py:91
+msgid "Changes to accounts require administrator authentication."
+msgstr "As alterações às contas exigem autenticação de administrador."
+
+#: lxde_settings/pages/users.py:109
+#, python-format
+msgid "%s (you)"
+msgstr "%s (você)"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:155
+#: lxde_settings/pages/users.py:214
+msgid "Administrator"
+msgstr "Administrador"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:154
+#: lxde_settings/pages/users.py:213
+msgid "Standard"
+msgstr "Padrão"
+
+#: lxde_settings/pages/users.py:139
+#, python-format
+msgid "Account settings — %s"
+msgstr "Definições da conta — %s"
+
+#: lxde_settings/pages/users.py:143
+msgid "Change"
+msgstr "Alterar"
+
+#: lxde_settings/pages/users.py:151 lxde_settings/pages/users.py:216
+msgid "Full name"
+msgstr "Nome completo"
+
+#: lxde_settings/pages/users.py:160 lxde_settings/pages/users.py:217
+msgid "Account type"
+msgstr "Tipo de conta"
+
+#: lxde_settings/pages/users.py:161
+msgid "Administrators can install software and change system settings"
+msgstr "Os administradores podem instalar software e alterar as definições do sistema"
+
+#: lxde_settings/pages/users.py:162
+msgid "You cannot change the type of your own account"
+msgstr "Não pode alterar o tipo da sua própria conta"
+
+#: lxde_settings/pages/users.py:169
+msgid "Remove user…"
+msgstr "Remover utilizador…"
+
+#: lxde_settings/pages/users.py:172
+msgid "Remove this account"
+msgstr "Remover esta conta"
+
+#: lxde_settings/pages/users.py:181
+#, python-format
+msgid "Change password for %s"
+msgstr "Alterar a palavra-passe de %s"
+
+#: lxde_settings/pages/users.py:182
+msgid "_Change"
+msgstr "_Alterar"
+
+#: lxde_settings/pages/users.py:195
+msgid "The passwords do not match"
+msgstr "As palavras-passe não coincidem"
+
+#: lxde_settings/pages/users.py:206
+msgid "Add a user"
+msgstr "Adicionar um utilizador"
+
+#: lxde_settings/pages/users.py:216
+msgid "User name"
+msgstr "Nome de utilizador"
+
+#: lxde_settings/pages/users.py:221
+msgid "Leave the password empty to set it later."
+msgstr "Deixe a palavra-passe vazia para a definir mais tarde."
+
+#: lxde_settings/pages/users.py:265
+#, python-format
+msgid "Remove the account of %s?"
+msgstr "Remover a conta de %s?"
+
+#: lxde_settings/pages/users.py:266
+#, python-format
+msgid ""
+"You can keep the user's home folder (%s) or delete it with all of its files."
+msgstr "Pode manter a pasta pessoal do utilizador (%s) ou eliminá-la com todos os seus ficheiros."
+
+#: lxde_settings/pages/users.py:269
+msgid "_Keep files"
+msgstr "_Manter ficheiros"
+
+#: lxde_settings/pages/users.py:270
+msgid "_Delete files"
+msgstr "_Eliminar ficheiros"
+
+#: lxde_settings/util.py:57
+#, python-format
+msgid "Could not start %s"
+msgstr "Não foi possível iniciar %s"
+
+#: lxde_settings/util.py:69
+msgid "Not authorized"
+msgstr "Não autorizado"
+
+#: lxde_settings/util.py:69
+msgid "Authentication failed or was refused."
+msgstr "A autenticação falhou ou foi recusada."
+
+#: lxde_settings/util.py:71
+msgid "The operation failed"
+msgstr "A operação falhou"
+
+#: lxde_settings/util.py:114
+msgid "Could not apply the change"
+msgstr "Não foi possível aplicar a alteração"

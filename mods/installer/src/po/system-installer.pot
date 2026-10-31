@@ -1,0 +1,678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-30 20:54-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:62
+#, python-brace-format
+msgid "Install {name}"
+msgstr ""
+
+#: main.py:63
+msgid "Welcome"
+msgstr ""
+
+#: main.py:64
+#, python-brace-format
+msgid ""
+"This will install {name} {version} on your computer.\n"
+"\n"
+"Make sure you have backed up anything important before you continue."
+msgstr ""
+
+#: main.py:66
+msgid "Please wait while we get everything ready…"
+msgstr ""
+
+#: main.py:67
+msgid "Installation complete"
+msgstr ""
+
+#: main.py:68
+#, python-brace-format
+msgid "{name} has finished installing."
+msgstr ""
+
+#: main.py:137
+msgid "Legacy BIOS"
+msgstr ""
+
+#: main.py:137
+msgid "32-bit UEFI"
+msgstr ""
+
+#: main.py:137
+msgid "64-bit UEFI"
+msgstr ""
+
+#: main.py:215 main.py:518
+msgid "Search…"
+msgstr ""
+
+#: main.py:393
+msgid "Back"
+msgstr ""
+
+#: main.py:395 main.py:422
+msgid "Continue"
+msgstr ""
+
+#: main.py:422
+msgid "Install now"
+msgstr ""
+
+#: main.py:422
+msgid "Restart now"
+msgstr ""
+
+#: main.py:476
+msgid "Language of the installed system"
+msgstr ""
+
+#: main.py:478
+msgid "Download language support (needs an internet connection)"
+msgstr ""
+
+#: main.py:483
+#, python-format
+msgid "Firmware detected: %s"
+msgstr ""
+
+#: main.py:509
+msgid "Choose your keyboard layout:"
+msgstr ""
+
+#: main.py:539
+msgid "Type here to test your keyboard"
+msgstr ""
+
+#: main.py:543
+msgid "Keyboard layout"
+msgstr ""
+
+#: main.py:628
+#, python-format
+msgid "Erase disk and install %s"
+msgstr ""
+
+#: main.py:634
+msgid "Everything on the selected disk will be deleted."
+msgstr ""
+
+#: main.py:637
+msgid "Something else"
+msgstr ""
+
+#: main.py:639
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr ""
+
+#: main.py:647
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr ""
+
+#: main.py:649 main.py:734
+msgid "Installation type"
+msgstr ""
+
+#: main.py:668
+msgid "No disk available to install to."
+msgstr ""
+
+#: main.py:672
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr ""
+
+#: main.py:686
+msgid "Device"
+msgstr ""
+
+#: main.py:686
+msgid "Type"
+msgstr ""
+
+#: main.py:686
+msgid "Mount point"
+msgstr ""
+
+#: main.py:694
+msgid "Format?"
+msgstr ""
+
+#: main.py:695
+msgid "Size"
+msgstr ""
+
+#: main.py:702
+msgid "Add a partition"
+msgstr ""
+
+#: main.py:704
+msgid "Delete the partition"
+msgstr ""
+
+#: main.py:705
+msgid "Change…"
+msgstr ""
+
+#: main.py:706
+msgid "New Partition Table…"
+msgstr ""
+
+#: main.py:707
+msgid "Revert"
+msgstr ""
+
+#: main.py:718
+msgid "Open GParted"
+msgstr ""
+
+#: main.py:719
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr ""
+
+#: main.py:727
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr ""
+
+#: main.py:730
+msgid "This computer started in Legacy BIOS mode."
+msgstr ""
+
+#: main.py:731
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr ""
+
+#: main.py:732
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr ""
+
+#: main.py:763
+msgid "no partition table"
+msgstr ""
+
+#: main.py:770
+msgid "free space"
+msgstr ""
+
+#: main.py:776
+msgid "Extended partition"
+msgstr ""
+
+#: main.py:778
+msgid "unknown"
+msgstr ""
+
+#: main.py:794
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr ""
+
+#: main.py:830
+msgid "Cancel"
+msgstr ""
+
+#: main.py:831
+msgid "OK"
+msgstr ""
+
+#: main.py:862
+msgid "Use as:"
+msgstr ""
+
+#: main.py:864
+msgid "Mount point:"
+msgstr ""
+
+#: main.py:872
+msgid "Create partition"
+msgstr ""
+
+#: main.py:876
+msgid "Size (MB):"
+msgstr ""
+
+#: main.py:878
+msgid "Beginning of this space"
+msgstr ""
+
+#: main.py:879
+msgid "End of this space"
+msgstr ""
+
+#: main.py:883
+msgid "Location:"
+msgstr ""
+
+#: main.py:906
+msgid "Edit partition"
+msgstr ""
+
+#: main.py:907
+msgid "Partition:"
+msgstr ""
+
+#: main.py:914
+msgid "Format the partition"
+msgstr ""
+
+#: main.py:949
+msgid "New partition table"
+msgstr ""
+
+#: main.py:950
+#, python-format
+msgid ""
+"Create a new empty partition table on %s?\n"
+"All partitions on this disk will be deleted."
+msgstr ""
+
+#: main.py:953
+msgid "GPT (recommended)"
+msgstr ""
+
+#: main.py:954
+msgid "MBR / msdos (for very old computers)"
+msgstr ""
+
+#: main.py:956
+msgid "Type:"
+msgstr ""
+
+#: main.py:1003
+msgid "Your name"
+msgstr ""
+
+#: main.py:1003
+msgid "Username"
+msgstr ""
+
+#: main.py:1004
+msgid "Computer name"
+msgstr ""
+
+#: main.py:1004
+msgid "Password"
+msgstr ""
+
+#: main.py:1005
+msgid "Confirm password"
+msgstr ""
+
+#: main.py:1005
+msgid "Time zone"
+msgstr ""
+
+#: main.py:1010
+msgid "This user will be an administrator (sudo)."
+msgstr ""
+
+#: main.py:1011
+msgid "Who are you?"
+msgstr ""
+
+#: main.py:1030
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr ""
+
+#: main.py:1032
+msgid "That username is reserved."
+msgstr ""
+
+#: main.py:1034
+msgid "The computer name may only use letters, digits and -."
+msgstr ""
+
+#: main.py:1036
+msgid "Choose a password."
+msgstr ""
+
+#: main.py:1038
+msgid "The passwords do not match."
+msgstr ""
+
+#: main.py:1040
+msgid "Your name cannot contain \":\"."
+msgstr ""
+
+#: main.py:1042
+msgid "The password cannot contain line breaks."
+msgstr ""
+
+#: main.py:1044
+msgid "Choose a valid time zone."
+msgstr ""
+
+#: main.py:1058
+msgid "Ready to install"
+msgstr ""
+
+#: main.py:1063
+msgid "These changes will be written to the disks:"
+msgstr ""
+
+#: main.py:1066
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr ""
+
+#: main.py:1068
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr ""
+
+#: main.py:1073
+msgid "Settings:"
+msgstr ""
+
+#: main.py:1074
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr ""
+
+#: main.py:1076
+#, python-format
+msgid "Computer name: %s"
+msgstr ""
+
+#: main.py:1077
+#, python-format
+msgid "Language: %s"
+msgstr ""
+
+#: main.py:1078
+#, python-format
+msgid "Keyboard: %s"
+msgstr ""
+
+#: main.py:1079
+#, python-format
+msgid "Time zone: %s"
+msgstr ""
+
+#: main.py:1080
+msgid "These changes cannot be undone."
+msgstr ""
+
+#: main.py:1105
+#, python-format
+msgid "Installing %s"
+msgstr ""
+
+#: main.py:1129
+msgid "The installation failed"
+msgstr ""
+
+#: main.py:1130
+#, python-format
+msgid "The full log is in %s."
+msgstr ""
+
+#: main.py:1146
+msgid "Shut down"
+msgstr ""
+
+#: main.py:1148
+msgid "Keep using the live session"
+msgstr ""
+
+#: backend.py:68
+msgid "Could not find the live system image."
+msgstr ""
+
+#: backend.py:71
+msgid "Preparing the disks"
+msgstr ""
+
+#: backend.py:78
+msgid "Finishing"
+msgstr ""
+
+#: backend.py:86
+msgid "Done"
+msgstr ""
+
+#: backend.py:109
+msgid "Copying files"
+msgstr ""
+
+#: backend.py:134
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr ""
+
+#: backend.py:140
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr ""
+
+#: backend.py:199
+msgid "Configuring the language"
+msgstr ""
+
+#: backend.py:226
+msgid "Downloading language support"
+msgstr ""
+
+#: backend.py:268
+msgid "Installing the kernel"
+msgstr ""
+
+#: backend.py:276
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr ""
+
+#: backend.py:279
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr ""
+
+#: backend.py:281
+msgid "Configuring the system"
+msgstr ""
+
+#: backend.py:302
+#, python-format
+msgid "Creating user %s"
+msgstr ""
+
+#: backend.py:315
+msgid "Removing live session packages"
+msgstr ""
+
+#: backend.py:321
+msgid "Generating the initramfs"
+msgstr ""
+
+#: backend.py:342
+msgid "Installing the boot loader"
+msgstr ""
+
+#: backend.py:363
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr ""
+
+#: backend.py:375
+msgid "No boot loader was installed."
+msgstr ""
+
+#: backend.py:376
+msgid "Writing the boot menu"
+msgstr ""
+
+#: partitioning.py:35
+msgid "Ext4 journaling file system"
+msgstr ""
+
+#: partitioning.py:36
+msgid "Ext3 journaling file system"
+msgstr ""
+
+#: partitioning.py:37
+msgid "Ext2 file system"
+msgstr ""
+
+#: partitioning.py:38
+msgid "Btrfs file system"
+msgstr ""
+
+#: partitioning.py:39
+msgid "XFS file system"
+msgstr ""
+
+#: partitioning.py:40
+msgid "FAT32 file system"
+msgstr ""
+
+#: partitioning.py:41
+msgid "Swap area"
+msgstr ""
+
+#: partitioning.py:42
+msgid "EFI system partition"
+msgstr ""
+
+#: partitioning.py:43
+msgid "Reserved BIOS boot area"
+msgstr ""
+
+#: partitioning.py:44
+msgid "Do not use the partition"
+msgstr ""
+
+#: partitioning.py:112
+msgid "New partition"
+msgstr ""
+
+#: partitioning.py:281
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr ""
+
+#: partitioning.py:284
+msgid "The partition is too small."
+msgstr ""
+
+#: partitioning.py:325
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr ""
+
+#: partitioning.py:327
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr ""
+
+#: partitioning.py:331
+msgid "No root file system (/) is defined."
+msgstr ""
+
+#: partitioning.py:333
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr ""
+
+#: partitioning.py:335
+msgid "The root partition (/) must be formatted."
+msgstr ""
+
+#: partitioning.py:337
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr ""
+
+#: partitioning.py:340
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr ""
+
+#: partitioning.py:343
+msgid "Only one EFI system partition can be used."
+msgstr ""
+
+#: partitioning.py:345
+msgid "An EFI system partition is required to boot this computer."
+msgstr ""
+
+#: partitioning.py:347
+msgid "Choose a device for the boot loader."
+msgstr ""
+
+#: partitioning.py:351
+#, python-format
+msgid "%s has no partition table."
+msgstr ""
+
+#: partitioning.py:353
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr ""
+
+#: partitioning.py:360
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr ""
+
+#: partitioning.py:363
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr ""
+
+#: partitioning.py:366
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr ""
+
+#: partitioning.py:369
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr ""
+
+#: partitioning.py:372
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr ""
+
+#: partitioning.py:373 partitioning.py:375
+msgid "The new partition"
+msgstr ""
+
+#: partitioning.py:375
+#, python-format
+msgid "%s will be used as swap."
+msgstr ""
+
+#: partitioning.py:394
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr ""
+
+#: partitioning.py:401
+#, python-format
+msgid "Partitioning %s"
+msgstr ""
+
+#: partitioning.py:439
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr ""
+
+#: partitioning.py:455
+#, python-format
+msgid "Formatting %s"
+msgstr ""

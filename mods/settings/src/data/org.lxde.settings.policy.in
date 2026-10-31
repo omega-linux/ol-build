@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+  <vendor>LXDE Settings</vendor>
+  <action id="org.lxde.settings.helper">
+    <description>Manage user accounts and system languages</description>
+    <description xml:lang="es">Administrar cuentas de usuario e idiomas del sistema</description>
+    <description xml:lang="de">Benutzerkonten und Systemsprachen verwalten</description>
+    <description xml:lang="fr">Gérer les comptes utilisateur et les langues du système</description>
+    <description xml:lang="it">Gestisci gli account utente e le lingue di sistema</description>
+    <description xml:lang="ja">ユーザーアカウントとシステムの言語を管理する</description>
+    <description xml:lang="nl">Gebruikersaccounts en systeemtalen beheren</description>
+    <description xml:lang="pl">Zarządzanie kontami użytkowników i językami systemu</description>
+    <description xml:lang="pt">Gerir contas de utilizador e idiomas do sistema</description>
+    <description xml:lang="pt-BR">Gerenciar contas de usuário e idiomas do sistema</description>
+    <description xml:lang="ru">Управление учётными записями и языками системы</description>
+    <description xml:lang="tr">Kullanıcı hesaplarını ve sistem dillerini yönet</description>
+    <description xml:lang="uk">Керування обліковими записами та мовами системи</description>
+    <description xml:lang="zh-CN">管理用户账户和系统语言</description>
+    <message>Authentication is required to change user accounts or install languages</message>
+    <message xml:lang="es">Se requiere autenticación para modificar las cuentas de usuario o instalar idiomas</message>
+    <message xml:lang="de">Zum Ändern von Benutzerkonten oder Installieren von Sprachen ist eine Legitimierung erforderlich</message>
+    <message xml:lang="fr">Une authentification est nécessaire pour modifier les comptes utilisateur ou installer des langues</message>
+    <message xml:lang="it">È richiesta l'autenticazione per modificare gli account utente o installare lingue</message>
+    <message xml:lang="ja">ユーザーアカウントの変更や言語のインストールには認証が必要です</message>
+    <message xml:lang="nl">Authenticatie is vereist om gebruikersaccounts te wijzigen of talen te installeren</message>
+    <message xml:lang="pl">Wymagane jest uwierzytelnienie, aby zmienić konta użytkowników lub zainstalować języki</message>
+    <message xml:lang="pt">É necessária autenticação para alterar contas de utilizador ou instalar idiomas</message>
+    <message xml:lang="pt-BR">É necessária autenticação para alterar contas de usuário ou instalar idiomas</message>
+    <message xml:lang="ru">Для изменения учётных записей или установки языков требуется аутентификация</message>
+    <message xml:lang="tr">Kullanıcı hesaplarını değiştirmek veya dil kurmak için kimlik doğrulaması gerekiyor</message>
+    <message xml:lang="uk">Для зміни облікових записів або встановлення мов потрібна автентифікація</message>
+    <message xml:lang="zh-CN">更改用户账户或安装语言需要身份验证</message>
+    <icon_name>system-users</icon_name>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">@HELPER@</annotate>
+  </action>
+</policyconfig>

@@ -1,0 +1,15 @@
+#example
+base-x11 # recommend to keep thid
+#custom-kernel
+de
+tools
+fastfetch
+ffox-deb
+theming
+osrel
+snds
+splash
+ol-home
+installer
+settings
+vol-applet

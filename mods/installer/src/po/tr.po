@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-installer\n"
+"PO-Revision-Date: 2026-10-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Install {name}"
+msgstr "{name} Kurulumu"
+
+msgid "Welcome"
+msgstr "Hoş geldiniz"
+
+msgid "This will install {name} {version} on your computer.\n\nMake sure you have backed up anything important before you continue."
+msgstr "Bu işlem bilgisayarınıza {name} {version} kuracak.\n\nDevam etmeden önce önemli verilerinizi yedeklediğinizden emin olun."
+
+msgid "Please wait while we get everything ready…"
+msgstr "Her şey hazırlanırken lütfen bekleyin…"
+
+msgid "Installation complete"
+msgstr "Kurulum tamamlandı"
+
+msgid "{name} has finished installing."
+msgstr "{name} kurulumu tamamlandı."
+
+msgid "Legacy BIOS"
+msgstr "Eski BIOS"
+
+msgid "32-bit UEFI"
+msgstr "32 bit UEFI"
+
+msgid "64-bit UEFI"
+msgstr "64 bit UEFI"
+
+msgid "Search…"
+msgstr "Ara…"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "Continue"
+msgstr "Devam"
+
+msgid "Install now"
+msgstr "Şimdi kur"
+
+msgid "Restart now"
+msgstr "Şimdi yeniden başlat"
+
+msgid "Language of the installed system"
+msgstr "Kurulan sistemin dili"
+
+msgid "Download language support (needs an internet connection)"
+msgstr "Dil desteğini indir (internet bağlantısı gerekir)"
+
+#, python-format
+msgid "Firmware detected: %s"
+msgstr "Algılanan ürün yazılımı: %s"
+
+msgid "Choose your keyboard layout:"
+msgstr "Klavye düzeninizi seçin:"
+
+msgid "Type here to test your keyboard"
+msgstr "Klavyenizi denemek için buraya yazın"
+
+msgid "Keyboard layout"
+msgstr "Klavye düzeni"
+
+#, python-format
+msgid "Erase disk and install %s"
+msgstr "Diski sil ve %s kur"
+
+msgid "Everything on the selected disk will be deleted."
+msgstr "Seçilen diskteki her şey silinecek."
+
+msgid "Something else"
+msgstr "Başka bir şey"
+
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr "Bölümleri kendiniz oluşturun, silin veya seçin ya da birden fazla bölüm seçin."
+
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr "%(name)s için en az %(size)s disk alanı gerekir."
+
+msgid "Installation type"
+msgstr "Kurulum türü"
+
+msgid "No disk available to install to."
+msgstr "Kurulum yapılabilecek disk yok."
+
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr "%(disk)s çok küçük (%(size)s gerekli)."
+
+msgid "Device"
+msgstr "Aygıt"
+
+msgid "Type"
+msgstr "Tür"
+
+msgid "Mount point"
+msgstr "Bağlama noktası"
+
+msgid "Format?"
+msgstr "Biçimlendir?"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Add a partition"
+msgstr "Bölüm ekle"
+
+msgid "Delete the partition"
+msgstr "Bölümü sil"
+
+msgid "Change…"
+msgstr "Değiştir…"
+
+msgid "New Partition Table…"
+msgstr "Yeni Bölüm Tablosu…"
+
+msgid "Revert"
+msgstr "Geri al"
+
+msgid "Open GParted"
+msgstr "GParted'ı aç"
+
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr "Bölümleri yeniden boyutlandır veya taşı (buradaki bekleyen değişiklikler atılır)"
+
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr "Önyükleyicinin kurulacağı aygıt (Eski BIOS)"
+
+msgid "This computer started in Legacy BIOS mode."
+msgstr "Bu bilgisayar Eski BIOS kipinde başlatıldı."
+
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Bu bilgisayar 32 bit UEFI kipinde başlatıldı, bu yüzden bir EFI sistem bölümü gerekir."
+
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr "Bu bilgisayar 64 bit UEFI kipinde başlatıldı, bu yüzden bir EFI sistem bölümü gerekir."
+
+msgid "no partition table"
+msgstr "bölüm tablosu yok"
+
+msgid "free space"
+msgstr "boş alan"
+
+msgid "Extended partition"
+msgstr "Genişletilmiş bölüm"
+
+msgid "unknown"
+msgstr "bilinmiyor"
+
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr "Eski BIOS önyükleyicisi kurma"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "OK"
+msgstr "Tamam"
+
+msgid "Use as:"
+msgstr "Şu şekilde kullan:"
+
+msgid "Mount point:"
+msgstr "Bağlama noktası:"
+
+msgid "Create partition"
+msgstr "Bölüm oluştur"
+
+msgid "Size (MB):"
+msgstr "Boyut (MB):"
+
+msgid "Beginning of this space"
+msgstr "Bu alanın başı"
+
+msgid "End of this space"
+msgstr "Bu alanın sonu"
+
+msgid "Location:"
+msgstr "Konum:"
+
+msgid "Edit partition"
+msgstr "Bölümü düzenle"
+
+msgid "Partition:"
+msgstr "Bölüm:"
+
+msgid "Format the partition"
+msgstr "Bölümü biçimlendir"
+
+msgid "New partition table"
+msgstr "Yeni bölüm tablosu"
+
+#, python-format
+msgid "Create a new empty partition table on %s?\nAll partitions on this disk will be deleted."
+msgstr "%s üzerinde yeni ve boş bir bölüm tablosu oluşturulsun mu?\nBu diskteki tüm bölümler silinecek."
+
+msgid "GPT (recommended)"
+msgstr "GPT (önerilen)"
+
+msgid "MBR / msdos (for very old computers)"
+msgstr "MBR / msdos (çok eski bilgisayarlar için)"
+
+msgid "Type:"
+msgstr "Tür:"
+
+msgid "Your name"
+msgstr "Adınız"
+
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgid "Computer name"
+msgstr "Bilgisayar adı"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "Confirm password"
+msgstr "Parolayı doğrulayın"
+
+msgid "Time zone"
+msgstr "Saat dilimi"
+
+msgid "This user will be an administrator (sudo)."
+msgstr "Bu kullanıcı yönetici (sudo) olacak."
+
+msgid "Who are you?"
+msgstr "Siz kimsiniz?"
+
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr "Kullanıcı adı küçük bir harfle başlamalı ve yalnızca a-z, 0-9, - ve _ içermelidir."
+
+msgid "That username is reserved."
+msgstr "Bu kullanıcı adı ayrılmıştır."
+
+msgid "The computer name may only use letters, digits and -."
+msgstr "Bilgisayar adı yalnızca harf, rakam ve - içerebilir."
+
+msgid "Choose a password."
+msgstr "Bir parola seçin."
+
+msgid "The passwords do not match."
+msgstr "Parolalar eşleşmiyor."
+
+msgid "Your name cannot contain \":\"."
+msgstr "Adınız \":\" içeremez."
+
+msgid "The password cannot contain line breaks."
+msgstr "Parola satır sonu içeremez."
+
+msgid "Choose a valid time zone."
+msgstr "Geçerli bir saat dilimi seçin."
+
+msgid "Ready to install"
+msgstr "Kuruluma hazır"
+
+msgid "These changes will be written to the disks:"
+msgstr "Şu değişiklikler disklere yazılacak:"
+
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr "Eski BIOS önyükleyicisi %s üzerine yazılacak."
+
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr "UEFI önyükleyicisi (64 bit ve 32 bit) kurulacak."
+
+msgid "Settings:"
+msgstr "Ayarlar:"
+
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr "Kullanıcı: %(name)s (%(user)s), yönetici"
+
+#, python-format
+msgid "Computer name: %s"
+msgstr "Bilgisayar adı: %s"
+
+#, python-format
+msgid "Language: %s"
+msgstr "Dil: %s"
+
+#, python-format
+msgid "Keyboard: %s"
+msgstr "Klavye: %s"
+
+#, python-format
+msgid "Time zone: %s"
+msgstr "Saat dilimi: %s"
+
+msgid "These changes cannot be undone."
+msgstr "Bu değişiklikler geri alınamaz."
+
+#, python-format
+msgid "Installing %s"
+msgstr "%s kuruluyor"
+
+msgid "The installation failed"
+msgstr "Kurulum başarısız oldu"
+
+#, python-format
+msgid "The full log is in %s."
+msgstr "Tam günlük %s içinde."
+
+msgid "Shut down"
+msgstr "Kapat"
+
+msgid "Keep using the live session"
+msgstr "Canlı oturumu kullanmaya devam et"
+
+msgid "Could not find the live system image."
+msgstr "Canlı sistem kalıbı bulunamadı."
+
+msgid "Preparing the disks"
+msgstr "Diskler hazırlanıyor"
+
+msgid "Finishing"
+msgstr "Tamamlanıyor"
+
+msgid "Done"
+msgstr "Bitti"
+
+msgid "Copying files"
+msgstr "Dosyalar kopyalanıyor"
+
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr "Dosyalar kopyalanıyor (%%%d)"
+
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr "Sistemin kopyalanması başarısız oldu (rsync çıkış kodu %d)"
+
+msgid "Configuring the language"
+msgstr "Dil yapılandırılıyor"
+
+msgid "Downloading language support"
+msgstr "Dil desteği indiriliyor"
+
+msgid "Installing the kernel"
+msgstr "Çekirdek kuruluyor"
+
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr "Çalışan çekirdek (%s) canlı ortamda bulunamadı."
+
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr "Canlı kalıpta %s çekirdeği için modül yok."
+
+msgid "Configuring the system"
+msgstr "Sistem yapılandırılıyor"
+
+#, python-format
+msgid "Creating user %s"
+msgstr "%s kullanıcısı oluşturuluyor"
+
+msgid "Removing live session packages"
+msgstr "Canlı oturum paketleri kaldırılıyor"
+
+msgid "Generating the initramfs"
+msgstr "initramfs oluşturuluyor"
+
+msgid "Installing the boot loader"
+msgstr "Önyükleyici kuruluyor"
+
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr "%s için GRUB canlı kalıpta kurulu değil."
+
+msgid "No boot loader was installed."
+msgstr "Hiçbir önyükleyici kurulmadı."
+
+msgid "Writing the boot menu"
+msgstr "Önyükleme menüsü yazılıyor"
+
+msgid "Ext4 journaling file system"
+msgstr "Ext4 günlüklü dosya sistemi"
+
+msgid "Ext3 journaling file system"
+msgstr "Ext3 günlüklü dosya sistemi"
+
+msgid "Ext2 file system"
+msgstr "Ext2 dosya sistemi"
+
+msgid "Btrfs file system"
+msgstr "Btrfs dosya sistemi"
+
+msgid "XFS file system"
+msgstr "XFS dosya sistemi"
+
+msgid "FAT32 file system"
+msgstr "FAT32 dosya sistemi"
+
+msgid "Swap area"
+msgstr "Takas alanı"
+
+msgid "EFI system partition"
+msgstr "EFI sistem bölümü"
+
+msgid "Reserved BIOS boot area"
+msgstr "Ayrılmış BIOS önyükleme alanı"
+
+msgid "Do not use the partition"
+msgstr "Bu bölümü kullanma"
+
+msgid "New partition"
+msgstr "Yeni bölüm"
+
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr "MBR (msdos) diskinde yalnızca 4 birincil bölüm olabilir."
+
+msgid "The partition is too small."
+msgstr "Bölüm çok küçük."
+
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr "Geçersiz bağlama noktası: %s"
+
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr "%s bağlama noktası birden fazla kez kullanılmış."
+
+msgid "No root file system (/) is defined."
+msgstr "Kök dosya sistemi (/) tanımlanmadı."
+
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr "Kök dosya sistemi (/) %s kullanamaz."
+
+msgid "The root partition (/) must be formatted."
+msgstr "Kök bölümü (/) biçimlendirilmelidir."
+
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr "Kök bölümü çok küçük, en az %s gerekir."
+
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr "%s için bir bağlama noktası seçin."
+
+msgid "Only one EFI system partition can be used."
+msgstr "Yalnızca bir EFI sistem bölümü kullanılabilir."
+
+msgid "An EFI system partition is required to boot this computer."
+msgstr "Bu bilgisayarı başlatmak için bir EFI sistem bölümü gerekir."
+
+msgid "Choose a device for the boot loader."
+msgstr "Önyükleyici için bir aygıt seçin."
+
+#, python-format
+msgid "%s has no partition table."
+msgstr "%s üzerinde bölüm tablosu yok."
+
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr "%s GPT kullanıyor, bu yüzden önyükleyici için ayrılmış bir BIOS önyükleme alanı (1 MB) gerekir."
+
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr "%(disk)s bölüm tablosu değiştirilecek (%(type)s)."
+
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr "%s bölümü silinecek."
+
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr "%(disk)s üzerinde %(size)s boyutunda yeni bölüm: %(use)s"
+
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr "%(part)s, %(use)s olarak biçimlendirilecek."
+
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr "%(part)s, %(mount)s konumuna bağlanacak."
+
+msgid "The new partition"
+msgstr "Yeni bölüm"
+
+#, python-format
+msgid "%s will be used as swap."
+msgstr "%s takas alanı olarak kullanılacak."
+
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr "Yeni bölümler görünmedi: %s"
+
+#, python-format
+msgid "Partitioning %s"
+msgstr "%s bölümlendiriliyor"
+
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr "Yeni bölüm %s konumunda, %s üzerinde bulunamadı."
+
+#, python-format
+msgid "Formatting %s"
+msgstr "%s biçimlendiriliyor"

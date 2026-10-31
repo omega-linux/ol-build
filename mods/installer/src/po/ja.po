@@ -1,0 +1,508 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: system-installer\n"
+"PO-Revision-Date: 2026-10-30 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Install {name}"
+msgstr "{name} のインストール"
+
+msgid "Welcome"
+msgstr "ようこそ"
+
+msgid "This will install {name} {version} on your computer.\n\nMake sure you have backed up anything important before you continue."
+msgstr "{name} {version} をこのコンピューターにインストールします。\n\n続行する前に、大切なデータをバックアップしてください。"
+
+msgid "Please wait while we get everything ready…"
+msgstr "準備ができるまでお待ちください…"
+
+msgid "Installation complete"
+msgstr "インストールが完了しました"
+
+msgid "{name} has finished installing."
+msgstr "{name} のインストールが完了しました。"
+
+msgid "Legacy BIOS"
+msgstr "レガシー BIOS"
+
+msgid "32-bit UEFI"
+msgstr "32 ビット UEFI"
+
+msgid "64-bit UEFI"
+msgstr "64 ビット UEFI"
+
+msgid "Search…"
+msgstr "検索…"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Continue"
+msgstr "続ける"
+
+msgid "Install now"
+msgstr "今すぐインストール"
+
+msgid "Restart now"
+msgstr "今すぐ再起動"
+
+msgid "Language of the installed system"
+msgstr "インストールするシステムの言語"
+
+msgid "Download language support (needs an internet connection)"
+msgstr "言語サポートをダウンロードする (インターネット接続が必要)"
+
+#, python-format
+msgid "Firmware detected: %s"
+msgstr "検出したファームウェア: %s"
+
+msgid "Choose your keyboard layout:"
+msgstr "キーボードレイアウトを選択してください:"
+
+msgid "Type here to test your keyboard"
+msgstr "ここに入力してキーボードをテストしてください"
+
+msgid "Keyboard layout"
+msgstr "キーボードレイアウト"
+
+#, python-format
+msgid "Erase disk and install %s"
+msgstr "ディスクを削除して %s をインストール"
+
+msgid "Everything on the selected disk will be deleted."
+msgstr "選択したディスクの内容はすべて削除されます。"
+
+msgid "Something else"
+msgstr "それ以外"
+
+msgid "Create, delete or choose partitions yourself, or choose multiple partitions."
+msgstr "パーティションを自分で作成・削除・選択するか、複数のパーティションを選択します。"
+
+#, python-format
+msgid "%(name)s needs at least %(size)s of disk space."
+msgstr "%(name)s には少なくとも %(size)s のディスク容量が必要です。"
+
+msgid "Installation type"
+msgstr "インストールの種類"
+
+msgid "No disk available to install to."
+msgstr "インストールできるディスクがありません。"
+
+#, python-format
+msgid "%(disk)s is too small (%(size)s needed)."
+msgstr "%(disk)s は小さすぎます (%(size)s 必要です)。"
+
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Type"
+msgstr "種類"
+
+msgid "Mount point"
+msgstr "マウントポイント"
+
+msgid "Format?"
+msgstr "フォーマット"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Add a partition"
+msgstr "パーティションを追加"
+
+msgid "Delete the partition"
+msgstr "パーティションを削除"
+
+msgid "Change…"
+msgstr "変更…"
+
+msgid "New Partition Table…"
+msgstr "新しいパーティションテーブル…"
+
+msgid "Revert"
+msgstr "元に戻す"
+
+msgid "Open GParted"
+msgstr "GParted を開く"
+
+msgid "Resize or move partitions (pending changes here are discarded)"
+msgstr "パーティションのサイズ変更や移動 (ここでの未適用の変更は破棄されます)"
+
+msgid "Device for boot loader installation (Legacy BIOS)"
+msgstr "ブートローダーをインストールするデバイス (レガシー BIOS)"
+
+msgid "This computer started in Legacy BIOS mode."
+msgstr "このコンピューターはレガシー BIOS モードで起動しました。"
+
+msgid "This computer started in 32-bit UEFI mode, so an EFI system partition is needed."
+msgstr "このコンピューターは 32 ビット UEFI モードで起動したため、EFI システムパーティションが必要です。"
+
+msgid "This computer started in 64-bit UEFI mode, so an EFI system partition is needed."
+msgstr "このコンピューターは 64 ビット UEFI モードで起動したため、EFI システムパーティションが必要です。"
+
+msgid "no partition table"
+msgstr "パーティションテーブルなし"
+
+msgid "free space"
+msgstr "空き領域"
+
+msgid "Extended partition"
+msgstr "拡張パーティション"
+
+msgid "unknown"
+msgstr "不明"
+
+msgid "Don't install a Legacy BIOS boot loader"
+msgstr "レガシー BIOS のブートローダーをインストールしない"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Use as:"
+msgstr "利用方法:"
+
+msgid "Mount point:"
+msgstr "マウントポイント:"
+
+msgid "Create partition"
+msgstr "パーティションの作成"
+
+msgid "Size (MB):"
+msgstr "サイズ (MB):"
+
+msgid "Beginning of this space"
+msgstr "この領域の先頭"
+
+msgid "End of this space"
+msgstr "この領域の末尾"
+
+msgid "Location:"
+msgstr "位置:"
+
+msgid "Edit partition"
+msgstr "パーティションの編集"
+
+msgid "Partition:"
+msgstr "パーティション:"
+
+msgid "Format the partition"
+msgstr "パーティションをフォーマットする"
+
+msgid "New partition table"
+msgstr "新しいパーティションテーブル"
+
+#, python-format
+msgid "Create a new empty partition table on %s?\nAll partitions on this disk will be deleted."
+msgstr "%s に新しい空のパーティションテーブルを作成しますか?\nこのディスクのパーティションはすべて削除されます。"
+
+msgid "GPT (recommended)"
+msgstr "GPT (推奨)"
+
+msgid "MBR / msdos (for very old computers)"
+msgstr "MBR / msdos (非常に古いコンピューター用)"
+
+msgid "Type:"
+msgstr "種類:"
+
+msgid "Your name"
+msgstr "あなたの名前"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Computer name"
+msgstr "コンピューターの名前"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Confirm password"
+msgstr "パスワードの確認"
+
+msgid "Time zone"
+msgstr "タイムゾーン"
+
+msgid "This user will be an administrator (sudo)."
+msgstr "このユーザーは管理者 (sudo) になります。"
+
+msgid "Who are you?"
+msgstr "あなたは誰ですか?"
+
+msgid "The username must start with a lowercase letter and use only a-z, 0-9, - and _."
+msgstr "ユーザー名は小文字で始め、a-z、0-9、- と _ のみを使ってください。"
+
+msgid "That username is reserved."
+msgstr "そのユーザー名は予約されています。"
+
+msgid "The computer name may only use letters, digits and -."
+msgstr "コンピューターの名前には英字、数字、- のみ使えます。"
+
+msgid "Choose a password."
+msgstr "パスワードを入力してください。"
+
+msgid "The passwords do not match."
+msgstr "パスワードが一致しません。"
+
+msgid "Your name cannot contain \":\"."
+msgstr "名前に「:」は使えません。"
+
+msgid "The password cannot contain line breaks."
+msgstr "パスワードに改行は使えません。"
+
+msgid "Choose a valid time zone."
+msgstr "有効なタイムゾーンを選択してください。"
+
+msgid "Ready to install"
+msgstr "インストールの準備ができました"
+
+msgid "These changes will be written to the disks:"
+msgstr "次の変更がディスクに書き込まれます:"
+
+#, python-format
+msgid "The Legacy BIOS boot loader will be written to %s."
+msgstr "レガシー BIOS のブートローダーを %s に書き込みます。"
+
+msgid "The UEFI boot loader (64-bit and 32-bit) will be installed."
+msgstr "UEFI のブートローダー (64 ビットと 32 ビット) をインストールします。"
+
+msgid "Settings:"
+msgstr "設定:"
+
+#, python-format
+msgid "User: %(name)s (%(user)s), administrator"
+msgstr "ユーザー: %(name)s (%(user)s)、管理者"
+
+#, python-format
+msgid "Computer name: %s"
+msgstr "コンピューターの名前: %s"
+
+#, python-format
+msgid "Language: %s"
+msgstr "言語: %s"
+
+#, python-format
+msgid "Keyboard: %s"
+msgstr "キーボード: %s"
+
+#, python-format
+msgid "Time zone: %s"
+msgstr "タイムゾーン: %s"
+
+msgid "These changes cannot be undone."
+msgstr "これらの変更は元に戻せません。"
+
+#, python-format
+msgid "Installing %s"
+msgstr "%s をインストールしています"
+
+msgid "The installation failed"
+msgstr "インストールに失敗しました"
+
+#, python-format
+msgid "The full log is in %s."
+msgstr "詳細なログは %s にあります。"
+
+msgid "Shut down"
+msgstr "シャットダウン"
+
+msgid "Keep using the live session"
+msgstr "ライブセッションを使い続ける"
+
+msgid "Could not find the live system image."
+msgstr "ライブシステムのイメージが見つかりません。"
+
+msgid "Preparing the disks"
+msgstr "ディスクを準備しています"
+
+msgid "Finishing"
+msgstr "仕上げています"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "Copying files"
+msgstr "ファイルをコピーしています"
+
+#, python-format
+msgid "Copying files (%d%%)"
+msgstr "ファイルをコピーしています (%d%%)"
+
+#, python-format
+msgid "Copying the system failed (rsync exit %d)"
+msgstr "システムのコピーに失敗しました (rsync の終了コード %d)"
+
+msgid "Configuring the language"
+msgstr "言語を設定しています"
+
+msgid "Downloading language support"
+msgstr "言語サポートをダウンロードしています"
+
+msgid "Installing the kernel"
+msgstr "カーネルをインストールしています"
+
+#, python-format
+msgid "Could not find the running kernel (%s) on the live media."
+msgstr "実行中のカーネル (%s) がライブメディアに見つかりません。"
+
+#, python-format
+msgid "The live image has no modules for kernel %s."
+msgstr "ライブイメージにカーネル %s のモジュールがありません。"
+
+msgid "Configuring the system"
+msgstr "システムを設定しています"
+
+#, python-format
+msgid "Creating user %s"
+msgstr "ユーザー %s を作成しています"
+
+msgid "Removing live session packages"
+msgstr "ライブセッションのパッケージを削除しています"
+
+msgid "Generating the initramfs"
+msgstr "initramfs を生成しています"
+
+msgid "Installing the boot loader"
+msgstr "ブートローダーをインストールしています"
+
+#, python-format
+msgid "GRUB for %s is not installed in the live image."
+msgstr "%s 用の GRUB がライブイメージにインストールされていません。"
+
+msgid "No boot loader was installed."
+msgstr "ブートローダーがインストールされませんでした。"
+
+msgid "Writing the boot menu"
+msgstr "ブートメニューを書き込んでいます"
+
+msgid "Ext4 journaling file system"
+msgstr "ext4 ジャーナリングファイルシステム"
+
+msgid "Ext3 journaling file system"
+msgstr "ext3 ジャーナリングファイルシステム"
+
+msgid "Ext2 file system"
+msgstr "ext2 ファイルシステム"
+
+msgid "Btrfs file system"
+msgstr "Btrfs ファイルシステム"
+
+msgid "XFS file system"
+msgstr "XFS ファイルシステム"
+
+msgid "FAT32 file system"
+msgstr "FAT32 ファイルシステム"
+
+msgid "Swap area"
+msgstr "スワップ領域"
+
+msgid "EFI system partition"
+msgstr "EFI システムパーティション"
+
+msgid "Reserved BIOS boot area"
+msgstr "予約済み BIOS ブート領域"
+
+msgid "Do not use the partition"
+msgstr "このパーティションを使わない"
+
+msgid "New partition"
+msgstr "新しいパーティション"
+
+msgid "An MBR (msdos) disk can only have 4 primary partitions."
+msgstr "MBR (msdos) ディスクには基本パーティションを 4 つまでしか作成できません。"
+
+msgid "The partition is too small."
+msgstr "パーティションが小さすぎます。"
+
+#, python-format
+msgid "Invalid mount point: %s"
+msgstr "無効なマウントポイント: %s"
+
+#, python-format
+msgid "The mount point %s is used more than once."
+msgstr "マウントポイント %s が複数回使われています。"
+
+msgid "No root file system (/) is defined."
+msgstr "ルートファイルシステム (/) が指定されていません。"
+
+#, python-format
+msgid "The root file system (/) cannot use %s."
+msgstr "ルートファイルシステム (/) には %s を使えません。"
+
+msgid "The root partition (/) must be formatted."
+msgstr "ルートパーティション (/) はフォーマットする必要があります。"
+
+#, python-format
+msgid "The root partition is too small, it needs at least %s."
+msgstr "ルートパーティションが小さすぎます。少なくとも %s 必要です。"
+
+#, python-format
+msgid "Choose a mount point for %s."
+msgstr "%s のマウントポイントを選択してください。"
+
+msgid "Only one EFI system partition can be used."
+msgstr "EFI システムパーティションは 1 つしか使えません。"
+
+msgid "An EFI system partition is required to boot this computer."
+msgstr "このコンピューターを起動するには EFI システムパーティションが必要です。"
+
+msgid "Choose a device for the boot loader."
+msgstr "ブートローダーのデバイスを選択してください。"
+
+#, python-format
+msgid "%s has no partition table."
+msgstr "%s にはパーティションテーブルがありません。"
+
+#, python-format
+msgid "%s uses GPT, so it needs a reserved BIOS boot area (1 MB) for the boot loader."
+msgstr "%s は GPT を使っているため、ブートローダー用に予約済み BIOS ブート領域 (1 MB) が必要です。"
+
+#, python-format
+msgid "The partition table of %(disk)s will be replaced (%(type)s)."
+msgstr "%(disk)s のパーティションテーブルを置き換えます (%(type)s)。"
+
+#, python-format
+msgid "Partition %s will be deleted."
+msgstr "パーティション %s を削除します。"
+
+#, python-format
+msgid "New partition of %(size)s on %(disk)s: %(use)s"
+msgstr "%(disk)s に %(size)s の新しいパーティション: %(use)s"
+
+#, python-format
+msgid "%(part)s will be formatted as %(use)s."
+msgstr "%(part)s を %(use)s としてフォーマットします。"
+
+#, python-format
+msgid "%(part)s will be mounted on %(mount)s."
+msgstr "%(part)s を %(mount)s にマウントします。"
+
+msgid "The new partition"
+msgstr "新しいパーティション"
+
+#, python-format
+msgid "%s will be used as swap."
+msgstr "%s をスワップ領域として使います。"
+
+#, python-format
+msgid "The new partitions did not show up: %s"
+msgstr "新しいパーティションが現れませんでした: %s"
+
+#, python-format
+msgid "Partitioning %s"
+msgstr "%s のパーティションを作成しています"
+
+#, python-format
+msgid "Could not find the new partition at %s on %s."
+msgstr "新しいパーティションが %s の位置 (%s) に見つかりません。"
+
+#, python-format
+msgid "Formatting %s"
+msgstr "%s をフォーマットしています"

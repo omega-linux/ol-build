@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Install System
+Comment=Install this system to your computer
+Exec=system-installer
+Icon=system-software-install
+Terminal=false
+Categories=System;

@@ -1,0 +1,935 @@
+# Turkish translation for lxde-settings.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxde-settings 0.1.0\n"
+"PO-Revision-Date: 2026-10-19 21:00-0300\n"
+"Last-Translator: unsoil <spliteritoob@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lxde_settings/main.py:25 lxde_settings/main.py:112
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: lxde_settings/main.py:72
+msgid "This page could not be loaded."
+msgstr "Bu sayfa yüklenemedi."
+
+#: lxde_settings/main.py:84
+msgid "List the available pages and exit"
+msgstr "Kullanılabilir sayfaları listele ve çık"
+
+#: lxde_settings/main.py:86
+msgid "Apply the saved mouse settings and exit (used at login)"
+msgstr "Kaydedilmiş fare ayarlarını uygula ve çık (oturum açılışında kullanılır)"
+
+#: lxde_settings/pages/about.py:42 lxde_settings/pages/about.py:96
+#: lxde_settings/pages/about.py:166 lxde_settings/pages/about.py:187
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: lxde_settings/pages/about.py:91
+#, python-format
+msgid "%d d %d h %d min"
+msgstr "%d g %d sa %d dk"
+
+#: lxde_settings/pages/about.py:92
+#, python-format
+msgid "%d h %d min"
+msgstr "%d sa %d dk"
+
+#: lxde_settings/pages/about.py:106
+msgid "About"
+msgstr "Hakkında"
+
+#: lxde_settings/pages/about.py:133
+msgid "Device"
+msgstr "Aygıt"
+
+#: lxde_settings/pages/about.py:135
+msgid "Rename…"
+msgstr "Yeniden adlandır…"
+
+#: lxde_settings/pages/about.py:140 lxde_settings/pages/about.py:203
+msgid "Device name"
+msgstr "Aygıt adı"
+
+#: lxde_settings/pages/about.py:146
+msgid "Desktop computer"
+msgstr "Masaüstü bilgisayar"
+
+#: lxde_settings/pages/about.py:146
+msgid "Laptop"
+msgstr "Dizüstü bilgisayar"
+
+#: lxde_settings/pages/about.py:146
+msgid "Convertible"
+msgstr "Dönüştürülebilir"
+
+#: lxde_settings/pages/about.py:147
+msgid "Server"
+msgstr "Sunucu"
+
+#: lxde_settings/pages/about.py:147
+msgid "Tablet"
+msgstr "Tablet"
+
+#: lxde_settings/pages/about.py:147
+msgid "Phone"
+msgstr "Telefon"
+
+#: lxde_settings/pages/about.py:148
+msgid "Virtual machine"
+msgstr "Sanal makine"
+
+#: lxde_settings/pages/about.py:148
+msgid "Container"
+msgstr "Kapsayıcı"
+
+#: lxde_settings/pages/about.py:148
+msgid "Embedded device"
+msgstr "Gömülü aygıt"
+
+#: lxde_settings/pages/about.py:149
+msgid "Chassis"
+msgstr "Kasa"
+
+#: lxde_settings/pages/about.py:153
+msgid "Hardware model"
+msgstr "Donanım modeli"
+
+#: lxde_settings/pages/about.py:156
+msgid "Device specifications"
+msgstr "Aygıt özellikleri"
+
+#: lxde_settings/pages/about.py:163
+msgid "Processor"
+msgstr "İşlemci"
+
+#: lxde_settings/pages/about.py:164
+msgid "Memory"
+msgstr "Bellek"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics"
+msgstr "Grafik"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics cards"
+msgstr "Ekran kartları"
+
+#: lxde_settings/pages/about.py:169
+#, python-format
+msgid "%(used)s used of %(total)s"
+msgstr "%(used)s / %(total)s kullanılıyor"
+
+#: lxde_settings/pages/about.py:175 lxde_settings/pages/about.py:176
+msgid "Disk (system)"
+msgstr "Disk (sistem)"
+
+#: lxde_settings/pages/about.py:177
+msgid "System type"
+msgstr "Sistem türü"
+
+#: lxde_settings/pages/about.py:177
+#, python-format
+msgid "%s-bit operating system, %s"
+msgstr "%s bit işletim sistemi, %s"
+
+#: lxde_settings/pages/about.py:181
+msgid "Software"
+msgstr "Yazılım"
+
+#: lxde_settings/pages/about.py:182
+msgid "Operating system"
+msgstr "İşletim sistemi"
+
+#: lxde_settings/pages/about.py:184
+msgid "Kernel"
+msgstr "Çekirdek"
+
+#: lxde_settings/pages/about.py:185
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: lxde_settings/pages/about.py:187
+msgid "Windowing system"
+msgstr "Pencere sistemi"
+
+#: lxde_settings/pages/about.py:188
+msgid "GTK version"
+msgstr "GTK sürümü"
+
+#: lxde_settings/pages/about.py:190
+msgid "Uptime"
+msgstr "Çalışma süresi"
+
+#: lxde_settings/pages/about.py:192
+msgid "Copy"
+msgstr "Kopyala"
+
+#: lxde_settings/pages/about.py:193
+msgid "Copy the system information to the clipboard"
+msgstr "Sistem bilgilerini panoya kopyala"
+
+#: lxde_settings/pages/about.py:209
+msgid "The hostname service is not available"
+msgstr "Bilgisayar adı hizmeti kullanılamıyor"
+
+#: lxde_settings/pages/about.py:211
+msgid "Rename device"
+msgstr "Aygıtı yeniden adlandır"
+
+#: lxde_settings/pages/about.py:212 lxde_settings/pages/datetime.py:158
+#: lxde_settings/pages/region.py:174 lxde_settings/pages/region.py:368
+#: lxde_settings/pages/users.py:182 lxde_settings/pages/users.py:207
+#: lxde_settings/pages/users.py:268 lxde_settings/util.py:135
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: lxde_settings/pages/about.py:212
+msgid "_Rename"
+msgstr "_Yeniden adlandır"
+
+#: lxde_settings/pages/about.py:217
+msgid "The name may contain letters, numbers and hyphens."
+msgstr "Ad harf, rakam ve kısa çizgi içerebilir."
+
+#: lxde_settings/pages/appearance.py:73
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Style"
+msgstr "Stil"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Changes apply immediately to all GTK applications."
+msgstr "Değişiklikler tüm GTK uygulamalarına hemen uygulanır."
+
+#: lxde_settings/pages/appearance.py:85
+msgid "Applications theme"
+msgstr "Uygulama teması"
+
+#: lxde_settings/pages/appearance.py:88
+msgid "Icons"
+msgstr "Simgeler"
+
+#: lxde_settings/pages/appearance.py:90
+msgid "Cursor"
+msgstr "İmleç"
+
+#: lxde_settings/pages/appearance.py:98
+msgid "Cursor size"
+msgstr "İmleç boyutu"
+
+#: lxde_settings/pages/appearance.py:99
+msgid "Applications that were already open keep their cursor until restarted"
+msgstr "Zaten açık olan uygulamalar yeniden başlatılana kadar eski imleci kullanır"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Window borders"
+msgstr "Pencere kenarlıkları"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Openbox title bars and frames"
+msgstr "Openbox başlık çubukları ve çerçeveleri"
+
+#: lxde_settings/pages/appearance.py:114
+msgid "Fonts"
+msgstr "Yazı tipleri"
+
+#: lxde_settings/pages/appearance.py:117
+msgid "Default font"
+msgstr "Varsayılan yazı tipi"
+
+#: lxde_settings/pages/appearance.py:120
+msgid "Antialiasing"
+msgstr "Kenar yumuşatma"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "None"
+msgstr "Yok"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "Slight"
+msgstr "Hafif"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Medium"
+msgstr "Orta"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Full"
+msgstr "Tam"
+
+#: lxde_settings/pages/appearance.py:127
+msgid "Hinting"
+msgstr "İpucu (hinting)"
+
+#: lxde_settings/pages/appearance.py:129
+msgid "Grayscale"
+msgstr "Gri tonlama"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical RGB"
+msgstr "Dikey RGB"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical BGR"
+msgstr "Dikey BGR"
+
+#: lxde_settings/pages/appearance.py:134
+msgid "Subpixel order"
+msgstr "Alt piksel sırası"
+
+#: lxde_settings/pages/appearance.py:136
+msgid "More"
+msgstr "Daha fazla"
+
+#: lxde_settings/pages/appearance.py:137
+msgid "Desktop background"
+msgstr "Masaüstü arka planı"
+
+#: lxde_settings/pages/appearance.py:138
+msgid "Wallpaper and desktop icons"
+msgstr "Duvar kâğıdı ve masaüstü simgeleri"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel"
+msgstr "Panel"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel size, position and applets"
+msgstr "Panel boyutu, konumu ve uygulamacıkları"
+
+#: lxde_settings/pages/appearance.py:143
+msgid ""
+"lxsession is not running: settings are saved but may need a restart of the "
+"applications to take effect."
+msgstr "lxsession çalışmıyor: ayarlar kaydedilir ancak etkili olması için uygulamaların yeniden başlatılması gerekebilir."
+
+#: lxde_settings/pages/appearance.py:167 lxde_settings/pages/appearance.py:221
+#: lxde_settings/pages/input.py:146
+msgid "Could not save the settings"
+msgstr "Ayarlar kaydedilemedi"
+
+#: lxde_settings/pages/appearance.py:193
+msgid "Open"
+msgstr "Aç"
+
+#: lxde_settings/pages/appearance.py:198
+#, python-format
+msgid "Install %s to use this"
+msgstr "Bunu kullanmak için %s paketini kurun"
+
+#: lxde_settings/pages/datetime.py:19
+msgid "Other"
+msgstr "Diğer"
+
+#: lxde_settings/pages/datetime.py:28
+msgid "Date & Time"
+msgstr "Tarih ve Saat"
+
+#: lxde_settings/pages/datetime.py:40
+msgid "Date and time"
+msgstr "Tarih ve saat"
+
+#: lxde_settings/pages/datetime.py:43
+msgid "Set the time automatically"
+msgstr "Saati otomatik ayarla"
+
+#: lxde_settings/pages/datetime.py:44 lxde_settings/pages/users.py:164
+msgid "Change…"
+msgstr "Değiştir…"
+
+#: lxde_settings/pages/datetime.py:46
+msgid "Set the date and time manually"
+msgstr "Tarih ve saati elle ayarla"
+
+#: lxde_settings/pages/datetime.py:48 lxde_settings/pages/datetime.py:56
+msgid "Time zone"
+msgstr "Saat dilimi"
+
+#: lxde_settings/pages/datetime.py:60
+msgid "Hardware clock uses local time"
+msgstr "Donanım saati yerel saati kullanır"
+
+#: lxde_settings/pages/datetime.py:61
+msgid ""
+"Only enable this when Windows is installed on the same computer and keeps "
+"its clock in local time"
+msgstr "Bunu yalnızca aynı bilgisayarda Windows kuruluysa ve saatini yerel saatte tutuyorsa etkinleştirin"
+
+#: lxde_settings/pages/datetime.py:66
+msgid "The time and date service (systemd-timedated) is not available."
+msgstr "Tarih ve saat hizmeti (systemd-timedated) kullanılamıyor."
+
+#: lxde_settings/pages/datetime.py:104
+msgid "No network time service is installed"
+msgstr "Ağ zaman hizmeti kurulu değil"
+
+#: lxde_settings/pages/datetime.py:106
+msgid "Synchronized with a time server"
+msgstr "Bir zaman sunucusuyla eşitlendi"
+
+#: lxde_settings/pages/datetime.py:107
+msgid "Waiting for a time server…"
+msgstr "Zaman sunucusu bekleniyor…"
+
+#: lxde_settings/pages/datetime.py:109
+msgid "Off"
+msgstr "Kapalı"
+
+#: lxde_settings/pages/datetime.py:157
+msgid "Set date and time"
+msgstr "Tarih ve saati ayarla"
+
+#: lxde_settings/pages/datetime.py:158
+msgid "_Set"
+msgstr "_Ayarla"
+
+#: lxde_settings/pages/display.py:16
+msgid "Landscape"
+msgstr "Yatay"
+
+#: lxde_settings/pages/display.py:17
+msgid "Portrait (left)"
+msgstr "Dikey (sol)"
+
+#: lxde_settings/pages/display.py:18
+msgid "Portrait (right)"
+msgstr "Dikey (sağ)"
+
+#: lxde_settings/pages/display.py:19
+msgid "Landscape (flipped)"
+msgstr "Yatay (ters)"
+
+#: lxde_settings/pages/display.py:126
+msgid "Use this display"
+msgstr "Bu ekranı kullan"
+
+#: lxde_settings/pages/display.py:131
+msgid "Make this my main display"
+msgstr "Bunu ana ekran yap"
+
+#: lxde_settings/pages/display.py:137
+#, python-format
+msgid "%s (recommended)"
+msgstr "%s (önerilen)"
+
+#: lxde_settings/pages/display.py:141
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+#: lxde_settings/pages/display.py:145
+msgid "Refresh rate"
+msgstr "Yenileme hızı"
+
+#: lxde_settings/pages/display.py:153
+msgid "Orientation"
+msgstr "Yönlendirme"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Right of %s"
+msgstr "%s ekranının sağında"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Left of %s"
+msgstr "%s ekranının solunda"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Above %s"
+msgstr "%s ekranının üstünde"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Below %s"
+msgstr "%s ekranının altında"
+
+#: lxde_settings/pages/display.py:161
+#, python-format
+msgid "Mirror %s"
+msgstr "%s ekranını yansıt"
+
+#: lxde_settings/pages/display.py:165
+msgid "Position"
+msgstr "Konum"
+
+#: lxde_settings/pages/display.py:218
+msgid "Display"
+msgstr "Ekran"
+
+#: lxde_settings/pages/display.py:226
+msgid "Detect displays"
+msgstr "Ekranları algıla"
+
+#: lxde_settings/pages/display.py:228 lxde_settings/pages/region.py:122
+#: lxde_settings/pages/region.py:284
+msgid "Apply"
+msgstr "Uygula"
+
+#: lxde_settings/pages/display.py:237
+msgid "xrandr is not installed."
+msgstr "xrandr kurulu değil."
+
+#: lxde_settings/pages/display.py:249
+msgid "No displays were detected."
+msgstr "Hiç ekran algılanmadı."
+
+#: lxde_settings/pages/display.py:274
+msgid "At least one display must stay on."
+msgstr "En az bir ekran açık kalmalıdır."
+
+#: lxde_settings/pages/display.py:280
+msgid "The display settings could not be applied"
+msgstr "Ekran ayarları uygulanamadı"
+
+#: lxde_settings/pages/display.py:293
+msgid "Keep these display settings?"
+msgstr "Bu ekran ayarları korunsun mu?"
+
+#: lxde_settings/pages/display.py:294
+msgid "_Revert"
+msgstr "_Geri al"
+
+#: lxde_settings/pages/display.py:295
+msgid "_Keep changes"
+msgstr "Değişiklikleri _koru"
+
+#: lxde_settings/pages/display.py:300
+#, python-format
+msgid "Reverting to the previous settings in %d seconds."
+msgstr "%d saniye içinde önceki ayarlara dönülecek."
+
+#: lxde_settings/pages/input.py:55
+msgid "Mouse & Keyboard"
+msgstr "Fare ve Klavye"
+
+#: lxde_settings/pages/input.py:65
+msgid "Mouse and touchpad"
+msgstr "Fare ve dokunmatik yüzey"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Slow"
+msgstr "Yavaş"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Fast"
+msgstr "Hızlı"
+
+#: lxde_settings/pages/input.py:69 lxde_settings/pages/input.py:78
+msgid "Pointer speed"
+msgstr "İşaretçi hızı"
+
+#: lxde_settings/pages/input.py:72
+msgid "Mouse acceleration"
+msgstr "Fare ivmesi"
+
+#: lxde_settings/pages/input.py:73
+msgid "The pointer moves farther when you move the mouse faster"
+msgstr "Fareyi daha hızlı hareket ettirdiğinizde işaretçi daha uzağa gider"
+
+#: lxde_settings/pages/input.py:79
+msgid "Low"
+msgstr "Düşük"
+
+#: lxde_settings/pages/input.py:79
+msgid "High"
+msgstr "Yüksek"
+
+#: lxde_settings/pages/input.py:80
+msgid "Acceleration threshold"
+msgstr "İvme eşiği"
+
+#: lxde_settings/pages/input.py:81
+msgid "How far the pointer moves before it accelerates"
+msgstr "İşaretçinin hızlanmadan önce ne kadar hareket ettiği"
+
+#: lxde_settings/pages/input.py:84
+msgid "Left-handed mouse"
+msgstr "Solak fare"
+
+#: lxde_settings/pages/input.py:84
+msgid "Swap the left and right buttons"
+msgstr "Sol ve sağ düğmeleri değiştir"
+
+#: lxde_settings/pages/input.py:86 lxde_settings/pages/region.py:267
+msgid "Keyboard"
+msgstr "Klavye"
+
+#: lxde_settings/pages/input.py:87
+msgid "Short"
+msgstr "Kısa"
+
+#: lxde_settings/pages/input.py:87
+msgid "Long"
+msgstr "Uzun"
+
+#: lxde_settings/pages/input.py:88
+msgid "Repeat delay"
+msgstr "Tekrarlama gecikmesi"
+
+#: lxde_settings/pages/input.py:91
+msgid "Repeat speed"
+msgstr "Tekrarlama hızı"
+
+#: lxde_settings/pages/input.py:94
+msgid "Keyboard beep"
+msgstr "Klavye bip sesi"
+
+#: lxde_settings/pages/input.py:95
+msgid "Type here to test the repeat settings"
+msgstr "Tekrarlamayı denemek için buraya yazın"
+
+#: lxde_settings/pages/input.py:97
+msgid "Keyboard layouts…"
+msgstr "Klavye düzenleri…"
+
+#: lxde_settings/pages/region.py:85
+msgid "Region & Language"
+msgstr "Bölge ve Dil"
+
+#: lxde_settings/pages/region.py:94
+msgid "The locale service (systemd-localed) is not available."
+msgstr "Yerel ayar hizmeti (systemd-localed) kullanılamıyor."
+
+#: lxde_settings/pages/region.py:111
+msgid "Language"
+msgstr "Dil"
+
+#: lxde_settings/pages/region.py:112
+msgid ""
+"Changes take effect the next time you log in. Use “Add languages” to install "
+"a language that is not in the list yet."
+msgstr "Değişiklikler bir sonraki oturum açışınızda etkili olur. Listede henüz olmayan bir dili kurmak için “Dil ekle” düğmesini kullanın."
+
+#: lxde_settings/pages/region.py:119
+msgid "Display language"
+msgstr "Arayüz dili"
+
+#: lxde_settings/pages/region.py:119
+msgid "Menus, windows and messages"
+msgstr "Menüler, pencereler ve iletiler"
+
+#: lxde_settings/pages/region.py:120
+msgid "Formats"
+msgstr "Biçimler"
+
+#: lxde_settings/pages/region.py:120
+msgid "Dates, times, numbers and currency"
+msgstr "Tarihler, saatler, sayılar ve para birimi"
+
+#: lxde_settings/pages/region.py:127
+msgid "Add languages…"
+msgstr "Dil ekle…"
+
+#: lxde_settings/pages/region.py:148
+msgid "Same as the display language"
+msgstr "Arayüz diliyle aynı"
+
+#: lxde_settings/pages/region.py:169
+msgid "The list of available languages could not be read"
+msgstr "Kullanılabilir diller listesi okunamadı"
+
+#: lxde_settings/pages/region.py:172
+msgid "Add languages"
+msgstr "Dil ekle"
+
+#: lxde_settings/pages/region.py:174
+msgid "_Install"
+msgstr "_Kur"
+
+#: lxde_settings/pages/region.py:178
+msgid "Select the languages to install. Generating them can take a minute."
+msgstr "Kurulacak dilleri seçin. Oluşturulmaları bir dakika sürebilir."
+
+#: lxde_settings/pages/region.py:180
+msgid "Search languages"
+msgstr "Dil ara"
+
+#: lxde_settings/pages/region.py:210
+msgid "Generating languages…"
+msgstr "Diller oluşturuluyor…"
+
+#: lxde_settings/pages/region.py:255
+msgid "Language settings saved"
+msgstr "Dil ayarları kaydedildi"
+
+#: lxde_settings/pages/region.py:256
+msgid "Log out and back in to use the new settings."
+msgstr "Yeni ayarları kullanmak için oturumu kapatıp yeniden açın."
+
+#: lxde_settings/pages/region.py:268
+msgid ""
+"The first layout is the default. The layouts are applied to this session and "
+"saved as the system-wide default."
+msgstr "İlk düzen varsayılandır. Düzenler bu oturuma uygulanır ve sistem genelinde varsayılan olarak kaydedilir."
+
+#: lxde_settings/pages/region.py:274
+msgid "Add a layout…"
+msgstr "Düzen ekle…"
+
+#: lxde_settings/pages/region.py:277
+msgid "Not set"
+msgstr "Ayarlanmamış"
+
+#: lxde_settings/pages/region.py:282
+msgid "Switch layouts with"
+msgstr "Düzenler arasında geçiş"
+
+#: lxde_settings/pages/region.py:292
+msgid "Test the keyboard"
+msgstr "Klavyeyi dene"
+
+#: lxde_settings/pages/region.py:293
+msgid "Type here to test the layout"
+msgstr "Düzeni denemek için buraya yazın"
+
+#: lxde_settings/pages/region.py:335
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: lxde_settings/pages/region.py:336
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: lxde_settings/pages/region.py:337
+msgid "Remove"
+msgstr "Kaldır"
+
+#: lxde_settings/pages/region.py:366
+msgid "Add a keyboard layout"
+msgstr "Klavye düzeni ekle"
+
+#: lxde_settings/pages/region.py:368 lxde_settings/pages/users.py:207
+msgid "_Add"
+msgstr "_Ekle"
+
+#: lxde_settings/pages/region.py:372
+msgid "Search layouts"
+msgstr "Düzen ara"
+
+#: lxde_settings/pages/sound.py:37
+msgid "Connector"
+msgstr "Bağlayıcı"
+
+#: lxde_settings/pages/sound.py:41
+msgid "Mute"
+msgstr "Sessiz"
+
+#: lxde_settings/pages/sound.py:74
+msgid "No devices found"
+msgstr "Aygıt bulunamadı"
+
+#: lxde_settings/pages/sound.py:83
+#, python-format
+msgid "%s (unplugged)"
+msgstr "%s (takılı değil)"
+
+#: lxde_settings/pages/sound.py:125
+msgid "Sound"
+msgstr "Ses"
+
+#: lxde_settings/pages/sound.py:133
+msgid "Connecting to the sound server…"
+msgstr "Ses sunucusuna bağlanılıyor…"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Output"
+msgstr "Çıkış"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Choose your output device"
+msgstr "Çıkış aygıtınızı seçin"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Master volume"
+msgstr "Ana ses düzeyi"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input"
+msgstr "Giriş"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Choose your input device"
+msgstr "Giriş aygıtınızı seçin"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input volume"
+msgstr "Giriş ses düzeyi"
+
+#: lxde_settings/pages/sound.py:142
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: lxde_settings/pages/sound.py:144
+msgid "Open volume mixer"
+msgstr "Ses karıştırıcıyı aç"
+
+#: lxde_settings/pages/sound.py:146 lxde_settings/pages/sound.py:149
+msgid "App volume and device preferences"
+msgstr "Uygulama ses düzeyi ve aygıt tercihleri"
+
+#: lxde_settings/pages/sound.py:147
+msgid "Set the volume and device of each application"
+msgstr "Her uygulamanın ses düzeyini ve aygıtını ayarlayın"
+
+#: lxde_settings/pages/sound.py:150
+msgid "Install pavucontrol to adjust each application separately"
+msgstr "Her uygulamayı ayrı ayarlamak için pavucontrol kurun"
+
+#: lxde_settings/pages/sound.py:162
+msgid "Not connected to the sound server. Retrying…"
+msgstr "Ses sunucusuna bağlı değil. Yeniden deneniyor…"
+
+#: lxde_settings/pages/sound.py:168
+#, python-format
+msgid "Sound server: %s"
+msgstr "Ses sunucusu: %s"
+
+#: lxde_settings/pages/users.py:56 lxde_settings/pages/users.py:166
+msgid "Password"
+msgstr "Parola"
+
+#: lxde_settings/pages/users.py:58
+msgid "Confirm password"
+msgstr "Parolayı onayla"
+
+#: lxde_settings/pages/users.py:73
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: lxde_settings/pages/users.py:81
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#: lxde_settings/pages/users.py:84
+msgid "Add a user…"
+msgstr "Kullanıcı ekle…"
+
+#: lxde_settings/pages/users.py:91
+msgid "Changes to accounts require administrator authentication."
+msgstr "Hesaplardaki değişiklikler yönetici kimlik doğrulaması gerektirir."
+
+#: lxde_settings/pages/users.py:109
+#, python-format
+msgid "%s (you)"
+msgstr "%s (siz)"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:155
+#: lxde_settings/pages/users.py:214
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:154
+#: lxde_settings/pages/users.py:213
+msgid "Standard"
+msgstr "Standart"
+
+#: lxde_settings/pages/users.py:139
+#, python-format
+msgid "Account settings — %s"
+msgstr "Hesap ayarları — %s"
+
+#: lxde_settings/pages/users.py:143
+msgid "Change"
+msgstr "Değiştir"
+
+#: lxde_settings/pages/users.py:151 lxde_settings/pages/users.py:216
+msgid "Full name"
+msgstr "Tam ad"
+
+#: lxde_settings/pages/users.py:160 lxde_settings/pages/users.py:217
+msgid "Account type"
+msgstr "Hesap türü"
+
+#: lxde_settings/pages/users.py:161
+msgid "Administrators can install software and change system settings"
+msgstr "Yöneticiler yazılım kurabilir ve sistem ayarlarını değiştirebilir"
+
+#: lxde_settings/pages/users.py:162
+msgid "You cannot change the type of your own account"
+msgstr "Kendi hesabınızın türünü değiştiremezsiniz"
+
+#: lxde_settings/pages/users.py:169
+msgid "Remove user…"
+msgstr "Kullanıcıyı kaldır…"
+
+#: lxde_settings/pages/users.py:172
+msgid "Remove this account"
+msgstr "Bu hesabı kaldır"
+
+#: lxde_settings/pages/users.py:181
+#, python-format
+msgid "Change password for %s"
+msgstr "%s için parolayı değiştir"
+
+#: lxde_settings/pages/users.py:182
+msgid "_Change"
+msgstr "_Değiştir"
+
+#: lxde_settings/pages/users.py:195
+msgid "The passwords do not match"
+msgstr "Parolalar eşleşmiyor"
+
+#: lxde_settings/pages/users.py:206
+msgid "Add a user"
+msgstr "Kullanıcı ekle"
+
+#: lxde_settings/pages/users.py:216
+msgid "User name"
+msgstr "Kullanıcı adı"
+
+#: lxde_settings/pages/users.py:221
+msgid "Leave the password empty to set it later."
+msgstr "Daha sonra belirlemek için parolayı boş bırakın."
+
+#: lxde_settings/pages/users.py:265
+#, python-format
+msgid "Remove the account of %s?"
+msgstr "%s hesabı kaldırılsın mı?"
+
+#: lxde_settings/pages/users.py:266
+#, python-format
+msgid ""
+"You can keep the user's home folder (%s) or delete it with all of its files."
+msgstr "Kullanıcının ev klasörünü (%s) koruyabilir ya da tüm dosyalarıyla birlikte silebilirsiniz."
+
+#: lxde_settings/pages/users.py:269
+msgid "_Keep files"
+msgstr "Dosyaları _koru"
+
+#: lxde_settings/pages/users.py:270
+msgid "_Delete files"
+msgstr "Dosyaları _sil"
+
+#: lxde_settings/util.py:57
+#, python-format
+msgid "Could not start %s"
+msgstr "%s başlatılamadı"
+
+#: lxde_settings/util.py:69
+msgid "Not authorized"
+msgstr "Yetkili değil"
+
+#: lxde_settings/util.py:69
+msgid "Authentication failed or was refused."
+msgstr "Kimlik doğrulama başarısız oldu veya reddedildi."
+
+#: lxde_settings/util.py:71
+msgid "The operation failed"
+msgstr "İşlem başarısız oldu"
+
+#: lxde_settings/util.py:114
+msgid "Could not apply the change"
+msgstr "Değişiklik uygulanamadı"

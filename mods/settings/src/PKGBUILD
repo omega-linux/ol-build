@@ -1,0 +1,28 @@
+# Maintainer: unsoil <spliteritoob@gmail.com>
+pkgname=ol-settings
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Settings app for OL"
+arch=('any')
+url="https://github.com/omega-linux/ol-settings"
+license=('GPL-2.0-or-later')
+depends=('python' 'python-gobject' 'gtk3' 'libpulse' 'polkit' 'systemd'
+         'xorg-xrandr' 'xorg-setxkbmap' 'xorg-xset' 'xorg-xmodmap' 'pciutils'
+         'iso-codes' 'xkeyboard-config' 'shadow')
+makedepends=('gettext')
+optdepends=('pavucontrol: per-application volume'
+            'lxsession: live theme changes through XSettings'
+            'lxpolkit: polkit authentication agent for LXDE'
+            'pcmanfm: desktop background'
+            'noto-fonts-cjk: Chinese and Japanese interface text')
+source=()
+sha256sums=()
+
+# Build straight from the checkout containing this PKGBUILD.
+build() {
+  make -C "$startdir" PREFIX=/usr all
+}
+
+package() {
+  make -C "$startdir" PREFIX=/usr DESTDIR="$pkgdir" install
+}

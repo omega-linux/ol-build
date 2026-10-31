@@ -1,0 +1,935 @@
+# Japanese translation for lxde-settings.
+msgid ""
+msgstr ""
+"Project-Id-Version: lxde-settings 0.1.0\n"
+"PO-Revision-Date: 2026-10-19 21:00-0300\n"
+"Last-Translator: unsoil <spliteritoob@gmail.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: lxde_settings/main.py:25 lxde_settings/main.py:112
+msgid "Settings"
+msgstr "設定"
+
+#: lxde_settings/main.py:72
+msgid "This page could not be loaded."
+msgstr "このページを読み込めませんでした。"
+
+#: lxde_settings/main.py:84
+msgid "List the available pages and exit"
+msgstr "利用可能なページを一覧表示して終了する"
+
+#: lxde_settings/main.py:86
+msgid "Apply the saved mouse settings and exit (used at login)"
+msgstr "保存したマウス設定を適用して終了する (ログイン時に使用)"
+
+#: lxde_settings/pages/about.py:42 lxde_settings/pages/about.py:96
+#: lxde_settings/pages/about.py:166 lxde_settings/pages/about.py:187
+msgid "Unknown"
+msgstr "不明"
+
+#: lxde_settings/pages/about.py:91
+#, python-format
+msgid "%d d %d h %d min"
+msgstr "%d 日 %d 時間 %d 分"
+
+#: lxde_settings/pages/about.py:92
+#, python-format
+msgid "%d h %d min"
+msgstr "%d 時間 %d 分"
+
+#: lxde_settings/pages/about.py:106
+msgid "About"
+msgstr "このシステムについて"
+
+#: lxde_settings/pages/about.py:133
+msgid "Device"
+msgstr "デバイス"
+
+#: lxde_settings/pages/about.py:135
+msgid "Rename…"
+msgstr "名前を変更…"
+
+#: lxde_settings/pages/about.py:140 lxde_settings/pages/about.py:203
+msgid "Device name"
+msgstr "デバイス名"
+
+#: lxde_settings/pages/about.py:146
+msgid "Desktop computer"
+msgstr "デスクトップ PC"
+
+#: lxde_settings/pages/about.py:146
+msgid "Laptop"
+msgstr "ノート PC"
+
+#: lxde_settings/pages/about.py:146
+msgid "Convertible"
+msgstr "2-in-1"
+
+#: lxde_settings/pages/about.py:147
+msgid "Server"
+msgstr "サーバー"
+
+#: lxde_settings/pages/about.py:147
+msgid "Tablet"
+msgstr "タブレット"
+
+#: lxde_settings/pages/about.py:147
+msgid "Phone"
+msgstr "電話"
+
+#: lxde_settings/pages/about.py:148
+msgid "Virtual machine"
+msgstr "仮想マシン"
+
+#: lxde_settings/pages/about.py:148
+msgid "Container"
+msgstr "コンテナー"
+
+#: lxde_settings/pages/about.py:148
+msgid "Embedded device"
+msgstr "組み込みデバイス"
+
+#: lxde_settings/pages/about.py:149
+msgid "Chassis"
+msgstr "筐体"
+
+#: lxde_settings/pages/about.py:153
+msgid "Hardware model"
+msgstr "ハードウェアモデル"
+
+#: lxde_settings/pages/about.py:156
+msgid "Device specifications"
+msgstr "デバイスの仕様"
+
+#: lxde_settings/pages/about.py:163
+msgid "Processor"
+msgstr "プロセッサー"
+
+#: lxde_settings/pages/about.py:164
+msgid "Memory"
+msgstr "メモリ"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics"
+msgstr "グラフィックス"
+
+#: lxde_settings/pages/about.py:166
+msgid "Graphics cards"
+msgstr "グラフィックスカード"
+
+#: lxde_settings/pages/about.py:169
+#, python-format
+msgid "%(used)s used of %(total)s"
+msgstr "%(total)s 中 %(used)s 使用"
+
+#: lxde_settings/pages/about.py:175 lxde_settings/pages/about.py:176
+msgid "Disk (system)"
+msgstr "ディスク (システム)"
+
+#: lxde_settings/pages/about.py:177
+msgid "System type"
+msgstr "システムの種類"
+
+#: lxde_settings/pages/about.py:177
+#, python-format
+msgid "%s-bit operating system, %s"
+msgstr "%s ビット オペレーティングシステム、%s"
+
+#: lxde_settings/pages/about.py:181
+msgid "Software"
+msgstr "ソフトウェア"
+
+#: lxde_settings/pages/about.py:182
+msgid "Operating system"
+msgstr "オペレーティングシステム"
+
+#: lxde_settings/pages/about.py:184
+msgid "Kernel"
+msgstr "カーネル"
+
+#: lxde_settings/pages/about.py:185
+msgid "Desktop"
+msgstr "デスクトップ環境"
+
+#: lxde_settings/pages/about.py:187
+msgid "Windowing system"
+msgstr "ウィンドウシステム"
+
+#: lxde_settings/pages/about.py:188
+msgid "GTK version"
+msgstr "GTK のバージョン"
+
+#: lxde_settings/pages/about.py:190
+msgid "Uptime"
+msgstr "稼働時間"
+
+#: lxde_settings/pages/about.py:192
+msgid "Copy"
+msgstr "コピー"
+
+#: lxde_settings/pages/about.py:193
+msgid "Copy the system information to the clipboard"
+msgstr "システム情報をクリップボードにコピーする"
+
+#: lxde_settings/pages/about.py:209
+msgid "The hostname service is not available"
+msgstr "ホスト名サービスを利用できません"
+
+#: lxde_settings/pages/about.py:211
+msgid "Rename device"
+msgstr "デバイス名の変更"
+
+#: lxde_settings/pages/about.py:212 lxde_settings/pages/datetime.py:158
+#: lxde_settings/pages/region.py:174 lxde_settings/pages/region.py:368
+#: lxde_settings/pages/users.py:182 lxde_settings/pages/users.py:207
+#: lxde_settings/pages/users.py:268 lxde_settings/util.py:135
+msgid "_Cancel"
+msgstr "キャンセル(_C)"
+
+#: lxde_settings/pages/about.py:212
+msgid "_Rename"
+msgstr "名前を変更(_R)"
+
+#: lxde_settings/pages/about.py:217
+msgid "The name may contain letters, numbers and hyphens."
+msgstr "名前には英字、数字、ハイフンを使用できます。"
+
+#: lxde_settings/pages/appearance.py:73
+msgid "Appearance"
+msgstr "外観"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Style"
+msgstr "スタイル"
+
+#: lxde_settings/pages/appearance.py:83
+msgid "Changes apply immediately to all GTK applications."
+msgstr "変更はすべての GTK アプリケーションにすぐに適用されます。"
+
+#: lxde_settings/pages/appearance.py:85
+msgid "Applications theme"
+msgstr "アプリケーションのテーマ"
+
+#: lxde_settings/pages/appearance.py:88
+msgid "Icons"
+msgstr "アイコン"
+
+#: lxde_settings/pages/appearance.py:90
+msgid "Cursor"
+msgstr "カーソル"
+
+#: lxde_settings/pages/appearance.py:98
+msgid "Cursor size"
+msgstr "カーソルのサイズ"
+
+#: lxde_settings/pages/appearance.py:99
+msgid "Applications that were already open keep their cursor until restarted"
+msgstr "すでに開いているアプリケーションは再起動するまで以前のカーソルのままです"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Window borders"
+msgstr "ウィンドウの枠"
+
+#: lxde_settings/pages/appearance.py:110
+msgid "Openbox title bars and frames"
+msgstr "Openbox のタイトルバーと枠"
+
+#: lxde_settings/pages/appearance.py:114
+msgid "Fonts"
+msgstr "フォント"
+
+#: lxde_settings/pages/appearance.py:117
+msgid "Default font"
+msgstr "既定のフォント"
+
+#: lxde_settings/pages/appearance.py:120
+msgid "Antialiasing"
+msgstr "アンチエイリアス"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "None"
+msgstr "なし"
+
+#: lxde_settings/pages/appearance.py:122
+msgid "Slight"
+msgstr "軽め"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Medium"
+msgstr "中間"
+
+#: lxde_settings/pages/appearance.py:123
+msgid "Full"
+msgstr "完全"
+
+#: lxde_settings/pages/appearance.py:127
+msgid "Hinting"
+msgstr "ヒンティング"
+
+#: lxde_settings/pages/appearance.py:129
+msgid "Grayscale"
+msgstr "グレースケール"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical RGB"
+msgstr "垂直 RGB"
+
+#: lxde_settings/pages/appearance.py:130
+msgid "Vertical BGR"
+msgstr "垂直 BGR"
+
+#: lxde_settings/pages/appearance.py:134
+msgid "Subpixel order"
+msgstr "サブピクセルの順序"
+
+#: lxde_settings/pages/appearance.py:136
+msgid "More"
+msgstr "その他"
+
+#: lxde_settings/pages/appearance.py:137
+msgid "Desktop background"
+msgstr "デスクトップの背景"
+
+#: lxde_settings/pages/appearance.py:138
+msgid "Wallpaper and desktop icons"
+msgstr "壁紙とデスクトップアイコン"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel"
+msgstr "パネル"
+
+#: lxde_settings/pages/appearance.py:139
+msgid "Panel size, position and applets"
+msgstr "パネルのサイズ、位置、アプレット"
+
+#: lxde_settings/pages/appearance.py:143
+msgid ""
+"lxsession is not running: settings are saved but may need a restart of the "
+"applications to take effect."
+msgstr "lxsession が実行されていません: 設定は保存されますが、反映するにはアプリケーションの再起動が必要な場合があります。"
+
+#: lxde_settings/pages/appearance.py:167 lxde_settings/pages/appearance.py:221
+#: lxde_settings/pages/input.py:146
+msgid "Could not save the settings"
+msgstr "設定を保存できませんでした"
+
+#: lxde_settings/pages/appearance.py:193
+msgid "Open"
+msgstr "開く"
+
+#: lxde_settings/pages/appearance.py:198
+#, python-format
+msgid "Install %s to use this"
+msgstr "これを使うには %s をインストールしてください"
+
+#: lxde_settings/pages/datetime.py:19
+msgid "Other"
+msgstr "その他"
+
+#: lxde_settings/pages/datetime.py:28
+msgid "Date & Time"
+msgstr "日付と時刻"
+
+#: lxde_settings/pages/datetime.py:40
+msgid "Date and time"
+msgstr "日付と時刻"
+
+#: lxde_settings/pages/datetime.py:43
+msgid "Set the time automatically"
+msgstr "時刻を自動的に設定する"
+
+#: lxde_settings/pages/datetime.py:44 lxde_settings/pages/users.py:164
+msgid "Change…"
+msgstr "変更…"
+
+#: lxde_settings/pages/datetime.py:46
+msgid "Set the date and time manually"
+msgstr "日付と時刻を手動で設定する"
+
+#: lxde_settings/pages/datetime.py:48 lxde_settings/pages/datetime.py:56
+msgid "Time zone"
+msgstr "タイムゾーン"
+
+#: lxde_settings/pages/datetime.py:60
+msgid "Hardware clock uses local time"
+msgstr "ハードウェアクロックでローカル時刻を使う"
+
+#: lxde_settings/pages/datetime.py:61
+msgid ""
+"Only enable this when Windows is installed on the same computer and keeps "
+"its clock in local time"
+msgstr "同じコンピューターに Windows がインストールされていて、その時計がローカル時刻の場合のみ有効にしてください"
+
+#: lxde_settings/pages/datetime.py:66
+msgid "The time and date service (systemd-timedated) is not available."
+msgstr "日付と時刻のサービス (systemd-timedated) を利用できません。"
+
+#: lxde_settings/pages/datetime.py:104
+msgid "No network time service is installed"
+msgstr "ネットワーク時刻サービスがインストールされていません"
+
+#: lxde_settings/pages/datetime.py:106
+msgid "Synchronized with a time server"
+msgstr "タイムサーバーと同期済み"
+
+#: lxde_settings/pages/datetime.py:107
+msgid "Waiting for a time server…"
+msgstr "タイムサーバーを待っています…"
+
+#: lxde_settings/pages/datetime.py:109
+msgid "Off"
+msgstr "オフ"
+
+#: lxde_settings/pages/datetime.py:157
+msgid "Set date and time"
+msgstr "日付と時刻の設定"
+
+#: lxde_settings/pages/datetime.py:158
+msgid "_Set"
+msgstr "設定(_S)"
+
+#: lxde_settings/pages/display.py:16
+msgid "Landscape"
+msgstr "横向き"
+
+#: lxde_settings/pages/display.py:17
+msgid "Portrait (left)"
+msgstr "縦向き (左)"
+
+#: lxde_settings/pages/display.py:18
+msgid "Portrait (right)"
+msgstr "縦向き (右)"
+
+#: lxde_settings/pages/display.py:19
+msgid "Landscape (flipped)"
+msgstr "横向き (反転)"
+
+#: lxde_settings/pages/display.py:126
+msgid "Use this display"
+msgstr "このディスプレイを使用する"
+
+#: lxde_settings/pages/display.py:131
+msgid "Make this my main display"
+msgstr "メインディスプレイにする"
+
+#: lxde_settings/pages/display.py:137
+#, python-format
+msgid "%s (recommended)"
+msgstr "%s (推奨)"
+
+#: lxde_settings/pages/display.py:141
+msgid "Resolution"
+msgstr "解像度"
+
+#: lxde_settings/pages/display.py:145
+msgid "Refresh rate"
+msgstr "リフレッシュレート"
+
+#: lxde_settings/pages/display.py:153
+msgid "Orientation"
+msgstr "向き"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Right of %s"
+msgstr "%s の右"
+
+#: lxde_settings/pages/display.py:159
+#, python-format
+msgid "Left of %s"
+msgstr "%s の左"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Above %s"
+msgstr "%s の上"
+
+#: lxde_settings/pages/display.py:160
+#, python-format
+msgid "Below %s"
+msgstr "%s の下"
+
+#: lxde_settings/pages/display.py:161
+#, python-format
+msgid "Mirror %s"
+msgstr "%s をミラーリング"
+
+#: lxde_settings/pages/display.py:165
+msgid "Position"
+msgstr "位置"
+
+#: lxde_settings/pages/display.py:218
+msgid "Display"
+msgstr "ディスプレイ"
+
+#: lxde_settings/pages/display.py:226
+msgid "Detect displays"
+msgstr "ディスプレイを検出"
+
+#: lxde_settings/pages/display.py:228 lxde_settings/pages/region.py:122
+#: lxde_settings/pages/region.py:284
+msgid "Apply"
+msgstr "適用"
+
+#: lxde_settings/pages/display.py:237
+msgid "xrandr is not installed."
+msgstr "xrandr がインストールされていません。"
+
+#: lxde_settings/pages/display.py:249
+msgid "No displays were detected."
+msgstr "ディスプレイが検出されませんでした。"
+
+#: lxde_settings/pages/display.py:274
+msgid "At least one display must stay on."
+msgstr "少なくとも 1 台のディスプレイはオンのままにする必要があります。"
+
+#: lxde_settings/pages/display.py:280
+msgid "The display settings could not be applied"
+msgstr "ディスプレイの設定を適用できませんでした"
+
+#: lxde_settings/pages/display.py:293
+msgid "Keep these display settings?"
+msgstr "このディスプレイ設定を維持しますか?"
+
+#: lxde_settings/pages/display.py:294
+msgid "_Revert"
+msgstr "元に戻す(_R)"
+
+#: lxde_settings/pages/display.py:295
+msgid "_Keep changes"
+msgstr "変更を維持(_K)"
+
+#: lxde_settings/pages/display.py:300
+#, python-format
+msgid "Reverting to the previous settings in %d seconds."
+msgstr "%d 秒後に以前の設定に戻ります。"
+
+#: lxde_settings/pages/input.py:55
+msgid "Mouse & Keyboard"
+msgstr "マウスとキーボード"
+
+#: lxde_settings/pages/input.py:65
+msgid "Mouse and touchpad"
+msgstr "マウスとタッチパッド"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Slow"
+msgstr "遅い"
+
+#: lxde_settings/pages/input.py:68 lxde_settings/pages/input.py:77
+#: lxde_settings/pages/input.py:90
+msgid "Fast"
+msgstr "速い"
+
+#: lxde_settings/pages/input.py:69 lxde_settings/pages/input.py:78
+msgid "Pointer speed"
+msgstr "ポインターの速度"
+
+#: lxde_settings/pages/input.py:72
+msgid "Mouse acceleration"
+msgstr "マウスの加速"
+
+#: lxde_settings/pages/input.py:73
+msgid "The pointer moves farther when you move the mouse faster"
+msgstr "マウスを速く動かすとポインターがより遠くまで移動します"
+
+#: lxde_settings/pages/input.py:79
+msgid "Low"
+msgstr "低"
+
+#: lxde_settings/pages/input.py:79
+msgid "High"
+msgstr "高"
+
+#: lxde_settings/pages/input.py:80
+msgid "Acceleration threshold"
+msgstr "加速のしきい値"
+
+#: lxde_settings/pages/input.py:81
+msgid "How far the pointer moves before it accelerates"
+msgstr "ポインターが加速し始めるまでの移動距離"
+
+#: lxde_settings/pages/input.py:84
+msgid "Left-handed mouse"
+msgstr "左利き用マウス"
+
+#: lxde_settings/pages/input.py:84
+msgid "Swap the left and right buttons"
+msgstr "左右のボタンを入れ替える"
+
+#: lxde_settings/pages/input.py:86 lxde_settings/pages/region.py:267
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: lxde_settings/pages/input.py:87
+msgid "Short"
+msgstr "短い"
+
+#: lxde_settings/pages/input.py:87
+msgid "Long"
+msgstr "長い"
+
+#: lxde_settings/pages/input.py:88
+msgid "Repeat delay"
+msgstr "リピートの遅延"
+
+#: lxde_settings/pages/input.py:91
+msgid "Repeat speed"
+msgstr "リピートの速度"
+
+#: lxde_settings/pages/input.py:94
+msgid "Keyboard beep"
+msgstr "キーボードのビープ音"
+
+#: lxde_settings/pages/input.py:95
+msgid "Type here to test the repeat settings"
+msgstr "ここに入力してリピートを試す"
+
+#: lxde_settings/pages/input.py:97
+msgid "Keyboard layouts…"
+msgstr "キーボードレイアウト…"
+
+#: lxde_settings/pages/region.py:85
+msgid "Region & Language"
+msgstr "地域と言語"
+
+#: lxde_settings/pages/region.py:94
+msgid "The locale service (systemd-localed) is not available."
+msgstr "ロケールサービス (systemd-localed) を利用できません。"
+
+#: lxde_settings/pages/region.py:111
+msgid "Language"
+msgstr "言語"
+
+#: lxde_settings/pages/region.py:112
+msgid ""
+"Changes take effect the next time you log in. Use “Add languages” to install "
+"a language that is not in the list yet."
+msgstr "変更は次回のログイン時に反映されます。一覧にない言語をインストールするには「言語を追加」を使用します。"
+
+#: lxde_settings/pages/region.py:119
+msgid "Display language"
+msgstr "表示言語"
+
+#: lxde_settings/pages/region.py:119
+msgid "Menus, windows and messages"
+msgstr "メニュー、ウィンドウ、メッセージ"
+
+#: lxde_settings/pages/region.py:120
+msgid "Formats"
+msgstr "書式"
+
+#: lxde_settings/pages/region.py:120
+msgid "Dates, times, numbers and currency"
+msgstr "日付、時刻、数値、通貨"
+
+#: lxde_settings/pages/region.py:127
+msgid "Add languages…"
+msgstr "言語を追加…"
+
+#: lxde_settings/pages/region.py:148
+msgid "Same as the display language"
+msgstr "表示言語と同じ"
+
+#: lxde_settings/pages/region.py:169
+msgid "The list of available languages could not be read"
+msgstr "利用可能な言語の一覧を読み込めませんでした"
+
+#: lxde_settings/pages/region.py:172
+msgid "Add languages"
+msgstr "言語を追加"
+
+#: lxde_settings/pages/region.py:174
+msgid "_Install"
+msgstr "インストール(_I)"
+
+#: lxde_settings/pages/region.py:178
+msgid "Select the languages to install. Generating them can take a minute."
+msgstr "インストールする言語を選択してください。生成には 1 分ほどかかることがあります。"
+
+#: lxde_settings/pages/region.py:180
+msgid "Search languages"
+msgstr "言語を検索"
+
+#: lxde_settings/pages/region.py:210
+msgid "Generating languages…"
+msgstr "言語を生成しています…"
+
+#: lxde_settings/pages/region.py:255
+msgid "Language settings saved"
+msgstr "言語設定を保存しました"
+
+#: lxde_settings/pages/region.py:256
+msgid "Log out and back in to use the new settings."
+msgstr "新しい設定を使うには、ログアウトしてもう一度ログインしてください。"
+
+#: lxde_settings/pages/region.py:268
+msgid ""
+"The first layout is the default. The layouts are applied to this session and "
+"saved as the system-wide default."
+msgstr "最初のレイアウトが既定になります。レイアウトはこのセッションに適用され、システム全体の既定として保存されます。"
+
+#: lxde_settings/pages/region.py:274
+msgid "Add a layout…"
+msgstr "レイアウトを追加…"
+
+#: lxde_settings/pages/region.py:277
+msgid "Not set"
+msgstr "未設定"
+
+#: lxde_settings/pages/region.py:282
+msgid "Switch layouts with"
+msgstr "レイアウトの切り替え"
+
+#: lxde_settings/pages/region.py:292
+msgid "Test the keyboard"
+msgstr "キーボードのテスト"
+
+#: lxde_settings/pages/region.py:293
+msgid "Type here to test the layout"
+msgstr "ここに入力してレイアウトを試す"
+
+#: lxde_settings/pages/region.py:335
+msgid "Move up"
+msgstr "上へ移動"
+
+#: lxde_settings/pages/region.py:336
+msgid "Move down"
+msgstr "下へ移動"
+
+#: lxde_settings/pages/region.py:337
+msgid "Remove"
+msgstr "削除"
+
+#: lxde_settings/pages/region.py:366
+msgid "Add a keyboard layout"
+msgstr "キーボードレイアウトの追加"
+
+#: lxde_settings/pages/region.py:368 lxde_settings/pages/users.py:207
+msgid "_Add"
+msgstr "追加(_A)"
+
+#: lxde_settings/pages/region.py:372
+msgid "Search layouts"
+msgstr "レイアウトを検索"
+
+#: lxde_settings/pages/sound.py:37
+msgid "Connector"
+msgstr "コネクター"
+
+#: lxde_settings/pages/sound.py:41
+msgid "Mute"
+msgstr "ミュート"
+
+#: lxde_settings/pages/sound.py:74
+msgid "No devices found"
+msgstr "デバイスが見つかりません"
+
+#: lxde_settings/pages/sound.py:83
+#, python-format
+msgid "%s (unplugged)"
+msgstr "%s (未接続)"
+
+#: lxde_settings/pages/sound.py:125
+msgid "Sound"
+msgstr "サウンド"
+
+#: lxde_settings/pages/sound.py:133
+msgid "Connecting to the sound server…"
+msgstr "サウンドサーバーに接続しています…"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Output"
+msgstr "出力"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Choose your output device"
+msgstr "出力デバイスを選択"
+
+#: lxde_settings/pages/sound.py:138
+msgid "Master volume"
+msgstr "マスター音量"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input"
+msgstr "入力"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Choose your input device"
+msgstr "入力デバイスを選択"
+
+#: lxde_settings/pages/sound.py:140
+msgid "Input volume"
+msgstr "入力音量"
+
+#: lxde_settings/pages/sound.py:142
+msgid "Advanced"
+msgstr "詳細"
+
+#: lxde_settings/pages/sound.py:144
+msgid "Open volume mixer"
+msgstr "音量ミキサーを開く"
+
+#: lxde_settings/pages/sound.py:146 lxde_settings/pages/sound.py:149
+msgid "App volume and device preferences"
+msgstr "アプリごとの音量とデバイス"
+
+#: lxde_settings/pages/sound.py:147
+msgid "Set the volume and device of each application"
+msgstr "各アプリケーションの音量とデバイスを設定します"
+
+#: lxde_settings/pages/sound.py:150
+msgid "Install pavucontrol to adjust each application separately"
+msgstr "アプリケーションごとに調整するには pavucontrol をインストールしてください"
+
+#: lxde_settings/pages/sound.py:162
+msgid "Not connected to the sound server. Retrying…"
+msgstr "サウンドサーバーに接続していません。再試行しています…"
+
+#: lxde_settings/pages/sound.py:168
+#, python-format
+msgid "Sound server: %s"
+msgstr "サウンドサーバー: %s"
+
+#: lxde_settings/pages/users.py:56 lxde_settings/pages/users.py:166
+msgid "Password"
+msgstr "パスワード"
+
+#: lxde_settings/pages/users.py:58
+msgid "Confirm password"
+msgstr "パスワードの確認"
+
+#: lxde_settings/pages/users.py:73
+msgid "Users"
+msgstr "ユーザー"
+
+#: lxde_settings/pages/users.py:81
+msgid "Accounts"
+msgstr "アカウント"
+
+#: lxde_settings/pages/users.py:84
+msgid "Add a user…"
+msgstr "ユーザーを追加…"
+
+#: lxde_settings/pages/users.py:91
+msgid "Changes to accounts require administrator authentication."
+msgstr "アカウントの変更には管理者の認証が必要です。"
+
+#: lxde_settings/pages/users.py:109
+#, python-format
+msgid "%s (you)"
+msgstr "%s (あなた)"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:155
+#: lxde_settings/pages/users.py:214
+msgid "Administrator"
+msgstr "管理者"
+
+#: lxde_settings/pages/users.py:111 lxde_settings/pages/users.py:154
+#: lxde_settings/pages/users.py:213
+msgid "Standard"
+msgstr "標準"
+
+#: lxde_settings/pages/users.py:139
+#, python-format
+msgid "Account settings — %s"
+msgstr "アカウントの設定 — %s"
+
+#: lxde_settings/pages/users.py:143
+msgid "Change"
+msgstr "変更"
+
+#: lxde_settings/pages/users.py:151 lxde_settings/pages/users.py:216
+msgid "Full name"
+msgstr "フルネーム"
+
+#: lxde_settings/pages/users.py:160 lxde_settings/pages/users.py:217
+msgid "Account type"
+msgstr "アカウントの種類"
+
+#: lxde_settings/pages/users.py:161
+msgid "Administrators can install software and change system settings"
+msgstr "管理者はソフトウェアのインストールやシステム設定の変更ができます"
+
+#: lxde_settings/pages/users.py:162
+msgid "You cannot change the type of your own account"
+msgstr "自分のアカウントの種類は変更できません"
+
+#: lxde_settings/pages/users.py:169
+msgid "Remove user…"
+msgstr "ユーザーを削除…"
+
+#: lxde_settings/pages/users.py:172
+msgid "Remove this account"
+msgstr "このアカウントを削除"
+
+#: lxde_settings/pages/users.py:181
+#, python-format
+msgid "Change password for %s"
+msgstr "%s のパスワードを変更"
+
+#: lxde_settings/pages/users.py:182
+msgid "_Change"
+msgstr "変更(_C)"
+
+#: lxde_settings/pages/users.py:195
+msgid "The passwords do not match"
+msgstr "パスワードが一致しません"
+
+#: lxde_settings/pages/users.py:206
+msgid "Add a user"
+msgstr "ユーザーの追加"
+
+#: lxde_settings/pages/users.py:216
+msgid "User name"
+msgstr "ユーザー名"
+
+#: lxde_settings/pages/users.py:221
+msgid "Leave the password empty to set it later."
+msgstr "パスワードを空にすると後で設定できます。"
+
+#: lxde_settings/pages/users.py:265
+#, python-format
+msgid "Remove the account of %s?"
+msgstr "%s のアカウントを削除しますか?"
+
+#: lxde_settings/pages/users.py:266
+#, python-format
+msgid ""
+"You can keep the user's home folder (%s) or delete it with all of its files."
+msgstr "ユーザーのホームフォルダー (%s) は残すことも、すべてのファイルと一緒に削除することもできます。"
+
+#: lxde_settings/pages/users.py:269
+msgid "_Keep files"
+msgstr "ファイルを残す(_K)"
+
+#: lxde_settings/pages/users.py:270
+msgid "_Delete files"
+msgstr "ファイルを削除(_D)"
+
+#: lxde_settings/util.py:57
+#, python-format
+msgid "Could not start %s"
+msgstr "%s を起動できませんでした"
+
+#: lxde_settings/util.py:69
+msgid "Not authorized"
+msgstr "権限がありません"
+
+#: lxde_settings/util.py:69
+msgid "Authentication failed or was refused."
+msgstr "認証に失敗したか、拒否されました。"
+
+#: lxde_settings/util.py:71
+msgid "The operation failed"
+msgstr "操作に失敗しました"
+
+#: lxde_settings/util.py:114
+msgid "Could not apply the change"
+msgstr "変更を適用できませんでした"
