@@ -493,10 +493,28 @@ Plymouth.SetBootProgressFunction (boot_progress_cb);
 ################################################################################
 #################################### TEXT ######################################
 perfont = "Ubuntu Regular 11";
-per.image = Image.Text ("Thanks",0.5,0.5,0.5,1, perfont);
+
+# minecraft-like thingy that displays random text each boot
+phrases[0] = "Thanks";
+phrases[1] = "Ur a peakball";
+phrases[2] = "i love youu >w<";
+phrases[3] = "Also try Loc-OS!";
+phrases[4] = "DON'T STOP TALKING ABOUT CANONICAL";
+phrases[5] = "sudo apt install opsec";
+phrases[6] = "fih.";
+phrases[7] = "helooo!";
+phrases[8] = "use nyarch its better";
+phrases[9] = "Made in chile! Viva chile!!";
+phrase_count = 10;
+
+# choose a random one
+index = Math.Int(Math.Random() * phrase_count);
+phrase = phrases[index];
+
+per.image = Image.Text (phrase, 0.5, 0.5, 0.5, 1, perfont);
 per.sprite = Sprite(per.image);
 per.x = Window.GetX() + Window.GetWidth()  / 1 - per.image.GetWidth() / 0.91;
-per.y = Window.GetY() + Window.GetHeight() / 1.01  - per.image.GetHeight() / 1;
+per.y = Window.GetY() + Window.GetHeight() / 1.01 - per.image.GetHeight() / 1;
 per.sprite.SetPosition(per.x, per.y, 2);
 ################################################################################
 ############################### DIALOGUE #######################################
