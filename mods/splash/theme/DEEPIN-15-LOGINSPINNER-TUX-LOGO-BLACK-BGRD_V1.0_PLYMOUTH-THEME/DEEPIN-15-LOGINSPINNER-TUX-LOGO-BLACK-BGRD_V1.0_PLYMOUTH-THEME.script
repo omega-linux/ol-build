@@ -505,7 +505,13 @@ phrases[6] = "fih.";
 phrases[7] = "helooo!";
 phrases[8] = "use nyarch its better";
 phrases[9] = "Made in chile! Viva chile!!";
-phrase_count = 10;
+phrases[10] = "also try gentoo its easy";
+phrases[11] = "Something is fishy...";
+phrases[12] = "Smart thinking!";
+phrases[13] = "Unslopped Ubuntu!";
+phrases[14] = "Open source free software!";
+phrases[15] = "Don't trust microslop!'";
+phrase_count = 16;
 
 # choose a random one
 index = Math.Int(Math.Random() * phrase_count);
